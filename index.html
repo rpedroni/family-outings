@@ -10,14 +10,10 @@
 </head>
 <body>
   <a class="skip-link" href="#results">Pular para os passeios</a>
-  <header class="masthead">
-    <a class="brand" href="./" aria-label="Passeios em Família — página inicial">Passeios <span>em</span> Família<span class="brand-caption">SEU GUIA DE PASSEIOS EM FAMÍLIA</span></a>
-    <p class="header-note">Um pouco de planejamento.<br>Um dia para curtir juntos.</p>
-  </header>
-  <main>
-    <div class="page-heading"><div><p class="eyebrow">CURITIBA E REGIÃO</p><h1>Encontre seu próximo passeio.</h1></div><p class="intro">Parques, descobertas e novos ares.<br>Explore o guia. Salve o que chamar sua atenção.</p></div>
+  <main style="padding-top:16px">
+    <h1 class="sr-only">Passeios em família</h1>
     <section class="browse" aria-labelledby="browse-heading">
-      <div class="filter-title"><h2 id="browse-heading">Um dia do seu jeito</h2><button class="text-button" id="reset" type="button">Limpar filtros</button></div>
+      <div class="filter-title"><h2 id="browse-heading" class="sr-only">Filtros</h2><button class="text-button" id="reset" type="button">Limpar filtros</button></div>
       <form id="filters" role="search" aria-label="Encontrar passeios">
         <div class="primary-controls"><div class="search-field"><label for="search">Buscar no guia</label><input type="search" id="search" name="search" placeholder="Um lugar, uma cidade ou uma ideia…" autocomplete="off"></div><label class="saved-toggle" for="saved-only"><input type="checkbox" id="saved-only" name="saved-only"><span>Minha lista <span id="saved-count">(0)</span></span></label></div>
         <div class="filter-grid">
@@ -35,7 +31,6 @@
       <div id="state" class="state"><p class="eyebrow">QUASE TUDO PRONTO</p><h3>Abrindo o guia de passeios…</h3></div>
     </section>
   </main>
-  <footer><span>Passeios em Família</span><p>Menos tempo procurando. Mais tempo juntos.</p></footer>
   <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
   <noscript><p class="noscript">É necessário ativar o JavaScript para carregar e filtrar este guia. Você também pode ler diretamente o arquivo local activities.json.</p></noscript>
 </body>
