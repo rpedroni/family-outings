@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#243e33">
+  <title>Out & Together — Family field guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to activities</a>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Out and Together home">Out <span>&</span> Together<span class="brand-caption">THE FAMILY FIELD GUIDE</span></a>
+    <p class="header-note">A little planning.<br>A day out together.</p>
+  </header>
+  <main>
+    <div class="page-heading"><div><p class="eyebrow">CURITIBA & NEARBY</p><h1>Find your next day out.</h1></div><p class="intro">Parks, discoveries, and a change of scene.<br>Browse the guide. Save what catches your eye.</p></div>
+    <section class="browse" aria-labelledby="browse-heading">
+      <div class="filter-title"><h2 id="browse-heading">Make it your kind of day</h2><button class="text-button" id="reset" type="button">Reset filters</button></div>
+      <form id="filters" role="search" aria-label="Find activities">
+        <div class="primary-controls"><div class="search-field"><label for="search">Search the guide</label><input type="search" id="search" name="search" placeholder="A place, city, or idea…" autocomplete="off"></div><label class="saved-toggle" for="saved-only"><input type="checkbox" id="saved-only" name="saved-only"><span>My shortlist <span id="saved-count">(0)</span></span></label></div>
+        <div class="filter-grid">
+          <div><label for="category">What sounds good?</label><select name="category" id="category"><option value="all">All activities</option><option value="park">Parks</option><option value="museum">Museums</option><option value="farm">Farms</option><option value="zoo">Zoos</option><option value="show">Shows</option></select></div>
+          <div><label for="area">How far?</label><select name="area" id="area"><option value="all">City & nearby</option><option value="curitiba">In Curitiba</option><option value="nearby">Nearby towns</option></select></div>
+          <div><label for="setting">Under a roof or sky?</label><select name="setting" id="setting"><option value="all">Any setting</option><option value="outdoor">Outdoors</option><option value="indoor">Indoors</option><option value="mixed">Indoor & outdoor</option></select></div>
+          <div><label for="cost">Admission</label><select name="cost" id="cost"><option value="all">Any admission</option><option value="free">Free entry</option><option value="paid">Paid entry</option><option value="unknown">Check pricing</option></select></div>
+        </div>
+      </form>
+      <p class="storage-note" id="storage-note">Shortlist saved on this device only. No account, no cloud sync.</p>
+    </section>
+    <section id="results" class="results" aria-labelledby="results-heading" tabindex="-1" aria-busy="true">
+      <div class="results-bar"><h2 id="results-heading">The places to go</h2><p id="result-count" role="status" aria-live="polite">Loading the guide…</p></div>
+      <div id="activity-grid" class="activity-grid"></div>
+      <div id="state" class="state"><p class="eyebrow">GETTING READY</p><h3>Opening the field guide…</h3></div>
+    </section>
+    <aside class="planning-note"><h2>Before you head out</h2><p>This is a starting point, not a booking service. Check the linked source for opening hours, admission, reservations, weather changes, and facilities that matter to your family. A checked date is not a guarantee of current availability.</p></aside>
+  </main>
+  <footer><span>Out & Together</span><p>Less searching. More time together.</p></footer>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  <noscript><p class="noscript">JavaScript is needed to load and filter this guide. You can also read the local activities.json file directly.</p></noscript>
+</body>
+</html>
