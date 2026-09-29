@@ -1,43 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#243e33">
-  <title>Out & Together — Family field guide</title>
+  <title>Passeios em Família — Guia de passeios</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#results">Skip to activities</a>
+  <a class="skip-link" href="#results">Pular para os passeios</a>
   <header class="masthead">
-    <a class="brand" href="./" aria-label="Out and Together home">Out <span>&</span> Together<span class="brand-caption">THE FAMILY FIELD GUIDE</span></a>
-    <p class="header-note">A little planning.<br>A day out together.</p>
+    <a class="brand" href="./" aria-label="Passeios em Família — página inicial">Passeios <span>em</span> Família<span class="brand-caption">SEU GUIA DE PASSEIOS EM FAMÍLIA</span></a>
+    <p class="header-note">Um pouco de planejamento.<br>Um dia para curtir juntos.</p>
   </header>
   <main>
-    <div class="page-heading"><div><p class="eyebrow">CURITIBA & NEARBY</p><h1>Find your next day out.</h1></div><p class="intro">Parks, discoveries, and a change of scene.<br>Browse the guide. Save what catches your eye.</p></div>
+    <div class="page-heading"><div><p class="eyebrow">CURITIBA E REGIÃO</p><h1>Encontre seu próximo passeio.</h1></div><p class="intro">Parques, descobertas e novos ares.<br>Explore o guia. Salve o que chamar sua atenção.</p></div>
     <section class="browse" aria-labelledby="browse-heading">
-      <div class="filter-title"><h2 id="browse-heading">Make it your kind of day</h2><button class="text-button" id="reset" type="button">Reset filters</button></div>
-      <form id="filters" role="search" aria-label="Find activities">
-        <div class="primary-controls"><div class="search-field"><label for="search">Search the guide</label><input type="search" id="search" name="search" placeholder="A place, city, or idea…" autocomplete="off"></div><label class="saved-toggle" for="saved-only"><input type="checkbox" id="saved-only" name="saved-only"><span>My shortlist <span id="saved-count">(0)</span></span></label></div>
+      <div class="filter-title"><h2 id="browse-heading">Um dia do seu jeito</h2><button class="text-button" id="reset" type="button">Limpar filtros</button></div>
+      <form id="filters" role="search" aria-label="Encontrar passeios">
+        <div class="primary-controls"><div class="search-field"><label for="search">Buscar no guia</label><input type="search" id="search" name="search" placeholder="Um lugar, uma cidade ou uma ideia…" autocomplete="off"></div><label class="saved-toggle" for="saved-only"><input type="checkbox" id="saved-only" name="saved-only"><span>Minha lista <span id="saved-count">(0)</span></span></label></div>
         <div class="filter-grid">
-          <div><label for="category">What sounds good?</label><select name="category" id="category"><option value="all">All activities</option><option value="park">Parks</option><option value="museum">Museums</option><option value="farm">Farms</option><option value="zoo">Zoos</option><option value="show">Shows</option></select></div>
-          <div><label for="area">How far?</label><select name="area" id="area"><option value="all">City & nearby</option><option value="curitiba">In Curitiba</option><option value="nearby">Nearby towns</option></select></div>
-          <div><label for="setting">Under a roof or sky?</label><select name="setting" id="setting"><option value="all">Any setting</option><option value="outdoor">Outdoors</option><option value="indoor">Indoors</option><option value="mixed">Indoor & outdoor</option></select></div>
-          <div><label for="cost">Admission</label><select name="cost" id="cost"><option value="all">Any admission</option><option value="free">Free entry</option><option value="paid">Paid entry</option><option value="unknown">Check pricing</option></select></div>
+          <div><label for="category">Qual é a boa?</label><select name="category" id="category"><option value="all">Todos os passeios</option><option value="park">Parques</option><option value="museum">Museus</option><option value="farm">Fazendas</option><option value="zoo">Zoológicos</option><option value="show">Espetáculos</option></select></div>
+          <div><label for="area">Até onde vamos?</label><select name="area" id="area"><option value="all">Curitiba e região</option><option value="curitiba">Em Curitiba</option><option value="nearby">Cidades próximas</option></select></div>
+          <div><label for="setting">Coberto ou ao ar livre?</label><select name="setting" id="setting"><option value="all">Qualquer ambiente</option><option value="outdoor">Ao ar livre</option><option value="indoor">Em local fechado</option><option value="mixed">Áreas internas e externas</option></select></div>
+          <div><label for="cost">Entrada</label><select name="cost" id="cost"><option value="all">Qualquer valor</option><option value="free">Entrada gratuita</option><option value="paid">Entrada paga</option><option value="unknown">Consultar valores</option></select></div>
         </div>
       </form>
-      <p class="storage-note" id="storage-note">Shortlist saved on this device only. No account, no cloud sync.</p>
+      <p class="storage-note" id="storage-note">Sua lista fica salva apenas neste dispositivo. Sem conta e sem sincronização na nuvem.</p>
     </section>
     <section id="results" class="results" aria-labelledby="results-heading" tabindex="-1" aria-busy="true">
-      <div class="results-bar"><h2 id="results-heading">The places to go</h2><p id="result-count" role="status" aria-live="polite">Loading the guide…</p></div>
+      <div class="results-bar"><h2 id="results-heading">Lugares para conhecer</h2><p id="result-count" role="status" aria-live="polite">Carregando o guia…</p></div>
       <div id="activity-grid" class="activity-grid"></div>
-      <div id="state" class="state"><p class="eyebrow">GETTING READY</p><h3>Opening the field guide…</h3></div>
+      <div id="state" class="state"><p class="eyebrow">QUASE TUDO PRONTO</p><h3>Abrindo o guia de passeios…</h3></div>
     </section>
-    <aside class="planning-note"><h2>Before you head out</h2><p>This is a starting point, not a booking service. Check the linked source for opening hours, admission, reservations, weather changes, and facilities that matter to your family. A checked date is not a guarantee of current availability.</p></aside>
   </main>
-  <footer><span>Out & Together</span><p>Less searching. More time together.</p></footer>
+  <footer><span>Passeios em Família</span><p>Menos tempo procurando. Mais tempo juntos.</p></footer>
   <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
-  <noscript><p class="noscript">JavaScript is needed to load and filter this guide. You can also read the local activities.json file directly.</p></noscript>
+  <noscript><p class="noscript">É necessário ativar o JavaScript para carregar e filtrar este guia. Você também pode ler diretamente o arquivo local activities.json.</p></noscript>
 </body>
 </html>
