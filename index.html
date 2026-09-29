@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#243e33">
   <title>Passeios em Família — Guia de passeios</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="card-layout.css?v=2">
-  <script src="app.js?v=2" defer></script>
+  <link rel="stylesheet" href="card-layout.css?v=3">
+  <script src="app.js?v=3" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Pular para os passeios</a>
@@ -29,6 +29,10 @@
     <section id="results" class="results" aria-labelledby="results-heading" tabindex="-1" aria-busy="true">
       <div class="results-bar"><h2 id="results-heading" class="sr-only">Passeios</h2><p id="result-count" role="status" aria-live="polite">Carregando o guia…</p></div>
       <div id="activity-grid" class="activity-grid"></div>
+      <section id="visited-section" class="visited-section" aria-labelledby="visited-heading" hidden>
+        <h2 id="visited-heading">Já fomos</h2>
+        <ul id="visited-list"></ul>
+      </section>
       <div id="state" class="state"><p class="eyebrow">QUASE TUDO PRONTO</p><h3>Abrindo o guia de passeios…</h3></div>
     </section>
   </main>

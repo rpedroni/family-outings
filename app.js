@@ -131,7 +131,7 @@ function card(item) {
     }
     document.querySelector('#announcement').textContent = `${item.name}: ${visited.has(item.id) ? 'marcado como visitado. Agora aparece depois dos lugares ainda não visitados' : 'marcado como não visitado'}.`;
     render();
-    [...grid.children].find(node => node.dataset.id === item.id)?.querySelector('.visited-button').focus({ preventScroll: true });
+    [...document.querySelector('#visited-list').children].find(node => node.dataset.id === item.id)?.querySelector('button')?.focus({ preventScroll: true });
   });
   const actions = element('div', 'card-actions');
   actions.append(visitButton);
@@ -192,11 +192,34 @@ function reset() {
   if (loaded) render();
   document.querySelector('#search').focus();
 }
+function visitedRow(item) {
+  const row = element('li', 'visited-row');
+  row.dataset.id = item.id;
+  const info = element('div', 'visited-info');
+  info.append(element('span', 'visited-name', item.name), element('span', 'visited-city', item.city));
+  const undo = element('button', 'visited-button', 'Desfazer');
+  undo.type = 'button';
+  undo.setAttribute('aria-label', `Desfazer visita: ${item.name}`);
+  undo.addEventListener('click', () => {
+    visited.delete(item.id);
+    if (persistent) {
+      try { localStorage.setItem(VISITED_KEY, JSON.stringify([...visited])); } catch (_) { storageWarning(); }
+    }
+    document.querySelector('#announcement').textContent = `${item.name} voltou à lista de passeios.`;
+    render();
+    [...grid.children].find(node => node.dataset.id === item.id)?.querySelector('.visited-button')?.focus({ preventScroll: true });
+  });
+  row.append(info, undo);
+  return row;
+}
 function render() {
   if (!loaded) return;
   const filters = readFilters();
   const visible = activities.filter(item => matches(item, filters)).sort((a, b) => Number(visited.has(a.id)) - Number(visited.has(b.id)));
-  grid.replaceChildren(...visible.map(card));
+  grid.replaceChildren(...visible.filter(item => !visited.has(item.id)).map(card));
+  const done = visible.filter(item => visited.has(item.id));
+  document.querySelector('#visited-list').replaceChildren(...done.map(visitedRow));
+  document.querySelector('#visited-section').hidden = done.length === 0;
   count.textContent = `${visible.length} ${visible.length === 1 ? 'lugar' : 'lugares'}${filters.savedOnly ? ' na sua lista' : ` de ${activities.length}`}`;
   state.hidden = visible.length > 0;
   if (!visible.length) {
