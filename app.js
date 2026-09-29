@@ -95,15 +95,51 @@ function updateSaveButton(button, item) {
   button.setAttribute('aria-label', `${isSaved ? 'Remover' : 'Salvar'} ${item.name} ${isSaved ? 'da' : 'na'} sua lista`);
   button.querySelector('span').textContent = isSaved ? 'Salvo' : 'Salvar';
 }
+// Static icons only; catalog text always enters the DOM through textContent.
+const icons = {
+  park: '<path d="m17 14 3 3.3a1 1 0 0 1-.7 1.7H4.7a1 1 0 0 1-.7-1.7L7 14h-.3a1 1 0 0 1-.7-1.7L9 9h-.2A1 1 0 0 1 8 7.3L12 3l4 4.3a1 1 0 0 1-.8 1.7H15l3 3.3a1 1 0 0 1-.7 1.7H17Z"/><path d="M12 22v-3"/>',
+  museum: '<path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M12 2 20 7H4z"/>',
+  farm: '<path d="M3 21V9l9-6 9 6v12z"/><path d="M9 21v-6h6v6"/><path d="M9 11h6"/>',
+  zoo: '<circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>',
+  show: '<path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2"/><path d="M13 17v2"/><path d="M13 11v2"/>',
+  pin: '<path d="M20 10c0 4.99-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>'
+};
+function icon(name) {
+  return `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]}</svg>`;
+}
+function cover(item) {
+  const figure = element('figure', 'card-cover');
+  figure.dataset.category = item.category;
+  const art = element('div', 'cover-art');
+  art.innerHTML = icon(item.category);
+  figure.append(art);
+  if (item.photo && typeof item.photo.url === 'string' && item.photo.url.startsWith('https://')) {
+    const image = element('img');
+    image.alt = item.photo.alt || item.name;
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    image.referrerPolicy = 'no-referrer';
+    const caption = element('figcaption');
+    image.addEventListener('error', () => { image.remove(); caption.remove(); }, { once: true });
+    image.src = item.photo.url;
+    const source = typeof item.photo.sourceUrl === 'string' && /^https?:\/\//.test(item.photo.sourceUrl) ? item.photo.sourceUrl : item.url;
+    const credit = element('a', 'photo-credit', `Foto: ${item.photo.credit || item.name} ↗`);
+    credit.href = source;
+    credit.target = '_blank';
+    credit.rel = 'noopener noreferrer';
+    credit.setAttribute('aria-label', `Fonte da foto: ${item.photo.credit || item.name} (abre em uma nova aba)`);
+    caption.append(credit);
+    figure.append(image, caption);
+  }
+  return figure;
+}
 function card(item) {
   const article = element('article', 'activity-card');
   article.dataset.id = item.id;
-  article.classList.toggle('is-visited', visited.has(item.id));
   const top = element('div', 'card-top');
   top.append(element('span', 'category-label', labels.category[item.category]));
   const button = element('button', 'save-button');
   button.type = 'button';
-  // Static icon only; catalog text always enters the DOM through textContent.
   button.innerHTML = '<svg viewBox="0 0 18 22" aria-hidden="true"><path d="M3 2h12v18l-6-4-6 4z"/></svg><span></span>';
   updateSaveButton(button, item);
   button.addEventListener('click', () => {
@@ -119,62 +155,46 @@ function card(item) {
     } else updateSaveButton(button, item);
   });
   top.append(button);
-  article.append(top, element('h3', '', item.name), element('p', 'city', `${item.city} · ${labels.area[item.area]}`));
-  const visitButton = element('button', 'visited-button', visited.has(item.id) ? 'Já fomos · Desfazer' : 'Já fomos');
-  visitButton.type = 'button';
-  visitButton.setAttribute('aria-pressed', String(visited.has(item.id)));
-  visitButton.setAttribute('aria-label', `${visited.has(item.id) ? 'Marcar como não visitado' : 'Marcar como visitado'}: ${item.name}`);
-  visitButton.addEventListener('click', () => {
-    if (visited.has(item.id)) visited.delete(item.id); else visited.add(item.id);
-    if (persistent) {
-      try { localStorage.setItem(VISITED_KEY, JSON.stringify([...visited])); } catch (_) { storageWarning(); }
-    }
-    document.querySelector('#announcement').textContent = `${item.name}: ${visited.has(item.id) ? 'marcado como visitado. Agora aparece depois dos lugares ainda não visitados' : 'marcado como não visitado'}.`;
-    render();
-    [...document.querySelector('#visited-list').children].find(node => node.dataset.id === item.id)?.querySelector('button')?.focus({ preventScroll: true });
-  });
-  const actions = element('div', 'card-actions');
-  actions.append(visitButton);
-  const body = element(visited.has(item.id) ? 'details' : 'div', 'card-body');
-  if (visited.has(item.id)) body.append(element('summary', '', 'Ver detalhes do passeio'));
-  if (item.photo && typeof item.photo.url === 'string' && item.photo.url.startsWith('https://')) {
-    const figure = element('figure', 'venue-photo');
-    const image = element('img');
-    image.alt = item.photo.alt || item.name;
-    image.loading = 'lazy';
-    image.decoding = 'async';
-    image.referrerPolicy = 'no-referrer';
-    image.addEventListener('error', () => figure.remove(), { once: true });
-    image.src = item.photo.url;
-    const caption = element('figcaption');
-    const credit = element('a', 'photo-credit', `Foto: ${item.photo.credit || item.name} ↗`);
-    credit.href = item.url;
-    credit.target = '_blank';
-    credit.rel = 'noopener noreferrer';
-    credit.setAttribute('aria-label', `Fonte da foto: ${item.photo.credit || item.name} (abre em uma nova aba)`);
-    caption.append(credit);
-    figure.append(image, caption);
-    body.append(figure);
-  }
+  const city = element('p', 'city');
+  city.innerHTML = icon('pin');
+  city.append(element('span', '', `${item.city} · ${labels.area[item.area]}`));
+  const body = element('div', 'card-body');
   const tags = element('div', 'tags');
   tags.append(element('span', 'tag', labels.setting[item.setting]), element('span', 'tag', labels.cost[item.cost]));
-  body.append(tags, element('p', 'description', item.description));
-  const details = element('dl', 'details');
-  details.append(element('dt', '', 'Movimento e horários'), element('dd', '', item.crowdNote), element('dt', '', 'Informações práticas'), element('dd', '', item.logisticsNote));
-  body.append(details);
+  body.append(element('h3', '', item.name), city, tags, element('p', 'description', item.description));
+  const more = element('details', 'more');
+  const dl = element('dl', 'details');
+  dl.append(element('dt', '', 'Movimento e horários'), element('dd', '', item.crowdNote), element('dt', '', 'Informações práticas'), element('dd', '', item.logisticsNote));
+  more.append(element('summary', '', 'Horários, preços e movimento'), dl);
+  body.append(more);
   const bottom = element('div', 'card-bottom');
+  const source = element('div', 'source');
   const link = element('a', 'source-link', 'Consultar fonte ↗');
   link.href = item.url;
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
   link.setAttribute('aria-label', `Consultar fonte sobre ${item.name} (abre em uma nova aba)`);
-  const checked = element('span', 'checked', 'Fonte consultada em');
+  const checked = element('span', 'checked', 'Consultada em ');
   const time = element('time', '', new Intl.DateTimeFormat('pt-BR', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${item.checkedAt}T12:00:00Z`)));
   time.dateTime = item.checkedAt;
   checked.append(time);
-  bottom.append(link, checked);
+  source.append(link, checked);
+  const visitButton = element('button', 'visited-button', 'Já fomos');
+  visitButton.type = 'button';
+  visitButton.setAttribute('aria-pressed', 'false');
+  visitButton.setAttribute('aria-label', `Marcar como visitado: ${item.name}`);
+  visitButton.addEventListener('click', () => {
+    visited.add(item.id);
+    if (persistent) {
+      try { localStorage.setItem(VISITED_KEY, JSON.stringify([...visited])); } catch (_) { storageWarning(); }
+    }
+    document.querySelector('#announcement').textContent = `${item.name}: marcado como visitado. Agora aparece na lista “Já fomos”.`;
+    render();
+    [...document.querySelector('#visited-list').children].find(node => node.dataset.id === item.id)?.querySelector('button')?.focus({ preventScroll: true });
+  });
+  bottom.append(source, visitButton);
   body.append(bottom);
-  article.append(body, actions);
+  article.append(cover(item), top, body);
   return article;
 }
 function showState(kicker, title, message, buttonText, action) {
@@ -220,6 +240,7 @@ function render() {
   const done = visible.filter(item => visited.has(item.id));
   document.querySelector('#visited-list').replaceChildren(...done.map(visitedRow));
   document.querySelector('#visited-section').hidden = done.length === 0;
+  document.querySelector('#visited-count').textContent = String(done.length);
   count.textContent = `${visible.length} ${visible.length === 1 ? 'lugar' : 'lugares'}${filters.savedOnly ? ' na sua lista' : ` de ${activities.length}`}`;
   state.hidden = visible.length > 0;
   if (!visible.length) {

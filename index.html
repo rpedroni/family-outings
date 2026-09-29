@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#243e33">
   <title>Passeios em Família — Guia de passeios</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="card-layout.css?v=3">
-  <script src="app.js?v=3" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css?v=4">
+  <script src="app.js?v=4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Pular para os passeios</a>
-  <main style="padding-top:16px">
+  <main>
     <h1 class="compact-title">Passeios em Família</h1>
     <section class="browse" aria-labelledby="browse-heading">
-      <div class="filter-title"><h2 id="browse-heading" class="sr-only">Filtros</h2><button class="text-button" id="reset" type="button">Limpar filtros</button></div>
+      <h2 id="browse-heading" class="sr-only">Filtros</h2>
       <form id="filters" role="search" aria-label="Encontrar passeios">
         <div class="primary-controls"><div class="search-field"><label for="search">Buscar no guia</label><input type="search" id="search" name="search" placeholder="Um lugar, uma cidade ou uma ideia…" autocomplete="off"></div><label class="saved-toggle" for="saved-only"><input type="checkbox" id="saved-only" name="saved-only"><span>Minha lista <span id="saved-count">(0)</span></span></label></div>
         <div class="filter-grid">
@@ -24,13 +26,13 @@
           <div><label for="cost">Entrada</label><select name="cost" id="cost"><option value="all">Qualquer valor</option><option value="free">Entrada gratuita</option><option value="paid">Entrada paga</option><option value="unknown">Consultar valores</option></select></div>
         </div>
       </form>
-      <p class="storage-note" id="storage-note">Sua lista e os lugares que vocês já visitaram ficam salvos apenas neste dispositivo. Sem conta e sem sincronização na nuvem.</p>
+      <div class="browse-footer"><p class="storage-note" id="storage-note">Sua lista e os lugares que vocês já visitaram ficam salvos apenas neste dispositivo. Sem conta e sem sincronização na nuvem.</p><button class="text-button" id="reset" type="button">Limpar filtros</button></div>
     </section>
     <section id="results" class="results" aria-labelledby="results-heading" tabindex="-1" aria-busy="true">
       <div class="results-bar"><h2 id="results-heading" class="sr-only">Passeios</h2><p id="result-count" role="status" aria-live="polite">Carregando o guia…</p></div>
       <div id="activity-grid" class="activity-grid"></div>
       <section id="visited-section" class="visited-section" aria-labelledby="visited-heading" hidden>
-        <h2 id="visited-heading">Já fomos</h2>
+        <h2 id="visited-heading">Já fomos <span id="visited-count" class="count-pill"></span></h2>
         <ul id="visited-list"></ul>
       </section>
       <div id="state" class="state"><p class="eyebrow">QUASE TUDO PRONTO</p><h3>Abrindo o guia de passeios…</h3></div>
