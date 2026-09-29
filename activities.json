@@ -16,6 +16,12 @@
   {
     "id": "museu-oscar-niemeyer",
     "name": "Museu Oscar Niemeyer",
+    "photo": {
+      "url": "https://images.prismic.io/museuoscarniemeyer/c2977921-6ad0-47a7-8e28-9d4cab3b52de_hero_mon_01.jpg?auto=compress,format&w=900",
+      "sourceUrl": "https://www.museuoscarniemeyer.org.br/visite",
+      "credit": "Museu Oscar Niemeyer — site oficial",
+      "alt": "Edifício em forma de olho do Museu Oscar Niemeyer ao pôr do sol, com a rampa de acesso em primeiro plano."
+    },
     "category": "museum",
     "city": "Curitiba",
     "area": "curitiba",

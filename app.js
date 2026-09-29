@@ -1,6 +1,7 @@
 'use strict';
 
 const STORAGE_KEY = 'out-and-together.shortlist.v1';
+const VISITED_KEY = 'out-and-together.visited.v1';
 const labels = {
   category: { park: 'Parque', museum: 'Museu', farm: 'Fazenda', zoo: 'Zoológico', show: 'Espetáculo' },
   area: { curitiba: 'Em Curitiba', nearby: 'Na região' },
@@ -16,6 +17,7 @@ const results = document.querySelector('#results');
 let activities = [];
 let loaded = false;
 let saved = new Set();
+let visited = new Set(['parque-barigui']);
 let persistent = true;
 
 function normalize(value) {
@@ -23,7 +25,7 @@ function normalize(value) {
 }
 function storageWarning() {
   persistent = false;
-  document.querySelector('#storage-note').textContent = 'O armazenamento deste dispositivo está indisponível. Sua lista só será mantida enquanto esta página estiver aberta.';
+  document.querySelector('#storage-note').textContent = 'O armazenamento deste dispositivo está indisponível. Sua lista e os lugares visitados só serão mantidos enquanto esta página estiver aberta.';
 }
 try {
   const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
@@ -32,6 +34,16 @@ try {
 } catch (_) {
   storageWarning();
 }
+try {
+  const stored = localStorage.getItem(VISITED_KEY);
+  if (stored !== null) {
+    const value = JSON.parse(stored);
+    if (!Array.isArray(value) || !value.every(id => typeof id === 'string')) throw new Error('Lista de visitas inválida');
+    visited = new Set(value);
+  } else {
+    localStorage.setItem(VISITED_KEY, JSON.stringify([...visited]));
+  }
+} catch (_) { storageWarning(); }
 function element(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -85,6 +97,8 @@ function updateSaveButton(button, item) {
 }
 function card(item) {
   const article = element('article', 'activity-card');
+  article.dataset.id = item.id;
+  article.classList.toggle('is-visited', visited.has(item.id));
   const top = element('div', 'card-top');
   top.append(element('span', 'category-label', labels.category[item.category]));
   const button = element('button', 'save-button');
@@ -106,12 +120,47 @@ function card(item) {
   });
   top.append(button);
   article.append(top, element('h3', '', item.name), element('p', 'city', `${item.city} · ${labels.area[item.area]}`));
+  const visitButton = element('button', 'visited-button', visited.has(item.id) ? 'Já fomos · Desfazer' : 'Já fomos');
+  visitButton.type = 'button';
+  visitButton.setAttribute('aria-pressed', String(visited.has(item.id)));
+  visitButton.setAttribute('aria-label', `${visited.has(item.id) ? 'Marcar como não visitado' : 'Marcar como visitado'}: ${item.name}`);
+  visitButton.addEventListener('click', () => {
+    if (visited.has(item.id)) visited.delete(item.id); else visited.add(item.id);
+    if (persistent) {
+      try { localStorage.setItem(VISITED_KEY, JSON.stringify([...visited])); } catch (_) { storageWarning(); }
+    }
+    document.querySelector('#announcement').textContent = `${item.name}: ${visited.has(item.id) ? 'marcado como visitado. Agora aparece depois dos lugares ainda não visitados' : 'marcado como não visitado'}.`;
+    render();
+    [...grid.children].find(node => node.dataset.id === item.id)?.querySelector('.visited-button').focus({ preventScroll: true });
+  });
+  article.append(visitButton);
+  const body = element(visited.has(item.id) ? 'details' : 'div', 'card-body');
+  if (visited.has(item.id)) body.append(element('summary', '', 'Ver detalhes do passeio'));
+  if (item.photo && typeof item.photo.url === 'string' && item.photo.url.startsWith('https://')) {
+    const figure = element('figure', 'venue-photo');
+    const image = element('img');
+    image.alt = item.photo.alt || item.name;
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    image.referrerPolicy = 'no-referrer';
+    image.addEventListener('error', () => figure.remove(), { once: true });
+    image.src = item.photo.url;
+    const caption = element('figcaption');
+    const credit = element('a', 'photo-credit', `Foto: ${item.photo.credit || item.name} ↗`);
+    credit.href = item.url;
+    credit.target = '_blank';
+    credit.rel = 'noopener noreferrer';
+    credit.setAttribute('aria-label', `Fonte da foto: ${item.photo.credit || item.name} (abre em uma nova aba)`);
+    caption.append(credit);
+    figure.append(image, caption);
+    body.append(figure);
+  }
   const tags = element('div', 'tags');
   tags.append(element('span', 'tag', labels.setting[item.setting]), element('span', 'tag', labels.cost[item.cost]));
-  article.append(tags, element('p', 'description', item.description));
+  body.append(tags, element('p', 'description', item.description));
   const details = element('dl', 'details');
   details.append(element('dt', '', 'Movimento e horários'), element('dd', '', item.crowdNote), element('dt', '', 'Informações práticas'), element('dd', '', item.logisticsNote));
-  article.append(details);
+  body.append(details);
   const bottom = element('div', 'card-bottom');
   const link = element('a', 'source-link', 'Consultar fonte ↗');
   link.href = item.url;
@@ -123,7 +172,8 @@ function card(item) {
   time.dateTime = item.checkedAt;
   checked.append(time);
   bottom.append(link, checked);
-  article.append(bottom);
+  body.append(bottom);
+  article.append(body);
   return article;
 }
 function showState(kicker, title, message, buttonText, action) {
@@ -144,7 +194,7 @@ function reset() {
 function render() {
   if (!loaded) return;
   const filters = readFilters();
-  const visible = activities.filter(item => matches(item, filters));
+  const visible = activities.filter(item => matches(item, filters)).sort((a, b) => Number(visited.has(a.id)) - Number(visited.has(b.id)));
   grid.replaceChildren(...visible.map(card));
   count.textContent = `${visible.length} ${visible.length === 1 ? 'lugar' : 'lugares'}${filters.savedOnly ? ' na sua lista' : ` de ${activities.length}`}`;
   state.hidden = visible.length > 0;
@@ -182,12 +232,14 @@ form.addEventListener('submit', event => event.preventDefault());
 form.addEventListener('input', render);
 document.querySelector('#reset').addEventListener('click', reset);
 window.addEventListener('storage', event => {
-  if (event.key !== STORAGE_KEY && event.key !== null) return;
+  if (![STORAGE_KEY, VISITED_KEY, null].includes(event.key)) return;
   if (!persistent) return;
   try {
-    const value = JSON.parse(event.newValue || '[]');
-    if (!Array.isArray(value) || !value.every(id => typeof id === 'string')) return;
-    saved = new Set(value);
+    for (const key of event.key === null ? [STORAGE_KEY, VISITED_KEY] : [event.key]) {
+      const value = JSON.parse(localStorage.getItem(key) || '[]');
+      if (!Array.isArray(value) || !value.every(id => typeof id === 'string')) continue;
+      if (key === STORAGE_KEY) saved = new Set(value); else visited = new Set(value);
+    }
     render();
     updateSavedCount();
   } catch (_) { /* Ignore malformed data from another tab. */ }
