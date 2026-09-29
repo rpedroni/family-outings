@@ -133,7 +133,8 @@ function card(item) {
     render();
     [...grid.children].find(node => node.dataset.id === item.id)?.querySelector('.visited-button').focus({ preventScroll: true });
   });
-  article.append(visitButton);
+  const actions = element('div', 'card-actions');
+  actions.append(visitButton);
   const body = element(visited.has(item.id) ? 'details' : 'div', 'card-body');
   if (visited.has(item.id)) body.append(element('summary', '', 'Ver detalhes do passeio'));
   if (item.photo && typeof item.photo.url === 'string' && item.photo.url.startsWith('https://')) {
@@ -173,7 +174,7 @@ function card(item) {
   checked.append(time);
   bottom.append(link, checked);
   body.append(bottom);
-  article.append(body);
+  article.append(body, actions);
   return article;
 }
 function showState(kicker, title, message, buttonText, action) {

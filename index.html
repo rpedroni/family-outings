@@ -6,12 +6,13 @@
   <meta name="theme-color" content="#243e33">
   <title>Passeios em Família — Guia de passeios</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="card-layout.css?v=2">
+  <script src="app.js?v=2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Pular para os passeios</a>
   <main style="padding-top:16px">
-    <h1 class="sr-only">Passeios em família</h1>
+    <h1 class="compact-title">Passeios em Família</h1>
     <section class="browse" aria-labelledby="browse-heading">
       <div class="filter-title"><h2 id="browse-heading" class="sr-only">Filtros</h2><button class="text-button" id="reset" type="button">Limpar filtros</button></div>
       <form id="filters" role="search" aria-label="Encontrar passeios">
@@ -26,7 +27,7 @@
       <p class="storage-note" id="storage-note">Sua lista e os lugares que vocês já visitaram ficam salvos apenas neste dispositivo. Sem conta e sem sincronização na nuvem.</p>
     </section>
     <section id="results" class="results" aria-labelledby="results-heading" tabindex="-1" aria-busy="true">
-      <div class="results-bar"><h2 id="results-heading">Lugares para conhecer</h2><p id="result-count" role="status" aria-live="polite">Carregando o guia…</p></div>
+      <div class="results-bar"><h2 id="results-heading" class="sr-only">Passeios</h2><p id="result-count" role="status" aria-live="polite">Carregando o guia…</p></div>
       <div id="activity-grid" class="activity-grid"></div>
       <div id="state" class="state"><p class="eyebrow">QUASE TUDO PRONTO</p><h3>Abrindo o guia de passeios…</h3></div>
     </section>
