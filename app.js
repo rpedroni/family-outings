@@ -25,7 +25,7 @@ function normalize(value) {
 }
 function storageWarning() {
   persistent = false;
-  document.querySelector('#storage-note').textContent = 'O armazenamento deste dispositivo está indisponível. Sua lista e os lugares visitados só serão mantidos enquanto esta página estiver aberta.';
+  document.querySelector('#storage-note').textContent = 'O armazenamento deste dispositivo está indisponível. Nossa lista e os lugares visitados só serão mantidos enquanto esta página estiver aberta.';
 }
 try {
   const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
@@ -92,7 +92,7 @@ function updateSavedCount() {
 function updateSaveButton(button, item) {
   const isSaved = saved.has(item.id);
   button.setAttribute('aria-pressed', String(isSaved));
-  button.setAttribute('aria-label', `${isSaved ? 'Remover' : 'Salvar'} ${item.name} ${isSaved ? 'da' : 'na'} sua lista`);
+  button.setAttribute('aria-label', `${isSaved ? 'Remover' : 'Salvar'} ${item.name} ${isSaved ? 'da' : 'na'} nossa lista`);
   button.querySelector('span').textContent = isSaved ? 'Salvo' : 'Salvar';
 }
 // Static icons only; catalog text always enters the DOM through textContent.
@@ -148,7 +148,7 @@ function card(item) {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify([...saved])); } catch (_) { storageWarning(); }
     }
     updateSavedCount();
-    document.querySelector('#announcement').textContent = `${saved.has(item.id) ? 'Adicionado à sua lista' : 'Removido da sua lista'}: ${item.name}.`;
+    document.querySelector('#announcement').textContent = `${saved.has(item.id) ? 'Adicionado à nossa lista' : 'Removido da nossa lista'}: ${item.name}.`;
     if (document.querySelector('#saved-only').checked) {
       render();
       document.querySelector('#saved-only').focus();
@@ -241,11 +241,11 @@ function render() {
   document.querySelector('#visited-list').replaceChildren(...done.map(visitedRow));
   document.querySelector('#visited-section').hidden = done.length === 0;
   document.querySelector('#visited-count').textContent = String(done.length);
-  count.textContent = `${visible.length} ${visible.length === 1 ? 'lugar' : 'lugares'}${filters.savedOnly ? ' na sua lista' : ` de ${activities.length}`}`;
+  count.textContent = `${visible.length} ${visible.length === 1 ? 'lugar' : 'lugares'}${filters.savedOnly ? ' na nossa lista' : ` de ${activities.length}`}`;
   state.hidden = visible.length > 0;
   if (!visible.length) {
     if (!activities.length) showState('UMA PÁGINA EM BRANCO, POR ENQUANTO', 'O guia está esperando novos lugares.', 'Adicione passeios com informações verificadas ao arquivo activities.json e recarregue o guia.', 'Recarregar guia', load);
-    else if (filters.savedOnly && !activities.some(item => saved.has(item.id))) showState('SEUS LUGARES FAVORITOS', 'Sua lista começa aqui.', 'Salve lugares do guia e encontre todos aqui quando precisar de uma ideia.', 'Explorar todos os lugares', reset);
+    else if (filters.savedOnly && !activities.some(item => saved.has(item.id))) showState('NOSSOS FAVORITOS', 'Nossa lista começa aqui.', 'Salvem lugares do guia e encontrem todos aqui quando precisarem de uma ideia.', 'Explorar todos os lugares', reset);
     else showState('QUE TAL OUTRO CAMINHO?', 'Nenhum lugar encontrado.', 'Tente uma busca mais ampla, escolha outro ambiente ou limpe os filtros para ver o guia completo.', 'Limpar filtros', reset);
   }
   updateSavedCount();
