@@ -7,11 +7,11 @@
     "area": "nearby",
     "setting": "outdoor",
     "cost": "paid",
-    "description": "A rural day out with animal feeding, egg collecting, a tractor ride and woodland to explore between scheduled activities.",
+    "description": "Um dia no campo para alimentar os animais, recolher ovos, passear de trator e explorar o bosque entre as atividades programadas.",
     "url": "https://viladosanimais.com.br/familias",
     "checkedAt": "2026-09-29",
-    "crowdNote": "No verified crowd forecast. Reservations are offered, but paid entry is not a guarantee of a quiet day; ask about expected group sizes.",
-    "logisticsNote": "Venue lists weekends/holidays, 10:00–17:00; check its opening calendar. Listed admission: R$59, ages 3–5 R$29.50, under 3 free. Venue reports stroller access and a baby-changing room. Activities have fixed times."
+    "crowdNote": "Não há previsão de movimento verificada. O local oferece reservas, mas a entrada paga não garante um dia tranquilo; pergunte sobre o tamanho dos grupos esperados.",
+    "logisticsNote": "O local informa funcionamento nos fins de semana e feriados, das 10h às 17h; consulte o calendário de abertura. Entrada informada: R$ 59; crianças de 3 a 5 anos, R$ 29,50; menores de 3 anos não pagam. O local informa acesso para carrinhos de bebê e fraldário. As atividades têm horários fixos."
   },
   {
     "id": "museu-oscar-niemeyer",
@@ -21,11 +21,11 @@
     "area": "curitiba",
     "setting": "indoor",
     "cost": "paid",
-    "description": "Art galleries and architecture for a flexible museum visit. Choose a small part of the collection rather than trying to see everything.",
+    "description": "Galerias de arte e arquitetura para uma visita no seu ritmo. Escolha uma pequena parte do acervo, em vez de tentar ver tudo.",
     "url": "https://www.museuoscarniemeyer.org.br/visite",
     "checkedAt": "2026-09-29",
-    "crowdNote": "MON itself recommends around 10:00 or 12:00–13:00 for smaller crowds. It flags Wednesdays and the last Sunday of the month as busier. This is venue guidance, not a live forecast.",
-    "logisticsNote": "Tue–Sun 10:00–18:00, entry until 17:30. Standard ticket R$36; concessions R$18, eligibility applies. Wednesdays and the last Sunday are free. Ramps and lifts are listed. Check food/liquid restrictions before bringing baby supplies."
+    "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
+    "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê."
   },
   {
     "id": "museu-paranaense",
@@ -35,11 +35,11 @@
     "area": "curitiba",
     "setting": "indoor",
     "cost": "free",
-    "description": "An alternative museum stop in São Francisco. Keep it on the list for an indoor outing and check the current exhibitions before choosing a visit.",
+    "description": "Outra opção de museu no bairro São Francisco. Vale deixar na lista para um passeio em local fechado e conferir as exposições em cartaz antes de decidir a visita.",
     "url": "https://www.museuparanaense.pr.gov.br/Pagina/Horarios-e-gratuidade",
     "checkedAt": "2026-09-29",
-    "crowdNote": "Crowd levels not verified. Free admission is a price detail, not a crowd prediction.",
-    "logisticsNote": "Official visiting page lists free admission, Tue–Sun 10:00–17:30; Monday closed. Rua Kellers, 289. Baby-changing facilities and stroller arrangements have not been checked."
+    "crowdNote": "O movimento não foi verificado. A gratuidade é uma informação sobre o preço, não uma previsão de lotação.",
+    "logisticsNote": "A página oficial de visitação informa entrada gratuita, de terça a domingo, das 10h às 17h30; fechado às segundas-feiras. Rua Kellers, 289. A disponibilidade de fraldário e as condições de acesso com carrinho de bebê não foram verificadas."
   },
   {
     "id": "parque-barigui",
@@ -49,11 +49,11 @@
     "area": "curitiba",
     "setting": "outdoor",
     "cost": "unknown",
-    "description": "A large park in Santo Inácio for an unstructured outdoor outing, with native wildlife, recreation areas and places to stop for food.",
+    "description": "Um grande parque no bairro Santo Inácio para um passeio ao ar livre sem roteiro fixo, com fauna nativa, áreas de lazer e lugares para comer.",
     "url": "https://turismo.curitiba.pr.gov.br/conteudo/parque-barigui/1702",
     "checkedAt": "2026-09-29",
-    "crowdNote": "The official tourism guide calls this the city's most visited park. Do not treat it as a quiet default; live conditions and special-event crowds are unknown.",
-    "logisticsNote": "The source lists daily access, parking and a restaurant. It does not state admission pricing or baby-changing facilities. Keep a respectful distance from wildlife."
+    "crowdNote": "O guia oficial de turismo o descreve como o parque mais visitado da cidade. Não conte com um passeio tranquilo por padrão; o movimento atual e a lotação em eventos especiais são desconhecidos.",
+    "logisticsNote": "A fonte informa acesso diário, estacionamento e restaurante. Não informa valores de entrada nem a existência de fraldário. Mantenha uma distância respeitosa dos animais silvestres."
   },
   {
     "id": "bosque-reinhard-maack",
@@ -63,25 +63,25 @@
     "area": "curitiba",
     "setting": "outdoor",
     "cost": "unknown",
-    "description": "Araucaria woodland with an adventure trail and educational play equipment. A candidate to investigate for an outing with the older children.",
+    "description": "Um bosque de araucárias com trilha de aventura e brinquedos educativos. Uma opção a conhecer melhor para um passeio com as crianças maiores.",
     "url": "https://turismo.curitiba.pr.gov.br/conteudo/bosque-reinhard-maack/1106",
     "checkedAt": "2026-09-29",
-    "crowdNote": "Crowd levels not verified; the official page gives no quieter-time guidance.",
-    "logisticsNote": "Official guide lists weekends/holidays 08:00–17:30. Closed on rainy days AND the following day because trails become slippery. Confirm age suitability and terrain before visiting; stroller access and entry price are not verified."
+    "crowdNote": "O movimento não foi verificado; a página oficial não indica horários mais tranquilos.",
+    "logisticsNote": "O guia oficial informa funcionamento nos fins de semana e feriados, das 8h às 17h30. Fecha em dias de chuva E no dia seguinte, pois as trilhas ficam escorregadias. Confirme a adequação à idade das crianças e as condições do terreno antes da visita; o acesso com carrinho de bebê e o valor da entrada não foram verificados."
   },
   {
     "id": "zoologico-curitiba",
-    "name": "Zoológico de Curitiba — closure notice",
+    "name": "Zoológico de Curitiba — aviso de fechamento",
     "category": "zoo",
     "city": "Curitiba",
     "area": "curitiba",
     "setting": "outdoor",
     "cost": "unknown",
     "status": "closed",
-    "description": "Saved for a future visit, not a current outing: the official tourism page reports closure for maintenance starting 9 September 2026, with no reopening date on the page checked.",
+    "description": "Uma ideia para uma visita futura, não para um passeio agora: a página oficial de turismo informa fechamento para manutenção a partir de 9 de setembro de 2026, sem data de reabertura na página consultada.",
     "url": "https://turismo.curitiba.pr.gov.br/conteudo/parque-iguacuzoologico/1613",
     "checkedAt": "2026-09-29",
-    "crowdNote": "Not applicable while the published closure notice remains unresolved.",
-    "logisticsNote": "Do not travel based on the regular opening hours: confirm reopening directly first. The maintenance notice supersedes the ordinary schedule printed on the same page."
+    "crowdNote": "Não se aplica enquanto o aviso de fechamento publicado continuar sem confirmação de reabertura.",
+    "logisticsNote": "Não vá com base no horário habitual: confirme diretamente a reabertura primeiro. O aviso de manutenção prevalece sobre os horários regulares exibidos na mesma página."
   }
 ]

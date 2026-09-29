@@ -2,10 +2,10 @@
 
 const STORAGE_KEY = 'out-and-together.shortlist.v1';
 const labels = {
-  category: { park: 'Park', museum: 'Museum', farm: 'Farm', zoo: 'Zoo', show: 'Show' },
-  area: { curitiba: 'In Curitiba', nearby: 'Nearby' },
-  setting: { outdoor: 'Outdoors', indoor: 'Indoors', mixed: 'Indoor & outdoor' },
-  cost: { free: 'Free entry', paid: 'Paid entry', unknown: 'Check pricing' }
+  category: { park: 'Parque', museum: 'Museu', farm: 'Fazenda', zoo: 'Zoológico', show: 'Espetáculo' },
+  area: { curitiba: 'Em Curitiba', nearby: 'Na região' },
+  setting: { outdoor: 'Ao ar livre', indoor: 'Em local fechado', mixed: 'Áreas internas e externas' },
+  cost: { free: 'Entrada gratuita', paid: 'Entrada paga', unknown: 'Consultar valores' }
 };
 const fieldNames = ['category', 'area', 'setting', 'cost'];
 const form = document.querySelector('#filters');
@@ -23,11 +23,11 @@ function normalize(value) {
 }
 function storageWarning() {
   persistent = false;
-  document.querySelector('#storage-note').textContent = 'Device storage is unavailable. Your shortlist will last only while this page is open.';
+  document.querySelector('#storage-note').textContent = 'O armazenamento deste dispositivo está indisponível. Sua lista só será mantida enquanto esta página estiver aberta.';
 }
 try {
   const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-  if (!Array.isArray(raw) || !raw.every(id => typeof id === 'string')) throw new Error('Invalid shortlist');
+  if (!Array.isArray(raw) || !raw.every(id => typeof id === 'string')) throw new Error('Lista de lugares inválida');
   saved = new Set(raw);
 } catch (_) {
   storageWarning();
@@ -39,23 +39,23 @@ function element(tag, className, text) {
   return node;
 }
 function validateRecords(data) {
-  if (!Array.isArray(data)) throw new Error('The catalog must be a JSON array.');
+  if (!Array.isArray(data)) throw new Error('O catálogo deve ser uma lista JSON.');
   const ids = new Set();
   const textFields = ['id', 'name', 'city', 'description', 'url', 'checkedAt', 'crowdNote', 'logisticsNote'];
   data.forEach((item, index) => {
     if (!item || textFields.some(key => typeof item[key] !== 'string' || !item[key].trim())) {
-      throw new Error(`Activity ${index + 1} has a missing or invalid text field.`);
+      throw new Error(`O passeio ${index + 1} tem um campo de texto ausente ou inválido.`);
     }
-    if (ids.has(item.id)) throw new Error(`Duplicate activity ID: ${item.id}`);
+    if (ids.has(item.id)) throw new Error(`Identificador de passeio duplicado: ${item.id}`);
     ids.add(item.id);
     for (const key of fieldNames) {
-      if (!Object.hasOwn(labels[key], item[key])) throw new Error(`Activity ${index + 1} has an invalid ${key}.`);
+      if (!Object.hasOwn(labels[key], item[key])) throw new Error(`O passeio ${index + 1} tem um valor inválido no campo ${key}.`);
     }
     const url = new URL(item.url);
-    if (!['https:', 'http:'].includes(url.protocol)) throw new Error('Source links must use HTTP or HTTPS.');
+    if (!['https:', 'http:'].includes(url.protocol)) throw new Error('Os links das fontes devem usar HTTP ou HTTPS.');
     const date = new Date(`${item.checkedAt}T12:00:00Z`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(item.checkedAt) || Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== item.checkedAt) {
-      throw new Error(`Activity ${index + 1} has an invalid checked date.`);
+      throw new Error(`O passeio ${index + 1} tem uma data de consulta inválida.`);
     }
   });
   return data;
@@ -80,8 +80,8 @@ function updateSavedCount() {
 function updateSaveButton(button, item) {
   const isSaved = saved.has(item.id);
   button.setAttribute('aria-pressed', String(isSaved));
-  button.setAttribute('aria-label', `${isSaved ? 'Remove' : 'Save'} ${item.name}${isSaved ? ' from' : ' to'} shortlist`);
-  button.querySelector('span').textContent = isSaved ? 'Saved' : 'Save';
+  button.setAttribute('aria-label', `${isSaved ? 'Remover' : 'Salvar'} ${item.name} ${isSaved ? 'da' : 'na'} sua lista`);
+  button.querySelector('span').textContent = isSaved ? 'Salvo' : 'Salvar';
 }
 function card(item) {
   const article = element('article', 'activity-card');
@@ -98,7 +98,7 @@ function card(item) {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify([...saved])); } catch (_) { storageWarning(); }
     }
     updateSavedCount();
-    document.querySelector('#announcement').textContent = `${item.name} ${saved.has(item.id) ? 'added to' : 'removed from'} shortlist.`;
+    document.querySelector('#announcement').textContent = `${saved.has(item.id) ? 'Adicionado à sua lista' : 'Removido da sua lista'}: ${item.name}.`;
     if (document.querySelector('#saved-only').checked) {
       render();
       document.querySelector('#saved-only').focus();
@@ -110,16 +110,16 @@ function card(item) {
   tags.append(element('span', 'tag', labels.setting[item.setting]), element('span', 'tag', labels.cost[item.cost]));
   article.append(tags, element('p', 'description', item.description));
   const details = element('dl', 'details');
-  details.append(element('dt', '', 'Crowds & timing'), element('dd', '', item.crowdNote), element('dt', '', 'Plan the practicalities'), element('dd', '', item.logisticsNote));
+  details.append(element('dt', '', 'Movimento e horários'), element('dd', '', item.crowdNote), element('dt', '', 'Informações práticas'), element('dd', '', item.logisticsNote));
   article.append(details);
   const bottom = element('div', 'card-bottom');
-  const link = element('a', 'source-link', 'Visit source ↗');
+  const link = element('a', 'source-link', 'Consultar fonte ↗');
   link.href = item.url;
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
-  link.setAttribute('aria-label', `Visit source for ${item.name} (opens in a new tab)`);
-  const checked = element('span', 'checked', 'Source checked');
-  const time = element('time', '', new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${item.checkedAt}T12:00:00Z`)));
+  link.setAttribute('aria-label', `Consultar fonte sobre ${item.name} (abre em uma nova aba)`);
+  const checked = element('span', 'checked', 'Fonte consultada em');
+  const time = element('time', '', new Intl.DateTimeFormat('pt-BR', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${item.checkedAt}T12:00:00Z`)));
   time.dateTime = item.checkedAt;
   checked.append(time);
   bottom.append(link, checked);
@@ -146,12 +146,12 @@ function render() {
   const filters = readFilters();
   const visible = activities.filter(item => matches(item, filters));
   grid.replaceChildren(...visible.map(card));
-  count.textContent = `${visible.length} ${visible.length === 1 ? 'place' : 'places'}${filters.savedOnly ? ' in your shortlist' : ` of ${activities.length}`}`;
+  count.textContent = `${visible.length} ${visible.length === 1 ? 'lugar' : 'lugares'}${filters.savedOnly ? ' na sua lista' : ` de ${activities.length}`}`;
   state.hidden = visible.length > 0;
   if (!visible.length) {
-    if (!activities.length) showState('A BLANK PAGE, FOR NOW', 'The guide is waiting for places.', 'Add verified activity records to activities.json, then reload the guide.', 'Reload guide', load);
-    else if (filters.savedOnly && !activities.some(item => saved.has(item.id))) showState('YOUR OWN LITTLE COLLECTION', 'Your shortlist starts here.', 'Save places from the guide and find them here whenever you need an idea.', 'Explore all places', reset);
-    else showState('TRY A DIFFERENT DIRECTION', 'No places match just yet.', 'Try a broader search, a different setting, or reset the filters to see the whole guide.', 'Reset filters', reset);
+    if (!activities.length) showState('UMA PÁGINA EM BRANCO, POR ENQUANTO', 'O guia está esperando novos lugares.', 'Adicione passeios com informações verificadas ao arquivo activities.json e recarregue o guia.', 'Recarregar guia', load);
+    else if (filters.savedOnly && !activities.some(item => saved.has(item.id))) showState('SEUS LUGARES FAVORITOS', 'Sua lista começa aqui.', 'Salve lugares do guia e encontre todos aqui quando precisar de uma ideia.', 'Explorar todos os lugares', reset);
+    else showState('QUE TAL OUTRO CAMINHO?', 'Nenhum lugar encontrado.', 'Tente uma busca mais ampla, escolha outro ambiente ou limpe os filtros para ver o guia completo.', 'Limpar filtros', reset);
   }
   updateSavedCount();
 }
@@ -159,20 +159,20 @@ async function load() {
   loaded = false;
   results.setAttribute('aria-busy', 'true');
   grid.replaceChildren();
-  count.textContent = 'Loading the guide…';
-  showState('GETTING READY', 'Opening the field guide…', 'Loading local activity records.');
+  count.textContent = 'Carregando o guia…';
+  showState('QUASE TUDO PRONTO', 'Abrindo o guia de passeios…', 'Carregando os passeios do arquivo local.');
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 15000);
   try {
     const response = await fetch('activities.json', { cache: 'no-cache', signal: controller.signal });
-    if (!response.ok) throw new Error(`Catalog request failed (${response.status}).`);
+    if (!response.ok) throw new Error(`Falha ao buscar o catálogo (${response.status}).`);
     activities = validateRecords(await response.json());
     loaded = true;
     render();
   } catch (error) {
-    console.error('Could not load the activity guide:', error);
-    count.textContent = 'Guide unavailable';
-    showState('A SMALL DETOUR', 'We couldn’t open the guide.', 'Make sure activities.json is available and follows the documented format. Open this folder through a local web server, rather than double-clicking the HTML file.', 'Try again', load);
+    console.error('Não foi possível carregar o guia de passeios:', error);
+    count.textContent = 'Guia indisponível';
+    showState('UM PEQUENO DESVIO', 'Não foi possível abrir o guia.', 'Confira se o arquivo activities.json está disponível e segue o formato documentado. Para usar o guia no computador, abra esta pasta por meio de um servidor web local, em vez de clicar duas vezes no arquivo HTML.', 'Tentar novamente', load);
   } finally {
     clearTimeout(timer);
     results.setAttribute('aria-busy', 'false');
