@@ -2,6 +2,7 @@
 
 const STORAGE_KEY = 'out-and-together.shortlist.v1';
 const VISITED_KEY = 'out-and-together.visited.v1';
+const COMPLETED_KEY = 'out-and-together.completed.v2';
 const labels = {
   category: { park: 'Parque', museum: 'Museu', farm: 'Fazenda', zoo: 'Zoológico', show: 'Espetáculo' },
   area: { curitiba: 'Em Curitiba', nearby: 'Na região' },
@@ -17,7 +18,7 @@ const results = document.querySelector('#results');
 let activities = [];
 let loaded = false;
 let saved = new Set();
-let visited = new Set(['parque-barigui']);
+let completed = new Set(['parque-barigui--visit']);
 let persistent = true;
 
 function normalize(value) {
@@ -25,7 +26,7 @@ function normalize(value) {
 }
 function storageWarning() {
   persistent = false;
-  document.querySelector('#storage-note').textContent = 'O armazenamento deste dispositivo está indisponível. Nossa lista e os lugares visitados só serão mantidos enquanto esta página estiver aberta.';
+  document.querySelector('#storage-note').textContent = 'O armazenamento deste dispositivo está indisponível. Nossa lista e as atividades feitas só serão mantidas enquanto esta página estiver aberta.';
 }
 try {
   const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
@@ -35,24 +36,91 @@ try {
   storageWarning();
 }
 try {
-  const stored = localStorage.getItem(VISITED_KEY);
-  if (stored !== null) {
-    const value = JSON.parse(stored);
-    if (!Array.isArray(value) || !value.every(id => typeof id === 'string')) throw new Error('Lista de visitas inválida');
-    visited = new Set(value);
-  } else {
-    localStorage.setItem(VISITED_KEY, JSON.stringify([...visited]));
-  }
+  const stored = localStorage.getItem(COMPLETED_KEY);
+  const legacy = localStorage.getItem(VISITED_KEY);
+  const value = JSON.parse(stored ?? legacy ?? '["parque-barigui"]');
+  if (!Array.isArray(value) || !value.every(id => typeof id === 'string')) throw new Error('Lista de atividades inválida');
+  // An explicit [] is a deliberate undo. Migrate only generic visits, never events.
+  completed = new Set(stored !== null ? value : value.map(id => `${id}--visit`));
+  if (stored === null) localStorage.setItem(COMPLETED_KEY, JSON.stringify([...completed]));
 } catch (_) { storageWarning(); }
+function persistCompleted() {
+  if (!persistent) return;
+  try { localStorage.setItem(COMPLETED_KEY, JSON.stringify([...completed])); } catch (_) { storageWarning(); }
+}
+function placeActivities(item) {
+  return item.activities ?? [{ id: `${item.id}--visit`, title: 'Visita ao local', description: item.description,
+    updatedAt: item.updatedAt || item.checkedAt, checkedAt: item.checkedAt, url: item.url,
+    kind: 'visit', startsAt: null, endsAt: null }];
+}
+function focusActivity(id) {
+  const target = [...document.querySelectorAll('[data-activity-id]')].find(node => node.dataset.activityId === id && !node.closest('[hidden]'));
+  const place = activities.find(item => placeActivities(item).some(activity => activity.id === id));
+  const archive = [...document.querySelectorAll('#archive-list a')].find(link => link.hash === `#place=${encodeURIComponent(place?.id)}`);
+  (target?.querySelector('button') || archive || document.querySelector('#results')).focus({ preventScroll: true });
+}
+function expired(activity, now = new Date()) {
+  if (activity.kind !== 'event') return false;
+  const end = activity.endsAt || activity.startsAt;
+  if (!end) return false;
+  // Date-only events run through the named day in Curitiba, not UTC midnight.
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);
+  return end < today;
+}
+function pendingActivity(activity) {
+  return !completed.has(activity.id) && !expired(activity);
+}
+function toggleActivity(activity) {
+  if (completed.has(activity.id)) completed.delete(activity.id); else completed.add(activity.id);
+  persistCompleted();
+  document.querySelector('#announcement').textContent = `${activity.title}: ${completed.has(activity.id) ? 'marcada como feita' : 'conclusão desfeita'}.`;
+  render();
+  focusActivity(activity.id);
+}
+function activityRow(activity, detail = false) {
+  const row = element('li', 'activity-row');
+  row.dataset.activityId = activity.id;
+  const info = element('div', 'activity-info');
+  info.append(element('strong', '', activity.title));
+  if (completed.has(activity.id)) info.append(element('span', 'tag', 'Feita'));
+  if (activity.kind === 'event') {
+    const dates = [activity.startsAt, activity.endsAt].filter(Boolean).map(formatDate).join(' — ');
+    info.append(element('p', 'activity-dates', `${expired(activity) ? 'Encerrada' : dates ? 'Período' : 'Data a confirmar'}${dates ? ': ' + dates : ''}`));
+  }
+  if (detail) {
+    info.append(element('p', 'description', activity.description));
+    const source = element('a', 'source-link', 'Consultar fonte da atividade ↗');
+    source.href = activity.url;
+    source.target = '_blank';
+    source.rel = 'noopener noreferrer';
+    source.setAttribute('aria-label', `Consultar fonte da atividade: ${activity.title} (abre em uma nova aba)`);
+    info.append(source, element('p', 'checked', `Consultada em ${formatDate(activity.checkedAt)} · Atualizada em ${formatDate(activity.updatedAt)}`));
+  }
+  row.append(info);
+  const button = element('button', 'visited-button', completed.has(activity.id) ? 'Desfazer' : expired(activity) ? 'Registrar no histórico' : 'Já fizemos');
+  button.type = 'button';
+  button.setAttribute('aria-label', `${completed.has(activity.id) ? 'Desfazer atividade' : expired(activity) ? 'Registrar que fizemos' : 'Marcar como feita'}: ${activity.title}`);
+  button.addEventListener('click', () => toggleActivity(activity));
+  row.append(button);
+  return row;
+}
 function element(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
   if (text !== undefined) node.textContent = text;
   return node;
 }
+function validDate(value, dateOnly = false) {
+  if (typeof value !== 'string') return false;
+  const pattern = dateOnly ? /^\d{4}-\d{2}-\d{2}$/ : /^\d{4}-\d{2}-\d{2}(?:T(?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d(?:\.\d{1,6})?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d))?$/;
+  if (!pattern.test(value) || value.startsWith('0000-') || !Number.isFinite(Date.parse(value))) return false;
+  const day = value.slice(0, 10);
+  return new Date(`${day}T12:00:00Z`).toISOString().slice(0, 10) === day;
+}
 function validateRecords(data) {
   if (!Array.isArray(data)) throw new Error('O catálogo deve ser uma lista JSON.');
   const ids = new Set();
+  const activityIds = new Set();
   const textFields = ['id', 'name', 'city', 'description', 'url', 'checkedAt', 'crowdNote', 'logisticsNote'];
   data.forEach((item, index) => {
     if (!item || textFields.some(key => typeof item[key] !== 'string' || !item[key].trim())) {
@@ -60,13 +128,26 @@ function validateRecords(data) {
     }
     if (ids.has(item.id)) throw new Error(`Identificador de passeio duplicado: ${item.id}`);
     ids.add(item.id);
+    if (item.updatedAt !== undefined && !validDate(item.updatedAt)) throw new Error('Data de atualização do lugar inválida.');
+    if (item.activities !== undefined && !Array.isArray(item.activities)) throw new Error('As atividades devem ser uma lista.');
+    for (const activity of placeActivities(item)) {
+      if (!activity || ['id', 'title', 'description', 'url'].some(key => typeof activity[key] !== 'string' || !activity[key].trim())) throw new Error('Atividade com campos de texto inválidos.');
+      if (activityIds.has(activity.id)) throw new Error(`Identificador de atividade duplicado: ${activity.id}`);
+      activityIds.add(activity.id);
+      if (!['http:', 'https:'].includes(new URL(activity.url).protocol)) throw new Error('Fonte da atividade inválida.');
+      if (!['visit', 'event'].includes(activity.kind)) throw new Error('Tipo de atividade inválido.');
+      if (!validDate(activity.updatedAt) || !validDate(activity.checkedAt)) throw new Error('Data da atividade inválida.');
+      for (const key of ['startsAt', 'endsAt']) {
+        if (activity[key] !== null && !validDate(activity[key], true)) throw new Error('Período da atividade inválido.');
+      }
+      if (activity.startsAt && activity.endsAt && activity.endsAt < activity.startsAt) throw new Error('O fim da atividade antecede o início.');
+    }
     for (const key of fieldNames) {
       if (!Object.hasOwn(labels[key], item[key])) throw new Error(`O passeio ${index + 1} tem um valor inválido no campo ${key}.`);
     }
     const url = new URL(item.url);
     if (!['https:', 'http:'].includes(url.protocol)) throw new Error('Os links das fontes devem usar HTTP ou HTTPS.');
-    const date = new Date(`${item.checkedAt}T12:00:00Z`);
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(item.checkedAt) || Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== item.checkedAt) {
+    if (!validDate(item.checkedAt)) {
       throw new Error(`O passeio ${index + 1} tem uma data de consulta inválida.`);
     }
   });
@@ -80,7 +161,8 @@ function readFilters() {
   };
 }
 function matches(item, filters) {
-  const haystack = normalize([item.name, item.city, item.description, item.crowdNote, item.logisticsNote, labels.category[item.category]].join(' '));
+  const haystack = normalize([item.name, item.city, item.description, item.crowdNote, item.logisticsNote, labels.category[item.category],
+    ...placeActivities(item).flatMap(activity => [activity.title, activity.description])].join(' '));
   return (!filters.search || filters.search.split(/\s+/).every(term => haystack.includes(term))) &&
     (!filters.savedOnly || saved.has(item.id)) &&
     fieldNames.every(key => filters[key] === 'all' || item[key] === filters[key]);
@@ -133,7 +215,48 @@ function cover(item) {
   }
   return figure;
 }
-function card(item) {
+function formatDate(value) {
+  return new Intl.DateTimeFormat('pt-BR', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(value));
+}
+function materialUpdate(item) {
+  // checkedAt is only a fallback for old, unmigrated catalogs.
+  return Math.max(Date.parse(item.updatedAt || item.checkedAt), ...placeActivities(item).map(activity => Date.parse(activity.updatedAt)));
+}
+function placeLink(item, text = item.name) {
+  const link = element('a', 'place-link', text);
+  link.href = `#place=${encodeURIComponent(item.id)}`;
+  link.setAttribute('aria-label', `Ver lugar: ${item.name}`);
+  return link;
+}
+function selectedPlaceId() {
+  if (!location.hash.startsWith('#place=')) return null;
+  try { return decodeURIComponent(location.hash.slice(7)); } catch (_) { return ''; }
+}
+let lastPlaceId = selectedPlaceId();
+function renderDetail() {
+  const id = selectedPlaceId();
+  const detail = document.querySelector('#place-detail');
+  detail.hidden = id === null;
+  results.hidden = id !== null;
+  document.querySelector('.browse').hidden = id !== null;
+  document.querySelector('.skip-link').href = id === null ? '#results' : '#place-detail';
+  detail.replaceChildren();
+  document.title = 'Passeios · Família Alcantara Pedroni';
+  if (id === null) return;
+  const back = element('a', 'back-link', 'Voltar aos lugares');
+  back.href = '#results';
+  detail.append(back);
+  const item = activities.find(place => place.id === id);
+  if (item) {
+    detail.append(card(item, true));
+    document.title = `${item.name} · Nossos passeios`;
+  } else {
+    const heading = element('h2', '', 'Lugar não encontrado');
+    heading.tabIndex = -1;
+    detail.append(heading, element('p', '', 'O link pode estar desatualizado. Volte ao guia para encontrar outro lugar.'));
+  }
+}
+function card(item, detail = false) {
   const article = element('article', 'activity-card');
   article.dataset.id = item.id;
   const top = element('div', 'card-top');
@@ -161,8 +284,12 @@ function card(item) {
   const body = element('div', 'card-body');
   const tags = element('div', 'tags');
   tags.append(element('span', 'tag', labels.setting[item.setting]), element('span', 'tag', labels.cost[item.cost]));
-  body.append(element('h3', '', item.name), city, tags, element('p', 'description', item.description));
+  const heading = element(detail ? 'h2' : 'h3');
+  if (detail) { heading.textContent = item.name; heading.tabIndex = -1; }
+  else heading.append(placeLink(item));
+  body.append(heading, city, tags, element('p', 'description', item.description));
   const more = element('details', 'more');
+  more.open = detail;
   const dl = element('dl', 'details');
   dl.append(element('dt', '', 'Movimento e horários'), element('dd', '', item.crowdNote), element('dt', '', 'Informações práticas'), element('dd', '', item.logisticsNote));
   more.append(element('summary', '', 'Horários, preços e movimento'), dl);
@@ -175,25 +302,15 @@ function card(item) {
   link.rel = 'noopener noreferrer';
   link.setAttribute('aria-label', `Consultar fonte sobre ${item.name} (abre em uma nova aba)`);
   const checked = element('span', 'checked', 'Consultada em ');
-  const time = element('time', '', new Intl.DateTimeFormat('pt-BR', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${item.checkedAt}T12:00:00Z`)));
+  const time = element('time', '', formatDate(item.checkedAt));
   time.dateTime = item.checkedAt;
   checked.append(time);
   source.append(link, checked);
-  const visitButton = element('button', 'visited-button', 'Já fomos');
-  visitButton.type = 'button';
-  visitButton.setAttribute('aria-pressed', 'false');
-  visitButton.setAttribute('aria-label', `Marcar como visitado: ${item.name}`);
-  visitButton.addEventListener('click', () => {
-    visited.add(item.id);
-    if (persistent) {
-      try { localStorage.setItem(VISITED_KEY, JSON.stringify([...visited])); } catch (_) { storageWarning(); }
-    }
-    document.querySelector('#announcement').textContent = `${item.name}: marcado como visitado. Agora aparece na lista “Já fomos”.`;
-    render();
-    [...document.querySelector('#visited-list').children].find(node => node.dataset.id === item.id)?.querySelector('button')?.focus({ preventScroll: true });
-  });
-  bottom.append(source, visitButton);
-  body.append(bottom);
+  bottom.append(source);
+  const list = element('ul', 'place-activities');
+  list.append(...placeActivities(item).filter(activity => detail || pendingActivity(activity)).map(activity => activityRow(activity, detail)));
+  if (detail) body.append(element('h3', 'activities-heading', 'Atividades neste lugar'));
+  body.append(bottom, list);
   article.append(cover(item), top, body);
   return article;
 }
@@ -212,33 +329,37 @@ function reset() {
   if (loaded) render();
   document.querySelector('#search').focus();
 }
-function visitedRow(item) {
+function visitedRow(item, activity) {
   const row = element('li', 'visited-row');
   row.dataset.id = item.id;
+  row.dataset.activityId = activity.id;
   const info = element('div', 'visited-info');
-  info.append(element('span', 'visited-name', item.name), element('span', 'visited-city', item.city));
+  const name = placeLink(item);
+  name.classList.add('visited-name');
+  info.append(name, element('span', 'visited-city', activity.title));
+  if (expired(activity)) info.append(element('span', 'checked', 'Encerrada'));
   const undo = element('button', 'visited-button', 'Desfazer');
   undo.type = 'button';
-  undo.setAttribute('aria-label', `Desfazer visita: ${item.name}`);
-  undo.addEventListener('click', () => {
-    visited.delete(item.id);
-    if (persistent) {
-      try { localStorage.setItem(VISITED_KEY, JSON.stringify([...visited])); } catch (_) { storageWarning(); }
-    }
-    document.querySelector('#announcement').textContent = `${item.name} voltou à lista de passeios.`;
-    render();
-    [...grid.children].find(node => node.dataset.id === item.id)?.querySelector('.visited-button')?.focus({ preventScroll: true });
-  });
+  undo.setAttribute('aria-label', `Desfazer atividade: ${activity.title} — ${item.name}`);
+  undo.addEventListener('click', () => toggleActivity(activity));
   row.append(info, undo);
   return row;
 }
 function render() {
   if (!loaded) return;
   const filters = readFilters();
-  const visible = activities.filter(item => matches(item, filters)).sort((a, b) => Number(visited.has(a.id)) - Number(visited.has(b.id)));
-  grid.replaceChildren(...visible.filter(item => !visited.has(item.id)).map(card));
-  const done = visible.filter(item => visited.has(item.id));
-  document.querySelector('#visited-list').replaceChildren(...done.map(visitedRow));
+  const visible = activities.filter(item => matches(item, filters)).sort((a, b) => materialUpdate(b) - materialUpdate(a));
+  const active = visible.filter(item => placeActivities(item).some(pendingActivity));
+  grid.replaceChildren(...active.map(item => card(item)));
+  const archived = visible.filter(item => !active.includes(item) && (!placeActivities(item).length || placeActivities(item).some(activity => !completed.has(activity.id))));
+  document.querySelector('#archive-list').replaceChildren(...archived.map(item => {
+    const row = element('li');
+    row.append(placeLink(item));
+    return row;
+  }));
+  document.querySelector('#archive-section').hidden = archived.length === 0;
+  const done = visible.flatMap(item => placeActivities(item).filter(activity => completed.has(activity.id)).map(activity => visitedRow(item, activity)));
+  document.querySelector('#visited-list').replaceChildren(...done);
   document.querySelector('#visited-section').hidden = done.length === 0;
   document.querySelector('#visited-count').textContent = String(done.length);
   count.textContent = `${visible.length} ${visible.length === 1 ? 'lugar' : 'lugares'}${filters.savedOnly ? ' na nossa lista' : ` de ${activities.length}`}`;
@@ -249,6 +370,7 @@ function render() {
     else showState('QUE TAL OUTRO CAMINHO?', 'Nenhum lugar encontrado.', 'Tente uma busca mais ampla, escolha outro ambiente ou limpe os filtros para ver o guia completo.', 'Limpar filtros', reset);
   }
   updateSavedCount();
+  renderDetail();
 }
 async function load() {
   loaded = false;
@@ -273,17 +395,33 @@ async function load() {
     results.setAttribute('aria-busy', 'false');
   }
 }
+window.addEventListener('hashchange', () => {
+  if (!loaded) return;
+  render();
+  const id = selectedPlaceId();
+  if (id !== null) document.querySelector('#place-detail h2')?.focus();
+  else {
+    const link = [...document.querySelectorAll('.place-link')].find(node => node.hash === `#place=${encodeURIComponent(lastPlaceId)}`);
+    (link || results).focus({ preventScroll: true });
+  }
+  lastPlaceId = id;
+});
+document.querySelector('.skip-link').addEventListener('click', event => {
+  if (selectedPlaceId() === null) return;
+  event.preventDefault();
+  document.querySelector('#place-detail h2')?.focus();
+});
 form.addEventListener('submit', event => event.preventDefault());
 form.addEventListener('input', render);
 document.querySelector('#reset').addEventListener('click', reset);
 window.addEventListener('storage', event => {
-  if (![STORAGE_KEY, VISITED_KEY, null].includes(event.key)) return;
+  if (![STORAGE_KEY, COMPLETED_KEY, null].includes(event.key)) return;
   if (!persistent) return;
   try {
-    for (const key of event.key === null ? [STORAGE_KEY, VISITED_KEY] : [event.key]) {
+    for (const key of event.key === null ? [STORAGE_KEY, COMPLETED_KEY] : [event.key]) {
       const value = JSON.parse(localStorage.getItem(key) || '[]');
       if (!Array.isArray(value) || !value.every(id => typeof id === 'string')) continue;
-      if (key === STORAGE_KEY) saved = new Set(value); else visited = new Set(value);
+      if (key === STORAGE_KEY) saved = new Set(value); else completed = new Set(value);
     }
     render();
     updateSavedCount();

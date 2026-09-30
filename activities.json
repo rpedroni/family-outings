@@ -11,7 +11,21 @@
     "url": "https://viladosanimais.com.br/familias",
     "checkedAt": "2026-09-29",
     "crowdNote": "Não há previsão de movimento verificada. O local oferece reservas, mas a entrada paga não garante um dia tranquilo; pergunte sobre o tamanho dos grupos esperados.",
-    "logisticsNote": "O local informa funcionamento nos fins de semana e feriados, das 10h às 17h; consulte o calendário de abertura. Entrada informada: R$ 59; crianças de 3 a 5 anos, R$ 29,50; menores de 3 anos não pagam. O local informa acesso para carrinhos de bebê e fraldário. As atividades têm horários fixos."
+    "logisticsNote": "O local informa funcionamento nos fins de semana e feriados, das 10h às 17h; consulte o calendário de abertura. Entrada informada: R$ 59; crianças de 3 a 5 anos, R$ 29,50; menores de 3 anos não pagam. O local informa acesso para carrinhos de bebê e fraldário. As atividades têm horários fixos.",
+    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "activities": [
+      {
+        "id": "vila-dos-animais--visit",
+        "title": "Visita ao local",
+        "description": "Um dia no campo para alimentar os animais, recolher ovos, passear de trator e explorar o bosque entre as atividades programadas.",
+        "updatedAt": "2026-09-29T10:02:23-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://viladosanimais.com.br/familias",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "museu-oscar-niemeyer",
@@ -31,7 +45,21 @@
     "url": "https://www.museuoscarniemeyer.org.br/visite",
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
-    "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê."
+    "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê.",
+    "updatedAt": "2026-09-29T10:10:07-03:00",
+    "activities": [
+      {
+        "id": "museu-oscar-niemeyer--visit",
+        "title": "Visita ao local",
+        "description": "Galerias de arte e arquitetura para uma visita no seu ritmo. Escolha uma pequena parte do acervo, em vez de tentar ver tudo.",
+        "updatedAt": "2026-09-29T10:10:07-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.museuoscarniemeyer.org.br/visite",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "museu-paranaense",
@@ -45,7 +73,21 @@
     "url": "https://www.museuparanaense.pr.gov.br/Pagina/Horarios-e-gratuidade",
     "checkedAt": "2026-09-29",
     "crowdNote": "O movimento não foi verificado. A gratuidade é uma informação sobre o preço, não uma previsão de lotação.",
-    "logisticsNote": "A página oficial de visitação informa entrada gratuita, de terça a domingo, das 10h às 17h30; fechado às segundas-feiras. Rua Kellers, 289. A disponibilidade de fraldário e as condições de acesso com carrinho de bebê não foram verificadas."
+    "logisticsNote": "A página oficial de visitação informa entrada gratuita, de terça a domingo, das 10h às 17h30; fechado às segundas-feiras. Rua Kellers, 289. A disponibilidade de fraldário e as condições de acesso com carrinho de bebê não foram verificadas.",
+    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "activities": [
+      {
+        "id": "museu-paranaense--visit",
+        "title": "Visita ao local",
+        "description": "Outra opção de museu no bairro São Francisco. Vale deixar na lista para um passeio em local fechado e conferir as exposições em cartaz antes de decidir a visita.",
+        "updatedAt": "2026-09-29T10:02:23-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.museuparanaense.pr.gov.br/Pagina/Horarios-e-gratuidade",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "parque-barigui",
@@ -59,7 +101,21 @@
     "url": "https://turismo.curitiba.pr.gov.br/conteudo/parque-barigui/1702",
     "checkedAt": "2026-09-29",
     "crowdNote": "O guia oficial de turismo o descreve como o parque mais visitado da cidade. Não conte com um passeio tranquilo por padrão; o movimento atual e a lotação em eventos especiais são desconhecidos.",
-    "logisticsNote": "A fonte informa acesso diário, estacionamento e restaurante. Não informa valores de entrada nem a existência de fraldário. Mantenha uma distância respeitosa dos animais silvestres."
+    "logisticsNote": "A fonte informa acesso diário, estacionamento e restaurante. Não informa valores de entrada nem a existência de fraldário. Mantenha uma distância respeitosa dos animais silvestres.",
+    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "activities": [
+      {
+        "id": "parque-barigui--visit",
+        "title": "Visita ao local",
+        "description": "Um grande parque no bairro Santo Inácio para um passeio ao ar livre sem roteiro fixo, com fauna nativa, áreas de lazer e lugares para comer.",
+        "updatedAt": "2026-09-29T10:02:23-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://turismo.curitiba.pr.gov.br/conteudo/parque-barigui/1702",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "bosque-reinhard-maack",
@@ -73,7 +129,21 @@
     "url": "https://turismo.curitiba.pr.gov.br/conteudo/bosque-reinhard-maack/1106",
     "checkedAt": "2026-09-29",
     "crowdNote": "O movimento não foi verificado; a página oficial não indica horários mais tranquilos.",
-    "logisticsNote": "O guia oficial informa funcionamento nos fins de semana e feriados, das 8h às 17h30. Fecha em dias de chuva E no dia seguinte, pois as trilhas ficam escorregadias. Confirme a adequação à idade das crianças e as condições do terreno antes da visita; o acesso com carrinho de bebê e o valor da entrada não foram verificados."
+    "logisticsNote": "O guia oficial informa funcionamento nos fins de semana e feriados, das 8h às 17h30. Fecha em dias de chuva E no dia seguinte, pois as trilhas ficam escorregadias. Confirme a adequação à idade das crianças e as condições do terreno antes da visita; o acesso com carrinho de bebê e o valor da entrada não foram verificados.",
+    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "activities": [
+      {
+        "id": "bosque-reinhard-maack--visit",
+        "title": "Visita ao local",
+        "description": "Um bosque de araucárias com trilha de aventura e brinquedos educativos. Uma opção a conhecer melhor para um passeio com as crianças maiores.",
+        "updatedAt": "2026-09-29T10:02:23-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://turismo.curitiba.pr.gov.br/conteudo/bosque-reinhard-maack/1106",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "zoologico-curitiba",
@@ -88,7 +158,21 @@
     "url": "https://turismo.curitiba.pr.gov.br/conteudo/parque-iguacuzoologico/1613",
     "checkedAt": "2026-09-29",
     "crowdNote": "Não se aplica enquanto o aviso de fechamento publicado continuar sem confirmação de reabertura.",
-    "logisticsNote": "Não vá com base no horário habitual: confirme diretamente a reabertura primeiro. O aviso de manutenção prevalece sobre os horários regulares exibidos na mesma página."
+    "logisticsNote": "Não vá com base no horário habitual: confirme diretamente a reabertura primeiro. O aviso de manutenção prevalece sobre os horários regulares exibidos na mesma página.",
+    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "activities": [
+      {
+        "id": "zoologico-curitiba--visit",
+        "title": "Visita ao local",
+        "description": "Uma ideia para uma visita futura, não para um passeio agora: a página oficial de turismo informa fechamento para manutenção a partir de 9 de setembro de 2026, sem data de reabertura na página consultada.",
+        "updatedAt": "2026-09-29T10:02:23-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://turismo.curitiba.pr.gov.br/conteudo/parque-iguacuzoologico/1613",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "sitio-engenho-verde",
@@ -102,7 +186,21 @@
     "url": "https://www.engenhoverde.com.br/",
     "checkedAt": "2026-09-29",
     "crowdNote": "O café funciona com agendamento. O sítio também recebe eventos para até 100 pessoas; vale escolher uma data sem confraternização.",
-    "logisticsNote": "Agendamento pelo WhatsApp indicado no site. Preços e horários não publicados. As visitas pedagógicas anunciadas são voltadas a estudantes; passeio educativo para família precisa de consulta específica."
+    "logisticsNote": "Agendamento pelo WhatsApp indicado no site. Preços e horários não publicados. As visitas pedagógicas anunciadas são voltadas a estudantes; passeio educativo para família precisa de consulta específica.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "sitio-engenho-verde--visit",
+        "title": "Visita ao local",
+        "description": "Café na roça em um sítio agroecológico do Circuito Italiano, com produção orgânica e venda de frutas vermelhas, geleias e sucos. Uma alternativa de passeio rural com refeição, sem depender de um parque de diversões.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.engenhoverde.com.br/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "so-morangos",
@@ -116,7 +214,21 @@
     "url": "https://somorangos.com.br/colha-e-pague/",
     "checkedAt": "2026-09-29",
     "crowdNote": "A colheita é sazonal: o site próprio indica outubro a março. De abril a setembro, informa somente retirada de morangos.",
-    "logisticsNote": "Terça a sexta, 13h–17h; sábados, domingos e feriados, 10h–17h. Site próprio pede mínimo de 600 g para pessoas de 10 anos ou mais e 300 g para crianças de 5 a 9 anos. Há divergência de pesos e tarifas no roteiro turístico; consultar preço e disponibilidade da safra antes de escolher a data."
+    "logisticsNote": "Terça a sexta, 13h–17h; sábados, domingos e feriados, 10h–17h. Site próprio pede mínimo de 600 g para pessoas de 10 anos ou mais e 300 g para crianças de 5 a 9 anos. Há divergência de pesos e tarifas no roteiro turístico; consultar preço e disponibilidade da safra antes de escolher a data.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "so-morangos--visit",
+        "title": "Visita ao local",
+        "description": "Colheita de morangos em estufas, plaquinhas sobre o cultivo e loja com sobremesas. Há também degustação de 30 minutos, com frutas levadas para casa cobradas à parte.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://somorangos.com.br/colha-e-pague/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "pedra-chata",
@@ -130,7 +242,21 @@
     "url": "https://restaurantepedrachata.com.br/",
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio restaurante recomenda reserva antecipada nos fins de semana. Também atende eventos; não há garantia de baixa lotação.",
-    "logisticsNote": "Sábado e domingo, 10h–16h30. Durante a semana, atendimento exclusivo a eventos corporativos, escolares e confraternizações. Estacionamento gratuito; preços por consulta. Restrições e cobrança de atividades como tirolesa e cavalo precisam ser verificadas separadamente."
+    "logisticsNote": "Sábado e domingo, 10h–16h30. Durante a semana, atendimento exclusivo a eventos corporativos, escolares e confraternizações. Estacionamento gratuito; preços por consulta. Restrições e cobrança de atividades como tirolesa e cavalo precisam ser verificadas separadamente.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "pedra-chata--visit",
+        "title": "Visita ao local",
+        "description": "Restaurante rural com mini-fazendinha, parquinho, redes e passeio a cavalo. Dá para combinar o almoço com os animais e brincadeiras, sem fazer as atividades de aventura.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://restaurantepedrachata.com.br/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "recanto-saltinho",
@@ -144,7 +270,21 @@
     "url": "https://www.recantosaltinho.com.br/",
     "checkedAt": "2026-09-29",
     "crowdNote": "Há limite de visitantes e a entrada sem ingresso antecipado não é garantida. O parque proíbe som alto — uma regra concreta, não uma garantia de silêncio.",
-    "logisticsNote": "Comprar ingresso no portal oficial. Churrasqueiras são cobradas à parte. Restaurante anunciado para sábados, domingos e feriados. Há rio e piscina infantil no espaço: manter as crianças acompanhadas perto da água. Conferir no ingresso os horários de entrada e saída."
+    "logisticsNote": "Comprar ingresso no portal oficial. Churrasqueiras são cobradas à parte. Restaurante anunciado para sábados, domingos e feriados. Há rio e piscina infantil no espaço: manter as crianças acompanhadas perto da água. Conferir no ingresso os horários de entrada e saída.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "recanto-saltinho--visit",
+        "title": "Visita ao local",
+        "description": "Parque para passar o dia com piquenique, trilhas, churrasqueiras e restaurante com vista para a cachoeira. É permitido levar comida e bebida; o passeio não precisa incluir banho de rio.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.recantosaltinho.com.br/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "ekoa-park",
@@ -158,7 +298,21 @@
     "url": "https://ekoapark.com.br/visite/",
     "checkedAt": "2026-09-29",
     "crowdNote": "Compra ou reserva antecipada obrigatória. Fecha no último domingo do mês; não planejar o passeio para essa data.",
-    "logisticsNote": "Sexta a domingo e feriados, 9h–17h, exceto o último domingo do mês. Restaurante Oka, estacionamento, rampas e banheiros adaptados. Circuito de aventura e alguns passeios guiados são cobrados à parte. Morretes exige um deslocamento maior, com trecho de serra."
+    "logisticsNote": "Sexta a domingo e feriados, 9h–17h, exceto o último domingo do mês. Restaurante Oka, estacionamento, rampas e banheiros adaptados. Circuito de aventura e alguns passeios guiados são cobrados à parte. Morretes exige um deslocamento maior, com trecho de serra.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "ekoa-park--visit",
+        "title": "Visita ao local",
+        "description": "Trilhas na Mata Atlântica, projeção de 180°, redário e espaço Curumim, com playground e área lúdica para bebês até 3 anos. O ingresso inclui a escola de natureza Tekôa; o parque anuncia oficina de sustentabilidade nos fins de semana e feriados.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://ekoapark.com.br/visite/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "museu-da-vida",
@@ -172,7 +326,21 @@
     "url": "https://turismo.curitiba.pr.gov.br/conteudos/museus/140/",
     "checkedAt": "2026-09-29",
     "crowdNote": "Gratuito às quartas-feiras, segundo Turismo Curitiba. Não há informação verificada sobre dias ou horários mais vazios.",
-    "logisticsNote": "Rua Jacarezinho, 1691. Terça a sexta, 8h–17h; sábado e domingo, 10h–18h; fechado segunda. Entrada paga nos demais dias, sem tarifa publicada na ficha municipal. O site próprio apresentou erro de acesso nesta checagem."
+    "logisticsNote": "Rua Jacarezinho, 1691. Terça a sexta, 8h–17h; sábado e domingo, 10h–18h; fechado segunda. Entrada paga nos demais dias, sem tarifa publicada na ficha municipal. O site próprio apresentou erro de acesso nesta checagem.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "museu-da-vida--visit",
+        "title": "Visita ao local",
+        "description": "Opção de museu no bairro Mercês para variar os passeios culturais. A ficha municipal confirma visitação aos sábados e domingos; a programação de atividades deve ser consultada com o espaço.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://turismo.curitiba.pr.gov.br/conteudos/museus/140/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "museu-historia-natural-capao-imbuia",
@@ -186,7 +354,21 @@
     "url": "https://turismo.curitiba.pr.gov.br/conteudos/museus/140/",
     "checkedAt": "2026-09-29",
     "crowdNote": "Sem dados verificados de lotação. A ficha municipal informa abertura também aos domingos e feriados.",
-    "logisticsNote": "Rua Benedito Conceição, 407. Terça a sexta, 9h–17h; sábados, domingos e feriados, 10h–16h. Valor, necessidade de reserva e estrutura para carrinho não informados na ficha consultada."
+    "logisticsNote": "Rua Benedito Conceição, 407. Terça a sexta, 9h–17h; sábados, domingos e feriados, 10h–16h. Valor, necessidade de reserva e estrutura para carrinho não informados na ficha consultada.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "museu-historia-natural-capao-imbuia--visit",
+        "title": "Visita ao local",
+        "description": "Uma alternativa de história natural no Capão da Imbuia, diferente de repetir o zoológico. Pode entrar no roteiro como visita de museu; atividades educativas específicas não foram confirmadas nesta checagem.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://turismo.curitiba.pr.gov.br/conteudos/museus/140/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "museu-arte-indigena",
@@ -200,7 +382,21 @@
     "url": "https://maimuseu.com.br/site/",
     "checkedAt": "2026-09-29",
     "crowdNote": "Há divergência de horários: a ficha turística inclui sábado, mas o site do museu informa segunda a sexta. Não considerar visita de sábado confirmada.",
-    "logisticsNote": "Av. Água Verde, 1413. Site próprio informa segunda a sexta, 10h–17h30, ingresso inteiro de R$ 32 e meia de R$ 16. Regra para crianças pequenas e programação educativa por consulta."
+    "logisticsNote": "Av. Água Verde, 1413. Site próprio informa segunda a sexta, 10h–17h30, ingresso inteiro de R$ 32 e meia de R$ 16. Regra para crianças pequenas e programação educativa por consulta.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "museu-arte-indigena--visit",
+        "title": "Visita ao local",
+        "description": "Museu de arte indígena no Água Verde, como alternativa aos grandes museus do roteiro habitual. O acervo inclui cerâmica, cestaria, instrumentos, plumária e máscaras.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://maimuseu.com.br/site/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "espaco-energia-copel",
@@ -214,7 +410,21 @@
     "url": "https://turismo.curitiba.pr.gov.br/conteudos/museus/140/",
     "checkedAt": "2026-09-29",
     "crowdNote": "Atendimento somente com agendamento pelo site do museu. Não há dados de tamanho dos grupos ou lotação.",
-    "logisticsNote": "Rua Desembargador Motta, 2347. Terça a sexta, 9h–12h e 14h–17h. Fechado segunda, sábado e domingo. Faixa etária e preço não confirmados; o site do operador não respondeu na checagem."
+    "logisticsNote": "Rua Desembargador Motta, 2347. Terça a sexta, 9h–12h e 14h–17h. Fechado segunda, sábado e domingo. Faixa etária e preço não confirmados; o site do operador não respondeu na checagem.",
+    "updatedAt": "2026-09-29T10:38:40-03:00",
+    "activities": [
+      {
+        "id": "espaco-energia-copel--visit",
+        "title": "Visita ao local",
+        "description": "Alternativa de ciência e energia no Batel para um dia de folga durante a semana. A visita depende de agendamento; não é opção de fim de semana segundo o horário municipal.",
+        "updatedAt": "2026-09-29T10:38:40-03:00",
+        "checkedAt": "2026-09-29",
+        "url": "https://turismo.curitiba.pr.gov.br/conteudos/museus/140/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "beto-carrero-world",
@@ -228,7 +438,21 @@
     "url": "https://www.interno.betocarrero.com.br/duvidas-frequentes",
     "checkedAt": "2026-09-30",
     "crowdNote": "Não há previsão de lotação verificada. A fila virtual gratuita tem vagas limitadas; o aplicativo BCW+ também permite agendar modalidades pagas de acesso rápido. Isso não garante parque vazio nem acesso a todas as atrações.",
-    "logisticsNote": "Escolha a data no calendário de ingressos. Cada brinquedo tem restrições próprias de altura e segurança; não presuma acesso apenas pela idade. Há fraldário e é permitida a entrada com carrinho de bebê; a locação é cobrada à parte. Consulte manutenção e horários de shows: a FAQ consultada sinaliza O Sonho do Cowboy em manutenção. Estacionamento, alimentação e alguns extras não estão incluídos."
+    "logisticsNote": "Escolha a data no calendário de ingressos. Cada brinquedo tem restrições próprias de altura e segurança; não presuma acesso apenas pela idade. Há fraldário e é permitida a entrada com carrinho de bebê; a locação é cobrada à parte. Consulte manutenção e horários de shows: a FAQ consultada sinaliza O Sonho do Cowboy em manutenção. Estacionamento, alimentação e alguns extras não estão incluídos.",
+    "updatedAt": "2026-09-30T07:50:04-03:00",
+    "activities": [
+      {
+        "id": "beto-carrero-world--visit",
+        "title": "Visita ao local",
+        "description": "Parque temático em Santa Catarina com brinquedos, áreas temáticas e apresentações. É uma viagem mais longa a partir de Curitiba, não um passeio de bairro; vale planejar a possibilidade de pernoite.",
+        "updatedAt": "2026-09-30T07:50:04-03:00",
+        "checkedAt": "2026-09-30",
+        "url": "https://www.interno.betocarrero.com.br/duvidas-frequentes",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "araucaria-acqua-park",
@@ -242,7 +466,21 @@
     "url": "https://araucariapark.com.br/perguntas-frequentes/",
     "checkedAt": "2026-09-30",
     "crowdNote": "O parque recebe excursões e eventos; não há estimativa de movimento verificada para a data da visita. Ingresso antecipado não garante pouca lotação.",
-    "logisticsNote": "Não abre todos os dias: consulte o calendário oficial da temporada 2026–2027 e a bilheteria para a data escolhida. A FAQ informa gratuidade até 4 anos e meia para 5–11 anos. Estacionamento, guarda-volumes, churrasqueiras e atrações do parque seco são cobrados à parte. Alimentos externos são restritos; exceções para alimentação de bebê não foram confirmadas. Verifique as regras de cada brinquedo antes de escolher pelas fotos."
+    "logisticsNote": "Não abre todos os dias: consulte o calendário oficial da temporada 2026–2027 e a bilheteria para a data escolhida. A FAQ informa gratuidade até 4 anos e meia para 5–11 anos. Estacionamento, guarda-volumes, churrasqueiras e atrações do parque seco são cobrados à parte. Alimentos externos são restritos; exceções para alimentação de bebê não foram confirmadas. Verifique as regras de cada brinquedo antes de escolher pelas fotos.",
+    "updatedAt": "2026-09-30T07:50:04-03:00",
+    "activities": [
+      {
+        "id": "araucaria-acqua-park--visit",
+        "title": "Visita ao local",
+        "description": "Parque aquático na região metropolitana, com piscinas e brinquedos aquáticos, restaurante e churrasqueiras para locação. Opção dependente da temporada e do clima: não possui piscina térmica nem coberta.",
+        "updatedAt": "2026-09-30T07:50:04-03:00",
+        "checkedAt": "2026-09-30",
+        "url": "https://araucariapark.com.br/perguntas-frequentes/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "panoramico-parque-clube",
@@ -256,7 +494,21 @@
     "url": "https://www.panoramico.com.br/",
     "checkedAt": "2026-09-30",
     "crowdNote": "Não há previsão de lotação verificada. O complexo também possui churrasqueiras e espaços para eventos; consulte a programação da data, sem presumir tranquilidade por ser pago.",
-    "logisticsNote": "A compra de ingresso é por data; confirme os dias efetivamente disponíveis no calendário. O site informa armários e churrasqueiras opcionais com reserva e taxa adicional. Confira tarifas infantis, restrições de altura e estrutura para bebê antes da compra: esses detalhes não foram confirmados nesta checagem."
+    "logisticsNote": "A compra de ingresso é por data; confirme os dias efetivamente disponíveis no calendário. O site informa armários e churrasqueiras opcionais com reserva e taxa adicional. Confira tarifas infantis, restrições de altura e estrutura para bebê antes da compra: esses detalhes não foram confirmados nesta checagem.",
+    "updatedAt": "2026-09-30T07:50:04-03:00",
+    "activities": [
+      {
+        "id": "panoramico-parque-clube--visit",
+        "title": "Visita ao local",
+        "description": "Parque aquático em Pinhais com oito piscinas, seis toboáguas, parquinho infantil e quadras. O ingresso diário permite conhecer o espaço sem contratar o plano de sócio.",
+        "updatedAt": "2026-09-30T07:50:04-03:00",
+        "checkedAt": "2026-09-30",
+        "url": "https://www.panoramico.com.br/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   },
   {
     "id": "parque-aquatico-cascaneia",
@@ -270,6 +522,20 @@
     "url": "https://www.cascaneia.com.br/perguntas",
     "checkedAt": "2026-09-30",
     "crowdNote": "Não há previsão de lotação verificada. A área infantil não significa ausência de movimento nem dispensa supervisão constante junto à água.",
-    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem."
+    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem.",
+    "updatedAt": "2026-09-30T07:50:04-03:00",
+    "activities": [
+      {
+        "id": "parque-aquatico-cascaneia--visit",
+        "title": "Visita ao local",
+        "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região.",
+        "updatedAt": "2026-09-30T07:50:04-03:00",
+        "checkedAt": "2026-09-30",
+        "url": "https://www.cascaneia.com.br/perguntas",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
   }
 ]
