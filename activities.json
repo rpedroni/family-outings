@@ -215,5 +215,61 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "Atendimento somente com agendamento pelo site do museu. Não há dados de tamanho dos grupos ou lotação.",
     "logisticsNote": "Rua Desembargador Motta, 2347. Terça a sexta, 9h–12h e 14h–17h. Fechado segunda, sábado e domingo. Faixa etária e preço não confirmados; o site do operador não respondeu na checagem."
+  },
+  {
+    "id": "beto-carrero-world",
+    "name": "Beto Carrero World — parque temático",
+    "category": "park",
+    "city": "Penha/SC",
+    "area": "nearby",
+    "setting": "outdoor",
+    "cost": "paid",
+    "description": "Parque temático em Santa Catarina com brinquedos, áreas temáticas e apresentações. É uma viagem mais longa a partir de Curitiba, não um passeio de bairro; vale planejar a possibilidade de pernoite.",
+    "url": "https://www.interno.betocarrero.com.br/duvidas-frequentes",
+    "checkedAt": "2026-09-30",
+    "crowdNote": "Não há previsão de lotação verificada. A fila virtual gratuita tem vagas limitadas; o aplicativo BCW+ também permite agendar modalidades pagas de acesso rápido. Isso não garante parque vazio nem acesso a todas as atrações.",
+    "logisticsNote": "Escolha a data no calendário de ingressos. Cada brinquedo tem restrições próprias de altura e segurança; não presuma acesso apenas pela idade. Há fraldário e é permitida a entrada com carrinho de bebê; a locação é cobrada à parte. Consulte manutenção e horários de shows: a FAQ consultada sinaliza O Sonho do Cowboy em manutenção. Estacionamento, alimentação e alguns extras não estão incluídos."
+  },
+  {
+    "id": "araucaria-acqua-park",
+    "name": "Araucária Acqua Park — parque aquático",
+    "category": "park",
+    "city": "Araucária/PR",
+    "area": "nearby",
+    "setting": "outdoor",
+    "cost": "paid",
+    "description": "Parque aquático na região metropolitana, com piscinas e brinquedos aquáticos, restaurante e churrasqueiras para locação. Opção dependente da temporada e do clima: não possui piscina térmica nem coberta.",
+    "url": "https://araucariapark.com.br/perguntas-frequentes/",
+    "checkedAt": "2026-09-30",
+    "crowdNote": "O parque recebe excursões e eventos; não há estimativa de movimento verificada para a data da visita. Ingresso antecipado não garante pouca lotação.",
+    "logisticsNote": "Não abre todos os dias: consulte o calendário oficial da temporada 2026–2027 e a bilheteria para a data escolhida. A FAQ informa gratuidade até 4 anos e meia para 5–11 anos. Estacionamento, guarda-volumes, churrasqueiras e atrações do parque seco são cobrados à parte. Alimentos externos são restritos; exceções para alimentação de bebê não foram confirmadas. Verifique as regras de cada brinquedo antes de escolher pelas fotos."
+  },
+  {
+    "id": "panoramico-parque-clube",
+    "name": "Panorâmico Parque Clube — parque aquático",
+    "category": "park",
+    "city": "Pinhais/PR",
+    "area": "nearby",
+    "setting": "outdoor",
+    "cost": "paid",
+    "description": "Parque aquático em Pinhais com oito piscinas, seis toboáguas, parquinho infantil e quadras. O ingresso diário permite conhecer o espaço sem contratar o plano de sócio.",
+    "url": "https://www.panoramico.com.br/",
+    "checkedAt": "2026-09-30",
+    "crowdNote": "Não há previsão de lotação verificada. O complexo também possui churrasqueiras e espaços para eventos; consulte a programação da data, sem presumir tranquilidade por ser pago.",
+    "logisticsNote": "A compra de ingresso é por data; confirme os dias efetivamente disponíveis no calendário. O site informa armários e churrasqueiras opcionais com reserva e taxa adicional. Confira tarifas infantis, restrições de altura e estrutura para bebê antes da compra: esses detalhes não foram confirmados nesta checagem."
+  },
+  {
+    "id": "parque-aquatico-cascaneia",
+    "name": "Parque Aquático Cascanéia",
+    "category": "park",
+    "city": "Gaspar/SC",
+    "area": "nearby",
+    "setting": "outdoor",
+    "cost": "paid",
+    "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região.",
+    "url": "https://www.cascaneia.com.br/perguntas",
+    "checkedAt": "2026-09-30",
+    "crowdNote": "Não há previsão de lotação verificada. A área infantil não significa ausência de movimento nem dispensa supervisão constante junto à água.",
+    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem."
   }
 ]
