@@ -537,5 +537,89 @@
         "endsAt": null
       }
     ]
+  },
+  {
+    "id": "bosque-do-papa-memorial-polones",
+    "name": "Bosque do Papa — Memorial Polonês",
+    "category": "park",
+    "city": "Curitiba",
+    "area": "curitiba",
+    "setting": "mixed",
+    "cost": "free",
+    "description": "Memorial Polonês no Bosque do Papa, em Curitiba/PR, com apresentações culturais na programação municipal.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/festival-da-primavera-leva-musica-e-teatro-a-tres-locais-de-curitiba-neste-sabado/",
+    "checkedAt": "2026-10-01",
+    "crowdNote": "Não há previsão de lotação verificada. A gratuidade não garante pouco movimento; apresentações podem concentrar público.",
+    "logisticsNote": "Rua Euclides Bandeira, s/n, Centro Cívico. As apresentações de 03/10/2026 são gratuitas. A notícia não informa necessidade de reserva, duração ou classificação etária; fraldário e condições de circulação com carrinho não foram verificados.",
+    "updatedAt": "2026-10-01T17:51:26-03:00",
+    "activities": [
+      {
+        "id": "bosque-do-papa-memorial-polones--festival-primavera-piano-2026-10-03",
+        "title": "Piano no Memorial Polonês — Festival da Primavera 2026",
+        "description": "Sábado, 3 de outubro de 2026: apresentação de piano com Jessé Souza às 12h e Diego Willian às 12h30, no Memorial Polonês do Bosque do Papa. Atrações gratuitas do Festival da Primavera. A fonte não informa duração, restrições etárias ou estrutura para bebês.",
+        "updatedAt": "2026-10-01T17:51:26-03:00",
+        "checkedAt": "2026-10-01",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/festival-da-primavera-leva-musica-e-teatro-a-tres-locais-de-curitiba-neste-sabado/",
+        "kind": "event",
+        "startsAt": "2026-10-03",
+        "endsAt": "2026-10-03"
+      }
+    ]
+  },
+  {
+    "id": "parque-tangua",
+    "name": "Parque Tanguá",
+    "category": "park",
+    "city": "Curitiba",
+    "area": "curitiba",
+    "setting": "outdoor",
+    "cost": "free",
+    "description": "Parque de Curitiba/PR que integra o circuito de apresentações ao ar livre do Festival da Primavera.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/festival-da-primavera-leva-musica-e-teatro-a-tres-locais-de-curitiba-neste-sabado/",
+    "checkedAt": "2026-10-01",
+    "crowdNote": "Não há previsão de lotação verificada. A gratuidade não garante pouco movimento; apresentações podem concentrar público.",
+    "logisticsNote": "Rua Oswaldo Maciel, 97, Taboão. A apresentação de 03/10/2026 é gratuita e ao ar livre. A notícia não informa duração, política para chuva, reserva ou classificação etária. Estrutura para bebês e acessibilidade do ponto de apresentação não verificadas.",
+    "updatedAt": "2026-10-01T17:51:26-03:00",
+    "activities": [
+      {
+        "id": "parque-tangua--festival-primavera-bananeira-2026-10-03",
+        "title": "Bananeira Brass Band — Festival da Primavera 2026",
+        "description": "Sábado, 3 de outubro de 2026, às 17h: show gratuito da Bananeira Brass Band no Parque Tanguá, com instrumentos de sopro e percussão e versões instrumentais de ritmos brasileiros. Apresentação ao ar livre; não há previsão de lotação nem confirmação de condições em caso de chuva.",
+        "updatedAt": "2026-10-01T17:51:26-03:00",
+        "checkedAt": "2026-10-01",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/festival-da-primavera-leva-musica-e-teatro-a-tres-locais-de-curitiba-neste-sabado/",
+        "kind": "event",
+        "startsAt": "2026-10-03",
+        "endsAt": "2026-10-03"
+      }
+    ]
+  },
+  {
+    "id": "auditorio-mario-de-mari-fiep",
+    "name": "Auditório Mário de Mari — Fiep",
+    "category": "show",
+    "city": "Curitiba",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Auditório em Curitiba/PR que recebe o espetáculo cênico-musical infantil da Camerata Antiqua, combinando literatura, teatro e música. O cadastro contempla a apresentação anunciada, não visitação livre ao edifício.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/camerata-antiqua-convida-criancas-e-familias-para-uma-viagem-pelos-livros-e-pela-musica/",
+    "checkedAt": "2026-10-01",
+    "crowdNote": "Não há previsão de lotação verificada. A gratuidade não garante pouco movimento; apresentações podem concentrar público.",
+    "logisticsNote": "Avenida Comendador Franco, 1.341, Jardim Botânico. Concertos públicos em 10/10/2026, às 15h e 18h, gratuitos mediante reserva no Guia Curitiba; a inscrição permite pedir ingressos para crianças e acompanhantes. Disponibilidade não confirmada: a página de reservas bloqueou o acesso na checagem. Sessões de 7 a 9/10 são reservadas às escolas. Doação de brinquedo é opcional. Faixa mínima, duração, regras para bebê e guarda de carrinho não informadas.",
+    "updatedAt": "2026-10-01T17:51:26-03:00",
+    "activities": [
+      {
+        "id": "auditorio-mario-de-mari-fiep--viajando-com-as-historias-2026-10-10",
+        "title": "Viajando com as Histórias — Camerata Antiqua 2026",
+        "description": "Em 10 de outubro de 2026, às 15h e às 18h, a Camerata Antiqua apresenta Viajando com as Histórias — Uma conversa da Música com os Livros, no Auditório Mário de Mari/Fiep. Espetáculo para crianças e famílias, com literatura, teatro e música. Entrada gratuita mediante reserva pelo Guia Curitiba, incluindo acompanhantes; disponibilidade de ingressos não verificada. As apresentações de 7 a 9/10 são exclusivas para escolas, não sessões abertas.",
+        "updatedAt": "2026-10-01T17:51:26-03:00",
+        "checkedAt": "2026-10-01",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/camerata-antiqua-convida-criancas-e-familias-para-uma-viagem-pelos-livros-e-pela-musica/",
+        "kind": "event",
+        "startsAt": "2026-10-10",
+        "endsAt": "2026-10-10"
+      }
+    ]
   }
 ]
