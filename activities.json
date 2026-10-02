@@ -520,17 +520,17 @@
     "cost": "paid",
     "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região.",
     "url": "https://www.cascaneia.com.br/perguntas",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-02",
     "crowdNote": "Não há previsão de lotação verificada. A área infantil não significa ausência de movimento nem dispensa supervisão constante junto à água.",
-    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem.",
-    "updatedAt": "2026-09-30T07:50:04-03:00",
+    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. A página de programação anuncia reabertura em 10/10 sem informar o ano; não considerar a temporada de 2026 confirmada apenas por esse aviso.",
+    "updatedAt": "2026-10-02T17:50:36-03:00",
     "activities": [
       {
         "id": "parque-aquatico-cascaneia--visit",
         "title": "Visita ao local",
-        "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região.",
-        "updatedAt": "2026-09-30T07:50:04-03:00",
-        "checkedAt": "2026-09-30",
+        "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. A página de programação anuncia reabertura em 10/10 sem informar o ano; não considerar a temporada de 2026 confirmada apenas por esse aviso.",
+        "updatedAt": "2026-10-02T17:50:36-03:00",
+        "checkedAt": "2026-10-02",
         "url": "https://www.cascaneia.com.br/perguntas",
         "kind": "visit",
         "startsAt": null,
@@ -619,6 +619,62 @@
         "kind": "event",
         "startsAt": "2026-10-10",
         "endsAt": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "passeio-publico",
+    "name": "Passeio Público",
+    "category": "park",
+    "city": "Curitiba",
+    "area": "curitiba",
+    "setting": "outdoor",
+    "cost": "free",
+    "description": "Parque em Curitiba/PR que recebe apresentações ao ar livre da Mostra Claudete Pereira Jorge. Este cadastro destaca a programação cultural anunciada.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/mostra-claudete-pereira-jorge-tera-30-apresentacoes-e-oficinas/",
+    "checkedAt": "2026-10-02",
+    "crowdNote": "Não há previsão de lotação verificada. Apresentações gratuitas podem concentrar público; gratuidade não garante tranquilidade.",
+    "logisticsNote": "Histórias da Rainha Efigênia em 10 e 11/10/2026, às 11h, com entrada gratuita. Em caso de chuva, o espetáculo será transferido para a Casa Hoffmann, Rua Dr. Claudino dos Santos, 58, São Francisco. A notícia não informa o ponto de encontro dentro do parque, duração, classificação etária ou necessidade de retirada de ingresso. Fraldário e acesso ao ponto de apresentação com carrinho não verificados.",
+    "updatedAt": "2026-10-02T17:50:36-03:00",
+    "activities": [
+      {
+        "id": "passeio-publico--historias-rainha-efigenia-2026-10",
+        "title": "Histórias da Rainha Efigênia — Mostra Claudete 2026",
+        "description": "Espetáculo gratuito no Passeio Público, em Curitiba/PR, nos dias 10 e 11 de outubro de 2026, às 11h. Em caso de chuva, a apresentação muda para a Casa Hoffmann, no Largo da Ordem. A notícia oficial não informa duração nem classificação etária; a adequação para bebês não foi confirmada.",
+        "updatedAt": "2026-10-02T17:50:36-03:00",
+        "checkedAt": "2026-10-02",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/mostra-claudete-pereira-jorge-tera-30-apresentacoes-e-oficinas/",
+        "kind": "event",
+        "startsAt": "2026-10-10",
+        "endsAt": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "id": "teatro-novelas-curitibanas",
+    "name": "Teatro Novelas Curitibanas — Claudete Pereira Jorge",
+    "category": "show",
+    "city": "Curitiba",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Teatro municipal em Curitiba/PR com espetáculo infantil na quinta Mostra Claudete Pereira Jorge. O cadastro se refere às sessões anunciadas, não à visitação livre do edifício.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/mostra-claudete-pereira-jorge-tera-30-apresentacoes-e-oficinas/",
+    "checkedAt": "2026-10-02",
+    "crowdNote": "Não há previsão de lotação verificada. Apresentações gratuitas podem concentrar público; gratuidade não garante tranquilidade.",
+    "logisticsNote": "Rua Presidente Carlos Cavalcanti, 1222, São Francisco. Brio Breu em 17 e 18/10/2026, às 15h, gratuito; sessão de 17/10 com Libras. A fonte não informa retirada de ingressos, capacidade, duração, idade mínima ou condições para bebês e carrinhos. As oficinas da mostra exigem inscrição prévia e não devem ser confundidas com estas apresentações.",
+    "updatedAt": "2026-10-02T17:50:36-03:00",
+    "activities": [
+      {
+        "id": "teatro-novelas-curitibanas--brio-breu-mostra-claudete-2026-10",
+        "title": "Brio Breu — Mostra Claudete 2026",
+        "description": "Espetáculo infantil gratuito em 17 e 18 de outubro de 2026, às 15h, no Teatro Novelas Curitibanas, em Curitiba/PR. A sessão de sábado, 17/10, tem Libras. A notícia oficial não informa idade mínima, duração nem disponibilidade de lugares; participação de bebês precisa de confirmação.",
+        "updatedAt": "2026-10-02T17:50:36-03:00",
+        "checkedAt": "2026-10-02",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/mostra-claudete-pereira-jorge-tera-30-apresentacoes-e-oficinas/",
+        "kind": "event",
+        "startsAt": "2026-10-17",
+        "endsAt": "2026-10-18"
       }
     ]
   }
