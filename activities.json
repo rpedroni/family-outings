@@ -458,17 +458,17 @@
     "cost": "paid",
     "description": "Parque temático em Santa Catarina com brinquedos, áreas temáticas e apresentações. É uma viagem mais longa a partir de Curitiba, não um passeio de bairro; vale planejar a possibilidade de pernoite.",
     "url": "https://www.interno.betocarrero.com.br/duvidas-frequentes",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-04",
     "crowdNote": "Não há previsão de lotação verificada. A fila virtual gratuita tem vagas limitadas; o aplicativo BCW+ também permite agendar modalidades pagas de acesso rápido. Isso não garante parque vazio nem acesso a todas as atrações.",
-    "logisticsNote": "Escolha a data no calendário de ingressos. Cada brinquedo tem restrições próprias de altura e segurança; não presuma acesso apenas pela idade. Há fraldário e é permitida a entrada com carrinho de bebê; a locação é cobrada à parte. Consulte manutenção e horários de shows: a FAQ consultada sinaliza O Sonho do Cowboy em manutenção. Estacionamento, alimentação e alguns extras não estão incluídos. Regras oficiais para planejar com crianças: Dum Dum exige pelo menos 0,80 m; de 0,80 m a 1,30 m, somente com adulto responsável, e não aceita criança no colo. No Carrossel Veneziano não há altura mínima; abaixo de 1,10 m é obrigatório acompanhante adulto. No Cine Betinho, menores de 1,10 m usam somente cadeiras fixas; crianças no colo não podem usar as móveis. A gratuidade de entrada em vigor desde janeiro de 2026 é até 1 ano e 11 meses, mediante documento; opcionais têm regras próprias.",
-    "updatedAt": "2026-09-30T17:50:59-03:00",
+    "logisticsNote": "Escolha a data no calendário de ingressos. Cada brinquedo tem restrições próprias de altura e segurança; não presuma acesso apenas pela idade. Há fraldário e é permitida a entrada com carrinho de bebê; a locação é cobrada à parte. Consulte manutenção e horários de shows: a FAQ consultada sinaliza O Sonho do Cowboy em manutenção. Estacionamento, alimentação e alguns extras não estão incluídos. Regras oficiais para planejar com crianças: Dum Dum exige pelo menos 0,80 m; de 0,80 m a 1,30 m, somente com adulto responsável, e não aceita criança no colo. No Carrossel Veneziano não há altura mínima; abaixo de 1,10 m é obrigatório acompanhante adulto. No Cine Betinho, menores de 1,10 m usam somente cadeiras fixas; crianças no colo não podem usar as móveis. A gratuidade de entrada em vigor desde janeiro de 2026 é até 1 ano e 11 meses, mediante documento; opcionais têm regras próprias. Planejamento de filas: a fila virtual gratuita no aplicativo BCW+ permite agendar até três brinquedos, com abertura cinco dias antes da visita e vagas limitadas. Na Roda-Gigante, menores de 12 anos precisam de adulto responsável e crianças no colo não são permitidas. Nas Xícaras Malucas, menores de 1,00 m precisam de adulto responsável e também não são permitidas crianças no colo. Essas regras não garantem acesso a outras atrações nem menor lotação.",
+    "updatedAt": "2026-10-04T17:51:10-03:00",
     "activities": [
       {
         "id": "beto-carrero-world--visit",
         "title": "Visita ao local",
-        "description": "Parque temático em Santa Catarina com brinquedos, áreas temáticas e apresentações. É uma viagem mais longa a partir de Curitiba, não um passeio de bairro; vale planejar a possibilidade de pernoite. Regras oficiais para planejar com crianças: Dum Dum exige pelo menos 0,80 m; de 0,80 m a 1,30 m, somente com adulto responsável, e não aceita criança no colo. No Carrossel Veneziano não há altura mínima; abaixo de 1,10 m é obrigatório acompanhante adulto. No Cine Betinho, menores de 1,10 m usam somente cadeiras fixas; crianças no colo não podem usar as móveis. A gratuidade de entrada em vigor desde janeiro de 2026 é até 1 ano e 11 meses, mediante documento; opcionais têm regras próprias.",
-        "updatedAt": "2026-09-30T17:50:59-03:00",
-        "checkedAt": "2026-09-30",
+        "description": "Parque temático em Santa Catarina com brinquedos, áreas temáticas e apresentações. É uma viagem mais longa a partir de Curitiba, não um passeio de bairro; vale planejar a possibilidade de pernoite. Regras oficiais para planejar com crianças: Dum Dum exige pelo menos 0,80 m; de 0,80 m a 1,30 m, somente com adulto responsável, e não aceita criança no colo. No Carrossel Veneziano não há altura mínima; abaixo de 1,10 m é obrigatório acompanhante adulto. No Cine Betinho, menores de 1,10 m usam somente cadeiras fixas; crianças no colo não podem usar as móveis. A gratuidade de entrada em vigor desde janeiro de 2026 é até 1 ano e 11 meses, mediante documento; opcionais têm regras próprias. Planejamento de filas: a fila virtual gratuita no aplicativo BCW+ permite agendar até três brinquedos, com abertura cinco dias antes da visita e vagas limitadas. Na Roda-Gigante, menores de 12 anos precisam de adulto responsável e crianças no colo não são permitidas. Nas Xícaras Malucas, menores de 1,00 m precisam de adulto responsável e também não são permitidas crianças no colo. Essas regras não garantem acesso a outras atrações nem menor lotação.",
+        "updatedAt": "2026-10-04T17:51:10-03:00",
+        "checkedAt": "2026-10-04",
         "url": "https://www.interno.betocarrero.com.br/duvidas-frequentes",
         "kind": "visit",
         "startsAt": null,
@@ -697,6 +697,34 @@
         "kind": "event",
         "startsAt": "2026-10-17",
         "endsAt": "2026-10-18"
+      }
+    ]
+  },
+  {
+    "id": "chacara-paraiso-do-sol",
+    "name": "Chácara Paraíso do Sol — parque de lazer",
+    "category": "park",
+    "city": "Campo Largo/PR",
+    "area": "nearby",
+    "setting": "outdoor",
+    "cost": "paid",
+    "description": "Parque de lazer em Campo Largo/PR, com praia artificial, lago com infláveis, espaço kids, gramados e quadras para um dia ao ar livre. O operador informou fechamento excepcional em 3 e 4/10/2026 por condições climáticas desfavoráveis; confirme a abertura na data escolhida antes de sair.",
+    "url": "https://www.instagram.com/chacara.paraisodosol/",
+    "checkedAt": "2026-10-04",
+    "crowdNote": "Não há previsão de lotação verificada. Compra antecipada e entrada paga não garantem tranquilidade; confira disponibilidade e programação antes de escolher o dia.",
+    "logisticsNote": "O perfil oficial informa uso diário aos sábados e domingos; publicação fixada detalha acesso das 9h às 18h, banheiros, vestiários e estacionamento. Endereço: Estrada do Galarda, 818–1702, Campo Largo/PR. Wakeboard, paintball, restaurante e bebidas são cobrados à parte. Preço regular, disponibilidade de ingressos e calendário sazonal não foram confirmados; o site de vendas não permitiu consulta. Limites de idade/altura dos infláveis e atividades aquáticas, regras para bebês, fraldário e acesso com carrinho não foram informados nas fontes lidas. Não presuma que espaço kids autorize todas as atrações para crianças pequenas. Há lago e áreas aquáticas: supervisão contínua é indispensável. O aviso de fechamento de 3 e 4/10/2026 prevalece sobre o horário habitual nessas datas.",
+    "updatedAt": "2026-10-04T17:51:10-03:00",
+    "activities": [
+      {
+        "id": "chacara-paraiso-do-sol--visit",
+        "title": "Visita ao local",
+        "description": "Parque de lazer em Campo Largo/PR, com praia artificial, lago com infláveis, espaço kids, gramados e quadras para um dia ao ar livre. O operador informou fechamento excepcional em 3 e 4/10/2026 por condições climáticas desfavoráveis; confirme a abertura na data escolhida antes de sair. O perfil oficial informa uso diário aos sábados e domingos; publicação fixada detalha acesso das 9h às 18h, banheiros, vestiários e estacionamento. Endereço: Estrada do Galarda, 818–1702, Campo Largo/PR. Wakeboard, paintball, restaurante e bebidas são cobrados à parte. Preço regular, disponibilidade de ingressos e calendário sazonal não foram confirmados; o site de vendas não permitiu consulta. Limites de idade/altura dos infláveis e atividades aquáticas, regras para bebês, fraldário e acesso com carrinho não foram informados nas fontes lidas. Não presuma que espaço kids autorize todas as atrações para crianças pequenas. Há lago e áreas aquáticas: supervisão contínua é indispensável. O aviso de fechamento de 3 e 4/10/2026 prevalece sobre o horário habitual nessas datas.",
+        "updatedAt": "2026-10-04T17:51:10-03:00",
+        "checkedAt": "2026-10-04",
+        "url": "https://www.instagram.com/chacara.paraisodosol/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
       }
     ]
   }
