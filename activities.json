@@ -124,7 +124,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O guia oficial de turismo o descreve como o parque mais visitado da cidade. Não conte com um passeio tranquilo por padrão; o movimento atual e a lotação em eventos especiais são desconhecidos.",
     "logisticsNote": "A fonte informa acesso diário, estacionamento e restaurante. Não informa valores de entrada nem a existência de fraldário. Mantenha uma distância respeitosa dos animais silvestres.",
-    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "updatedAt": "2026-10-05T17:53:13-03:00",
     "activities": [
       {
         "id": "parque-barigui--visit",
@@ -136,6 +136,17 @@
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
+      },
+      {
+        "id": "parque-barigui--bita-e-os-animais-2026-10-12",
+        "title": "Bita e os Animais — Festival Primavera 2026",
+        "description": "Show gratuito Bita e os Animais no Parque Barigui, em Curitiba/PR, em 12 de outubro de 2026, às 16h. A apresentação foi anunciada pela Fundação Cultural de Curitiba na programação do Mês das Crianças. Em caso de chuva ou condições climáticas adversas, a programação pode sofrer alterações ou cancelamentos. O anúncio não informa duração, ponto exato do palco, retirada de ingressos, capacidade, regras para bebês ou estrutura para carrinhos. Não há previsão de lotação verificada: não tratar um show gratuito de feriado como opção garantidamente tranquila.",
+        "updatedAt": "2026-10-05T17:53:13-03:00",
+        "checkedAt": "2026-10-05",
+        "url": "https://www.instagram.com/fcccuritiba/p/DeHeqD_HKF-/",
+        "kind": "event",
+        "startsAt": "2026-10-12",
+        "endsAt": "2026-10-12"
       }
     ]
   },
@@ -722,6 +733,62 @@
         "updatedAt": "2026-10-04T17:51:10-03:00",
         "checkedAt": "2026-10-04",
         "url": "https://www.instagram.com/chacara.paraisodosol/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
+  },
+  {
+    "id": "museu-saneamento-planeta-agua",
+    "name": "Museu do Saneamento — Planeta Água",
+    "category": "museum",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Exposição de longa duração sobre a água, seus usos e funções, instalada na antiga Estação de Tratamento de Água Tarumã. O passeio também apresenta a história do saneamento no Paraná e objetos do acervo da Sanepar.",
+    "url": "https://e-ambiental.sanepar.com.br/pt-br/visitar/museu-saneamento-planeta-agua",
+    "checkedAt": "2026-10-05",
+    "crowdNote": "A Sanepar informa distribuição presencial de 50 senhas por horário em caso de lotação. A justificativa cita filas nas férias de janeiro de 2024, não uma medição atual. Não há previsão de movimento para o próximo sábado; entrada gratuita não garante tranquilidade.",
+    "logisticsNote": "Entrada gratuita; terça a sábado, das 9h às 17h, com última entrada às 16h. Famílias e visitantes individuais podem entrar sem agendamento, sujeitos ao controle de acesso. Av. Victor Ferreira do Amaral, 1760, Tarumã: entrada somente de pedestres; não há estacionamento para visitantes, salvo casos previstos em lei. A página não detalha fraldário, circulação com carrinho ou faixa etária recomendada. Visitas mediadas de grupos seguem regras próprias; o limite de 40 pessoas para mediação não representa a lotação total do museu.",
+    "updatedAt": "2026-10-05T17:53:13-03:00",
+    "activities": [
+      {
+        "id": "museu-saneamento-planeta-agua--visit",
+        "title": "Visita ao local",
+        "description": "Exposição de longa duração sobre a água, seus usos e funções, instalada na antiga Estação de Tratamento de Água Tarumã. O passeio também apresenta a história do saneamento no Paraná e objetos do acervo da Sanepar. Entrada gratuita; terça a sábado, das 9h às 17h, com última entrada às 16h. Famílias e visitantes individuais podem entrar sem agendamento, sujeitos ao controle de acesso. Av. Victor Ferreira do Amaral, 1760, Tarumã: entrada somente de pedestres; não há estacionamento para visitantes, salvo casos previstos em lei. A página não detalha fraldário, circulação com carrinho ou faixa etária recomendada. Visitas mediadas de grupos seguem regras próprias; o limite de 40 pessoas para mediação não representa a lotação total do museu.",
+        "updatedAt": "2026-10-05T17:53:13-03:00",
+        "checkedAt": "2026-10-05",
+        "url": "https://e-ambiental.sanepar.com.br/pt-br/visitar/museu-saneamento-planeta-agua",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
+  },
+  {
+    "id": "mananciais-serra-trilhas-casa-memoria",
+    "name": "Mananciais da Serra — trilhas e Casa da Memória",
+    "category": "park",
+    "city": "Piraquara/PR",
+    "area": "nearby",
+    "setting": "mixed",
+    "cost": "unknown",
+    "description": "Passeio de natureza no Parque Estadual Pico do Marumbi, em Piraquara/PR, com trilhas e uma Casa da Memória dedicada à história do saneamento. É uma alternativa na região metropolitana que exige planejar caminhada; não equivale a um parquinho urbano.",
+    "url": "https://e-ambiental.sanepar.com.br/pt-br/visitar/parque-estadual-pico-do-marumbi-base-mananciais-da-serra",
+    "checkedAt": "2026-10-05",
+    "crowdNote": "Não há previsão de lotação verificada. Grupos com menos de 10 pessoas, sem mediação educativa, dispensam agendamento; grupos com mais de 10 precisam agendar. A fonte não esclarece o caso de exatamente 10 pessoas. Essas regras não garantem pouco movimento.",
+    "logisticsNote": "Sexta a domingo, das 9h às 12h e das 14h às 16h. Atenção: Reservatório do Carvalho e Mirante da Barragem de Piraquara estão fechados à visitação por tempo indeterminado, segundo a Sanepar. A página informa caminhadas de pelo menos uma hora, ida e volta; a Trilha do Salto tem 1 km, sem esclarecer se essa distância inclui retorno. Levar água, calça comprida, calçado antiderrapante, repelente e protetor solar. Preço, fraldário, acesso com carrinho e idade mínima não foram informados; avalie a disposição das crianças e o transporte do bebê antes de escolher as trilhas. Não interpretar a lista de percursos como autorização para entrar nas áreas interditadas.",
+    "updatedAt": "2026-10-05T17:53:13-03:00",
+    "activities": [
+      {
+        "id": "mananciais-serra-trilhas-casa-memoria--visit",
+        "title": "Visita ao local",
+        "description": "Passeio de natureza no Parque Estadual Pico do Marumbi, em Piraquara/PR, com trilhas e uma Casa da Memória dedicada à história do saneamento. É uma alternativa na região metropolitana que exige planejar caminhada; não equivale a um parquinho urbano. Sexta a domingo, das 9h às 12h e das 14h às 16h. Atenção: Reservatório do Carvalho e Mirante da Barragem de Piraquara estão fechados à visitação por tempo indeterminado, segundo a Sanepar. A página informa caminhadas de pelo menos uma hora, ida e volta; a Trilha do Salto tem 1 km, sem esclarecer se essa distância inclui retorno. Levar água, calça comprida, calçado antiderrapante, repelente e protetor solar. Preço, fraldário, acesso com carrinho e idade mínima não foram informados; avalie a disposição das crianças e o transporte do bebê antes de escolher as trilhas. Não interpretar a lista de percursos como autorização para entrar nas áreas interditadas.",
+        "updatedAt": "2026-10-05T17:53:13-03:00",
+        "checkedAt": "2026-10-05",
+        "url": "https://e-ambiental.sanepar.com.br/pt-br/visitar/parque-estadual-pico-do-marumbi-base-mananciais-da-serra",
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
