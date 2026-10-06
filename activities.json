@@ -794,5 +794,83 @@
         "endsAt": null
       }
     ]
+  },
+  {
+    "id": "teatro-do-pia",
+    "name": "Teatro do Piá",
+    "category": "show",
+    "city": "Curitiba",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Teatro em Curitiba/PR com programação de bonecos para famílias. O cadastro reúne sessões públicas anunciadas para outubro de 2026, não visitação livre ao edifício.",
+    "url": "https://www.instagram.com/fcccuritiba/p/DeKl5ezEtg8/",
+    "checkedAt": "2026-10-06",
+    "crowdNote": "Não há previsão de lotação verificada. Gratuidade e classificação livre não garantem tranquilidade nem lugares disponíveis.",
+    "logisticsNote": "Sessões cadastradas às 11h, em 11, 18 e 25/10/2026. A FCC informa distribuição de ingressos 30 minutos antes de cada sessão, sujeita à lotação. Classificação livre não confirma estrutura para lactentes. Endereço completo, duração dos espetáculos e condições para carrinhos não foram informados na fonte consultada.",
+    "updatedAt": "2026-10-06T17:50:08-03:00",
+    "activities": [
+      {
+        "id": "teatro-do-pia--um-pao-para-cada-vizinho-2026-10-11",
+        "title": "Um pão para cada vizinho — 11 de outubro de 2026",
+        "description": "Teatro de bonecos no Teatro do Piá, em Curitiba/PR, em 11/10/2026, às 11h. Entrada gratuita e classificação livre, conforme anúncio da Fundação Cultural de Curitiba. Ingressos distribuídos 30 minutos antes de cada sessão, sujeitos à lotação; disponibilidade não verificada. A fonte não informa duração, idade recomendada além da classificação livre, regras para bebês, fraldário ou guarda de carrinhos.",
+        "updatedAt": "2026-10-06T17:50:08-03:00",
+        "checkedAt": "2026-10-06",
+        "url": "https://www.instagram.com/fcccuritiba/p/DeKl5ezEtg8/",
+        "kind": "event",
+        "startsAt": "2026-10-11",
+        "endsAt": "2026-10-11"
+      },
+      {
+        "id": "teatro-do-pia--a-menina-do-mundo-da-lua-2026-10-18",
+        "title": "A menina do mundo da lua — 18 de outubro de 2026",
+        "description": "Sessão única de teatro de bonecos no Teatro do Piá, em Curitiba/PR, em 18/10/2026, às 11h. Entrada gratuita e classificação livre. Ingressos distribuídos 30 minutos antes, sujeitos à lotação; disponibilidade não verificada. Duração, regras para bebês, fraldário e condições para carrinhos não informados no anúncio oficial.",
+        "updatedAt": "2026-10-06T17:50:08-03:00",
+        "checkedAt": "2026-10-06",
+        "url": "https://www.instagram.com/fcccuritiba/p/DeKl5ezEtg8/",
+        "kind": "event",
+        "startsAt": "2026-10-18",
+        "endsAt": "2026-10-18"
+      },
+      {
+        "id": "teatro-do-pia--um-pao-para-cada-vizinho-2026-10-25",
+        "title": "Um pão para cada vizinho — 25 de outubro de 2026",
+        "description": "Teatro de bonecos no Teatro do Piá, em Curitiba/PR, em 25/10/2026, às 11h. Entrada gratuita e classificação livre, conforme anúncio da Fundação Cultural de Curitiba. Ingressos distribuídos 30 minutos antes de cada sessão, sujeitos à lotação; disponibilidade não verificada. A fonte não informa duração, idade recomendada além da classificação livre, regras para bebês, fraldário ou guarda de carrinhos.",
+        "updatedAt": "2026-10-06T17:50:08-03:00",
+        "checkedAt": "2026-10-06",
+        "url": "https://www.instagram.com/fcccuritiba/p/DeKl5ezEtg8/",
+        "kind": "event",
+        "startsAt": "2026-10-25",
+        "endsAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "id": "teatro-memorial-curitiba",
+    "name": "Teatro do Memorial de Curitiba",
+    "category": "show",
+    "city": "Curitiba",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Espaço teatral em Curitiba/PR com apresentação gratuita na programação cultural de outubro de 2026. O cadastro corresponde à sessão anunciada, não à visitação geral do Memorial.",
+    "url": "https://www.instagram.com/fcccuritiba/p/DeKl5ezEtg8/",
+    "checkedAt": "2026-10-06",
+    "crowdNote": "Não há previsão de lotação verificada. Gratuidade e classificação livre não garantem tranquilidade nem lugares disponíveis.",
+    "logisticsNote": "Onde moram as cores em 11/10/2026, às 15h, gratuito e com classificação livre. A fonte não informa necessidade de retirada de ingressos, capacidade, duração, endereço completo nem estrutura para bebês e carrinhos. Não aplicar a este teatro as regras de bilheteria divulgadas para o Teatro do Piá.",
+    "updatedAt": "2026-10-06T17:50:08-03:00",
+    "activities": [
+      {
+        "id": "teatro-memorial-curitiba--onde-moram-as-cores-2026-10-11",
+        "title": "Onde moram as cores — 11 de outubro de 2026",
+        "description": "Peça curta no Teatro do Memorial de Curitiba, em Curitiba/PR, em 11/10/2026, às 15h. Apresentação gratuita, com classificação livre, anunciada pela Fundação Cultural de Curitiba. A publicação não detalha enredo, duração, retirada de ingressos, disponibilidade de lugares ou condições para bebês e carrinhos. Não há previsão de movimento verificada.",
+        "updatedAt": "2026-10-06T17:50:08-03:00",
+        "checkedAt": "2026-10-06",
+        "url": "https://www.instagram.com/fcccuritiba/p/DeKl5ezEtg8/",
+        "kind": "event",
+        "startsAt": "2026-10-11",
+        "endsAt": "2026-10-11"
+      }
+    ]
   }
 ]
