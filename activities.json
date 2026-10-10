@@ -553,17 +553,17 @@
     "cost": "paid",
     "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região.",
     "url": "https://www.cascaneia.com.br/perguntas",
-    "checkedAt": "2026-10-02",
+    "checkedAt": "2026-10-10",
     "crowdNote": "Não há previsão de lotação verificada. A área infantil não significa ausência de movimento nem dispensa supervisão constante junto à água.",
-    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. A página de programação anuncia reabertura em 10/10 sem informar o ano; não considerar a temporada de 2026 confirmada apenas por esse aviso.",
-    "updatedAt": "2026-10-02T17:50:36-03:00",
+    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. Temporada: o operador anunciou reabertura para 10/10/2026 em publicação oficial de 9/10/2026: https://www.instagram.com/cascaneia/p/DeRYOKXjCHk/. A data do anúncio esclarece o ano que faltava na página de programação. Isso não confirma abertura em todos os dias seguintes nem ingressos disponíveis; confira a data desejada na loja oficial. O encerramento da temporada não foi informado nas fontes consultadas.",
+    "updatedAt": "2026-10-10T17:50:43-03:00",
     "activities": [
       {
         "id": "parque-aquatico-cascaneia--visit",
         "title": "Visita ao local",
-        "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. A página de programação anuncia reabertura em 10/10 sem informar o ano; não considerar a temporada de 2026 confirmada apenas por esse aviso.",
-        "updatedAt": "2026-10-02T17:50:36-03:00",
-        "checkedAt": "2026-10-02",
+        "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. Temporada: o operador anunciou reabertura para 10/10/2026 em publicação oficial de 9/10/2026: https://www.instagram.com/cascaneia/p/DeRYOKXjCHk/. A data do anúncio esclarece o ano que faltava na página de programação. Isso não confirma abertura em todos os dias seguintes nem ingressos disponíveis; confira a data desejada na loja oficial. O encerramento da temporada não foi informado nas fontes consultadas.",
+        "updatedAt": "2026-10-10T17:50:43-03:00",
+        "checkedAt": "2026-10-10",
         "url": "https://www.cascaneia.com.br/perguntas",
         "kind": "visit",
         "startsAt": null,
@@ -1031,6 +1031,34 @@
         "kind": "event",
         "startsAt": "2026-10-17",
         "endsAt": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "museu-ciencias-naturais-ufpr",
+    "name": "Museu de Ciências Naturais da UFPR",
+    "category": "museum",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Museu universitário no Jardim das Américas, em Curitiba/PR, com fósseis, réplicas de dinossauros, esqueletos, exemplares preservados, terrários, aquários e recursos interativos sobre a história da vida. A exposição de longa duração é apresentada pelo museu como voltada a todas as idades. Opção para dias úteis, não para fins de semana ou feriados.",
+    "url": "https://mcn.ufpr.br/",
+    "checkedAt": "2026-10-10",
+    "updatedAt": "2026-10-10T17:50:43-03:00",
+    "crowdNote": "Não há previsão de lotação verificada para a visita comum. O museu recebe grupos escolares. A redução de público do MCN Calmo é uma condição específica desse programa, não uma promessa de tranquilidade nos demais horários.",
+    "logisticsNote": "Setor de Ciências Biológicas da UFPR, piso térreo, Av. Coronel Francisco Heráclito dos Santos, 100, Centro Politécnico. Entrada gratuita. O site próprio do museu informa segunda a sexta, das 9h às 12h e das 13h30 às 17h30, exceto feriados. A notícia da UFPR de 24/6/2026 cita 9h–18h; para planejamento, considerar o horário mais restrito do site operacional e confirmar antes da saída. Visitas individuais sem agendamento em dias de funcionamento normal, segundo a UFPR; grupos e visitas guiadas têm agendamento próprio. Nas manhãs reservadas ao MCN Calmo, não há visita espontânea: próximas datas informadas, 9/11 e 7/12/2026. Esse programa é destinado a pessoas idosas ou com deficiência e exige agendamento com pelo menos uma semana de antecedência, não sendo um horário tranquilo de livre acesso. O museu informa piso plano sem desníveis, rampa entre estacionamento e prédio, telas e balcões acessíveis e banheiros acessíveis no prédio. Entrada com carrinho, fraldário e regras específicas para bebês não foram confirmados. Fontes complementares: https://mcn.ufpr.br/acessibilidade/ ; https://mcn.ufpr.br/mcn-calmo/ ; https://ufpr.br/museu-de-ciencias-naturais-da-ufpr-convida-a-comunidade-para-programa-de-apoio-institucional/ .",
+    "activities": [
+      {
+        "id": "museu-ciencias-naturais-ufpr--visit",
+        "title": "Visita ao local",
+        "description": "Museu universitário no Jardim das Américas, em Curitiba/PR, com fósseis, réplicas de dinossauros, esqueletos, exemplares preservados, terrários, aquários e recursos interativos sobre a história da vida. A exposição de longa duração é apresentada pelo museu como voltada a todas as idades. Opção para dias úteis, não para fins de semana ou feriados. Entrada gratuita; horário operacional divulgado: segunda a sexta, 9h–12h e 13h30–17h30, exceto feriados. Visitas individuais dispensam agendamento nos dias normais; não confundir com visitas guiadas para grupos ou com o MCN Calmo, de público específico. Não há acesso espontâneo nas manhãs de 9/11 e 7/12/2026, reservadas ao MCN Calmo. Bebês: fraldário e entrada com carrinho não confirmados. Exemplares preservados e esqueletos podem exigir mediação do adulto conforme a sensibilidade da criança.",
+        "updatedAt": "2026-10-10T17:50:43-03:00",
+        "checkedAt": "2026-10-10",
+        "url": "https://mcn.ufpr.br/permanente/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
       }
     ]
   }
