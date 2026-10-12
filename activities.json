@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê.",
-    "updatedAt": "2026-10-03T17:49:43-03:00",
+    "updatedAt": "2026-10-12T17:50:53-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -80,6 +80,28 @@
         "checkedAt": "2026-10-03",
         "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-09-30-26",
         "kind": "event"
+      },
+      {
+        "id": "museu-oscar-niemeyer--mediacao-asia-2026-10-14",
+        "title": "Mediação na coleção asiática — 14 de outubro de 2026",
+        "description": "Visita mediada à exposição “Ásia: a Terra, os Homens, os Deuses – 130 anos das relações Brasil/Japão”, na Sala 5 do MON, em Curitiba/PR, em 14/10/2026, às 15h, com Libras. A proposta é conhecer obras e histórias da coleção asiática. Público livre; entrada no museu e atividade gratuitas nesta quarta-feira. A notícia não informa duração, necessidade de inscrição ou vagas disponíveis. Classificação livre não comprova adequação a bebês nem estrutura específica para eles. Não há previsão de lotação verificada; gratuidade não garante tranquilidade. Endereço: Rua Marechal Hermes, 999.",
+        "updatedAt": "2026-10-12T17:50:53-03:00",
+        "checkedAt": "2026-10-12",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/quartas-gratuitas-out26",
+        "kind": "event",
+        "startsAt": "2026-10-14",
+        "endsAt": "2026-10-14"
+      },
+      {
+        "id": "museu-oscar-niemeyer--criando-animais-argila-2026-10-21",
+        "title": "Criando animais de argila — 21 de outubro de 2026",
+        "description": "Oficina de modelagem manual no MON, em Curitiba/PR, em 21/10/2026, às 15h, com Libras. Inspirada na história do pássaro calau, da exposição “África, Expressões Artísticas de um Continente”, convida a criar animais em argila. Para adultos e crianças a partir de 5 anos; a faixa divulgada não inclui menores de 5 anos. Local: Espaço de Oficinas, no subsolo, Rua Marechal Hermes, 999. Entrada no museu e atividade gratuitas nesta quarta-feira. Duração, necessidade de inscrição, vagas e permanência de bebês acompanhantes não informadas na notícia. Não há previsão de lotação verificada.",
+        "updatedAt": "2026-10-12T17:50:53-03:00",
+        "checkedAt": "2026-10-12",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/quartas-gratuitas-out26",
+        "kind": "event",
+        "startsAt": "2026-10-21",
+        "endsAt": "2026-10-21"
       }
     ]
   },
@@ -525,18 +547,18 @@
     "cost": "paid",
     "description": "Parque aquático em Pinhais com oito piscinas, seis toboáguas, parquinho infantil e quadras. O ingresso diário permite conhecer o espaço sem contratar o plano de sócio.",
     "url": "https://www.panoramico.com.br/",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-12",
     "crowdNote": "Não há previsão de lotação verificada. O complexo também possui churrasqueiras e espaços para eventos; consulte a programação da data, sem presumir tranquilidade por ser pago.",
-    "logisticsNote": "A compra de ingresso é por data; confirme os dias efetivamente disponíveis no calendário. O site informa armários e churrasqueiras opcionais com reserva e taxa adicional. Confira tarifas infantis, restrições de altura e estrutura para bebê antes da compra: esses detalhes não foram confirmados nesta checagem.",
-    "updatedAt": "2026-09-30T07:50:04-03:00",
+    "logisticsNote": "Informações oficiais conferidas em 12/10/2026: crianças até 2 anos não pagam; outras tarifas dependem da data e da categoria, sem valor familiar confirmado. Armários incluídos exigem cadeado próprio; estacionamento é pago à parte. Alimentos e bebidas são permitidos apenas na área campestre, não na área aquática; exceções para alimentação de bebê não foram esclarecidas. O site anuncia funcionamento das 9h às 17h30 e liberação das piscinas a partir das 10h, mas o calendário apresenta dias indisponíveis: confirme a data específica, sem presumir abertura diária ou temporada aquática contínua. Free Fall, Kamikaze e Space Boll têm restrições de tamanho e peso, sem medidas publicadas na página; limites dos brinquedos infantis e estrutura para bebês não foram confirmados. Churrasqueiras têm custo adicional e exigem grelha própria; há informações conflitantes sobre reserva: a página inicial pede reserva, enquanto a página de ingressos descreve as comuns por ordem de chegada. Confirme a regra antes de contar com uma. Fonte: https://www.panoramico.com.br/passaportes.",
+    "updatedAt": "2026-10-12T17:50:53-03:00",
     "activities": [
       {
         "id": "panoramico-parque-clube--visit",
         "title": "Visita ao local",
-        "description": "Parque aquático em Pinhais com oito piscinas, seis toboáguas, parquinho infantil e quadras. O ingresso diário permite conhecer o espaço sem contratar o plano de sócio.",
-        "updatedAt": "2026-09-30T07:50:04-03:00",
-        "checkedAt": "2026-09-30",
-        "url": "https://www.panoramico.com.br/",
+        "description": "Parque aquático em Pinhais com oito piscinas, seis toboáguas, parquinho infantil e quadras. O ingresso diário permite conhecer o espaço sem contratar o plano de sócio. Informações oficiais conferidas em 12/10/2026: crianças até 2 anos não pagam; outras tarifas dependem da data e da categoria, sem valor familiar confirmado. Armários incluídos exigem cadeado próprio; estacionamento é pago à parte. Alimentos e bebidas são permitidos apenas na área campestre, não na área aquática; exceções para alimentação de bebê não foram esclarecidas. O site anuncia funcionamento das 9h às 17h30 e liberação das piscinas a partir das 10h, mas o calendário apresenta dias indisponíveis: confirme a data específica, sem presumir abertura diária ou temporada aquática contínua. Free Fall, Kamikaze e Space Boll têm restrições de tamanho e peso, sem medidas publicadas na página; limites dos brinquedos infantis e estrutura para bebês não foram confirmados. Churrasqueiras têm custo adicional e exigem grelha própria; há informações conflitantes sobre reserva: a página inicial pede reserva, enquanto a página de ingressos descreve as comuns por ordem de chegada. Confirme a regra antes de contar com uma. Fonte: https://www.panoramico.com.br/passaportes.",
+        "updatedAt": "2026-10-12T17:50:53-03:00",
+        "checkedAt": "2026-10-12",
+        "url": "https://www.panoramico.com.br/passaportes",
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
@@ -1028,7 +1050,7 @@
     "description": "Espaço cultural em Curitiba/PR com espetáculo musical e aula de musicalização na Semana da Criança 2026. As atividades acontecem em ambientes diferentes da unidade, indicados em cada sessão; o cadastro não representa visitação livre permanente.",
     "url": "https://www.sescpr.com.br/projeto/semana-crianca-esquina/",
     "checkedAt": "2026-10-09",
-    "updatedAt": "2026-10-09T17:49:46-03:00",
+    "updatedAt": "2026-10-12T17:50:53-03:00",
     "crowdNote": "Não há previsão de lotação verificada. Gratuidade ou ingresso solidário não garantem tranquilidade nem vagas; a disponibilidade de ingressos e de lugares não foi consultada.",
     "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas.",
     "activities": [
@@ -1053,6 +1075,17 @@
         "kind": "event",
         "startsAt": "2026-10-17",
         "endsAt": "2026-10-17"
+      },
+      {
+        "id": "sesc-da-esquina--fritas-para-viagem-2026-10-13",
+        "title": "Teatro lambe-lambe: Fritas para viagem — 13 de outubro de 2026",
+        "description": "Teatro de bonecos de vara no hall de entrada do Sesc da Esquina, em Curitiba/PR, em 13/10/2026, com programação das 12h às 13h30 e acesso gratuito. Uma batata e seu gato assistem à televisão quando coisas estranhas começam a acontecer; história tragicômica inspirada em Tim Burton e Alfred Hitchcock. Vale considerar a sensibilidade de crianças pequenas a situações de suspense. A faixa horária divulgada não informa a duração de cada apresentação individual. Idade mínima, necessidade de inscrição, disponibilidade de lugares, fraldário e condições para bebês acompanhantes não foram confirmados. Rua Visconde do Rio Branco, 969. Não há previsão de lotação verificada.",
+        "updatedAt": "2026-10-12T17:50:53-03:00",
+        "checkedAt": "2026-10-12",
+        "url": "https://www.sescpr.com.br/atividade/teatro-lambe-lambe-fritas-para-viagem-13-10-2026-1200/",
+        "kind": "event",
+        "startsAt": "2026-10-13",
+        "endsAt": "2026-10-13"
       }
     ]
   },
