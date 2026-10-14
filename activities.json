@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê.",
-    "updatedAt": "2026-10-12T17:50:53-03:00",
+    "updatedAt": "2026-10-14T17:51:42-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -102,6 +102,17 @@
         "kind": "event",
         "startsAt": "2026-10-21",
         "endsAt": "2026-10-21"
+      },
+      {
+        "id": "museu-oscar-niemeyer--visita-guiada-arquitetura-2026-10-16",
+        "title": "Visita guiada: arquitetura e acervo — 16 de outubro de 2026",
+        "description": "Visita guiada no MON, em Curitiba/PR, em 16/10/2026, às 15h, com duração aproximada de 1h30. O percurso começa na área externa, explora a arquitetura e termina em uma exposição permanente. Encontro na bilheteria, no Vão Livre, Rua Marechal Hermes, 999. A página oficial informa público geral e dispensa conhecimento prévio em arte. Para participar, é necessário escolher a modalidade de ingresso da sua categoria acrescida de visita guiada; não presumir que a isenção da entrada comum inclua a atividade. Valores e disponibilidade de ingressos não foram confirmados na bilheteria. Não é uma oficina infantil; considere a duração para crianças pequenas. Regras específicas para bebês e percurso com carrinho não esclarecidos. Não há previsão de lotação verificada.",
+        "updatedAt": "2026-10-14T17:51:42-03:00",
+        "checkedAt": "2026-10-14",
+        "url": "https://www.museuoscarniemeyer.org.br/educativo/atividades/visitas-guiadas-out26-3",
+        "kind": "event",
+        "startsAt": "2026-10-16",
+        "endsAt": "2026-10-16"
       }
     ]
   },
@@ -115,18 +126,18 @@
     "cost": "free",
     "description": "Outra opção de museu no bairro São Francisco. Vale deixar na lista para um passeio em local fechado e conferir as exposições em cartaz antes de decidir a visita.",
     "url": "https://www.museuparanaense.pr.gov.br/Pagina/Horarios-e-gratuidade",
-    "checkedAt": "2026-09-29",
+    "checkedAt": "2026-10-14",
     "crowdNote": "O movimento não foi verificado. A gratuidade é uma informação sobre o preço, não uma previsão de lotação.",
-    "logisticsNote": "A página oficial de visitação informa entrada gratuita, de terça a domingo, das 10h às 17h30; fechado às segundas-feiras. Rua Kellers, 289. A disponibilidade de fraldário e as condições de acesso com carrinho de bebê não foram verificadas.",
-    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "logisticsNote": "A página oficial de visitação informa entrada gratuita, de terça a domingo, das 10h às 17h30; fechado às segundas-feiras. Rua Kellers, 289. A disponibilidade de fraldário e as condições de acesso com carrinho de bebê não foram verificadas. As orientações oficiais de visitação exigem acompanhante maior de idade para menores de 12 anos. Comer e beber é permitido no jardim e na tenda, mas não dentro do museu; exceções para alimentação de bebê não são especificadas. Mochilas e bolsas grandes devem ficar no guarda-volumes. A página de acessibilidade confirma banheiros adaptados, rampas e elevadores para todas as áreas expositivas e dependências internas; isso não confirma fraldário nem todas as condições de circulação com carrinho.",
+    "updatedAt": "2026-10-14T17:51:42-03:00",
     "activities": [
       {
         "id": "museu-paranaense--visit",
         "title": "Visita ao local",
-        "description": "Outra opção de museu no bairro São Francisco. Vale deixar na lista para um passeio em local fechado e conferir as exposições em cartaz antes de decidir a visita.",
-        "updatedAt": "2026-09-29T10:02:23-03:00",
-        "checkedAt": "2026-09-29",
-        "url": "https://www.museuparanaense.pr.gov.br/Pagina/Horarios-e-gratuidade",
+        "description": "Outra opção de museu no bairro São Francisco. Vale deixar na lista para um passeio em local fechado e conferir as exposições em cartaz antes de decidir a visita. As orientações oficiais de visitação exigem acompanhante maior de idade para menores de 12 anos. Comer e beber é permitido no jardim e na tenda, mas não dentro do museu; exceções para alimentação de bebê não são especificadas. Mochilas e bolsas grandes devem ficar no guarda-volumes. A página de acessibilidade confirma banheiros adaptados, rampas e elevadores para todas as áreas expositivas e dependências internas; isso não confirma fraldário nem todas as condições de circulação com carrinho.",
+        "updatedAt": "2026-10-14T17:51:42-03:00",
+        "checkedAt": "2026-10-14",
+        "url": "https://www.museuparanaense.pr.gov.br/Pagina/Informacoes-para-visitacao",
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
@@ -1045,12 +1056,12 @@
     "category": "show",
     "city": "Curitiba/PR",
     "area": "curitiba",
-    "setting": "indoor",
+    "setting": "mixed",
     "cost": "unknown",
     "description": "Espaço cultural em Curitiba/PR com música, contação de histórias, circo e teatro na Semana da Criança 2026. As atividades acontecem em ambientes diferentes da unidade, indicados em cada sessão; o cadastro não representa visitação livre permanente.",
     "url": "https://www.sescpr.com.br/projeto/semana-crianca-esquina/",
     "checkedAt": "2026-10-13",
-    "updatedAt": "2026-10-13T17:50:18-03:00",
+    "updatedAt": "2026-10-14T17:51:42-03:00",
     "crowdNote": "Não há previsão de lotação verificada. Gratuidade ou ingresso solidário não garantem tranquilidade nem vagas; a disponibilidade de ingressos e de lugares não foi consultada.",
     "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas.",
     "activities": [
@@ -1119,6 +1130,17 @@
         "kind": "event",
         "startsAt": "2026-10-17",
         "endsAt": "2026-10-17"
+      },
+      {
+        "id": "sesc-da-esquina--cinetijolo-princesa-xuxa-trapalhoes-2026-10-16",
+        "title": "CineTijolo: A princesa Xuxa e os Trapalhões — 16 de outubro de 2026",
+        "description": "Sessão gratuita em 16/10/2026, às 19h30, no Sesc da Esquina, em Curitiba/PR, Rua Visconde do Rio Branco, 969. O filme brasileiro de 1989, em português, dura 112 minutos. A descrição anuncia projeção na parede de tijolos em frente à unidade, enquanto o serviço indica Hall de Entrada; confirme o ponto de acomodação. A aventura envolve um vilão que captura crianças e as obriga a trabalhar: vale avaliar a sensibilidade dos pequenos, além do horário noturno e da duração. A página não esclarece retirada de ingresso, capacidade, regras para chuva, estrutura para bebês ou carrinhos. Disponibilidade de lugares e lotação não verificadas.",
+        "updatedAt": "2026-10-14T17:51:42-03:00",
+        "checkedAt": "2026-10-14",
+        "url": "https://www.sescpr.com.br/atividade/cinetijolo-a-princesa-xuxa-e-os-trapalhoes-16-10-2026-1930/",
+        "kind": "event",
+        "startsAt": "2026-10-16",
+        "endsAt": "2026-10-16"
       }
     ]
   },
