@@ -1061,7 +1061,7 @@
     "description": "Espaço cultural em Curitiba/PR com música, contação de histórias, circo e teatro na Semana da Criança 2026. As atividades acontecem em ambientes diferentes da unidade, indicados em cada sessão; o cadastro não representa visitação livre permanente.",
     "url": "https://www.sescpr.com.br/projeto/semana-crianca-esquina/",
     "checkedAt": "2026-10-13",
-    "updatedAt": "2026-10-15T17:49:30-03:00",
+    "updatedAt": "2026-10-16T17:51:13-03:00",
     "crowdNote": "Não há previsão de lotação verificada. Gratuidade ou ingresso solidário não garantem tranquilidade nem vagas; a disponibilidade de ingressos e de lugares não foi consultada.",
     "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas.",
     "activities": [
@@ -1134,13 +1134,13 @@
       {
         "id": "sesc-da-esquina--cinetijolo-princesa-xuxa-trapalhoes-2026-10-16",
         "title": "CineTijolo: A princesa Xuxa e os Trapalhões — 16 de outubro de 2026",
-        "description": "Sessão gratuita em 16/10/2026, às 19h30, no Sesc da Esquina, em Curitiba/PR, Rua Visconde do Rio Branco, 969. O filme brasileiro de 1989, em português, dura 112 minutos. A descrição anuncia projeção na parede de tijolos em frente à unidade, enquanto o serviço indica Hall de Entrada; confirme o ponto de acomodação. A aventura envolve um vilão que captura crianças e as obriga a trabalhar: vale avaliar a sensibilidade dos pequenos, além do horário noturno e da duração. A página não esclarece retirada de ingresso, capacidade, regras para chuva, estrutura para bebês ou carrinhos. Disponibilidade de lugares e lotação não verificadas.",
-        "updatedAt": "2026-10-14T17:51:42-03:00",
-        "checkedAt": "2026-10-14",
+        "description": "ATENÇÃO — data alterada na fonte oficial: consultada em 16/10/2026, a página agora informa 27/10/2026 às 19h30, tanto no cabeçalho quanto no serviço; a programação da unidade também mostra 27/10. Não considerar confirmada a sessão de 16/10 indicada no título histórico deste registro. A mesma página ainda menciona uma mostra encerrada em 22/10, uma inconsistência editorial; confirme a realização antes de sair. Sessão gratuita anunciada para 27/10/2026, às 19h30, no Sesc da Esquina, em Curitiba/PR, Rua Visconde do Rio Branco, 969. O filme brasileiro de 1989, em português, dura 112 minutos. A descrição anuncia projeção na parede de tijolos em frente à unidade, enquanto o serviço indica Hall de Entrada; confirme o ponto de acomodação. A aventura envolve um vilão que captura crianças e as obriga a trabalhar: vale avaliar a sensibilidade dos pequenos, além do horário noturno e da duração. A página não esclarece retirada de ingresso, capacidade, regras para chuva, estrutura para bebês ou carrinhos. Disponibilidade de lugares e lotação não verificadas.",
+        "updatedAt": "2026-10-16T17:51:13-03:00",
+        "checkedAt": "2026-10-16",
         "url": "https://www.sescpr.com.br/atividade/cinetijolo-a-princesa-xuxa-e-os-trapalhoes-16-10-2026-1930/",
         "kind": "event",
-        "startsAt": "2026-10-16",
-        "endsAt": "2026-10-16"
+        "startsAt": "2026-10-27",
+        "endsAt": "2026-10-27"
       },
       {
         "id": "sesc-da-esquina--oficina-infantil-folclore-2026-10-17",
