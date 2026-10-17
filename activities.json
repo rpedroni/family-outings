@@ -9,17 +9,17 @@
     "cost": "paid",
     "description": "Um dia no campo para alimentar os animais, recolher ovos, passear de trator e explorar o bosque entre as atividades programadas.",
     "url": "https://viladosanimais.com.br/familias",
-    "checkedAt": "2026-09-29",
+    "checkedAt": "2026-10-17",
     "crowdNote": "Não há previsão de movimento verificada. O local oferece reservas, mas a entrada paga não garante um dia tranquilo; pergunte sobre o tamanho dos grupos esperados.",
-    "logisticsNote": "O local informa funcionamento nos fins de semana e feriados, das 10h às 17h; consulte o calendário de abertura. Entrada informada: R$ 59; crianças de 3 a 5 anos, R$ 29,50; menores de 3 anos não pagam. O local informa acesso para carrinhos de bebê e fraldário. As atividades têm horários fixos.",
-    "updatedAt": "2026-09-29T10:02:23-03:00",
+    "logisticsNote": "O local informa funcionamento nos fins de semana e feriados, das 10h às 17h; consulte o calendário de abertura. Entrada informada: R$ 59; crianças de 3 a 5 anos, R$ 29,50; menores de 3 anos não pagam. O local informa acesso para carrinhos de bebê e fraldário. As atividades têm horários fixos. Programação oficial detalhada: passeio de trator às 13h30, colheita de ovos às 14h45 e ordenha às 16h; coelhos com monitor das 10h30 às 12h e das 13h30 às 14h. Pônei e cavalo têm volta conduzida por monitor, das 10h às 12h e das 13h às 16h30, mas os limites de idade/altura e a participação de bebês nessas atrações não são informados. O operador recomenda o passeio especialmente para 2–12 anos. O ingresso é pago na bilheteria, sem venda online; o agendamento é oferecido pelo site. Em dias de chuva o parque pode não abrir: confirme a agenda antes de sair. A página de agenda foi acessada, mas não foi possível confirmar abertura e vagas para uma data específica. Estacionamento gratuito; buffet opcional a R$ 94,90/kg e vestiário com chuveiro. Endereço: Rua Cantidio da Silva, 700, Campina Grande do Sul/PR.",
+    "updatedAt": "2026-10-17T17:54:24-03:00",
     "activities": [
       {
         "id": "vila-dos-animais--visit",
         "title": "Visita ao local",
-        "description": "Um dia no campo para alimentar os animais, recolher ovos, passear de trator e explorar o bosque entre as atividades programadas.",
-        "updatedAt": "2026-09-29T10:02:23-03:00",
-        "checkedAt": "2026-09-29",
+        "description": "Um dia no campo para alimentar os animais, recolher ovos, passear de trator e explorar o bosque entre as atividades programadas. Programação oficial detalhada: passeio de trator às 13h30, colheita de ovos às 14h45 e ordenha às 16h; coelhos com monitor das 10h30 às 12h e das 13h30 às 14h. Pônei e cavalo têm volta conduzida por monitor, das 10h às 12h e das 13h às 16h30, mas os limites de idade/altura e a participação de bebês nessas atrações não são informados. O operador recomenda o passeio especialmente para 2–12 anos. O ingresso é pago na bilheteria, sem venda online; o agendamento é oferecido pelo site. Em dias de chuva o parque pode não abrir: confirme a agenda antes de sair. A página de agenda foi acessada, mas não foi possível confirmar abertura e vagas para uma data específica. Estacionamento gratuito; buffet opcional a R$ 94,90/kg e vestiário com chuveiro. Endereço: Rua Cantidio da Silva, 700, Campina Grande do Sul/PR.",
+        "updatedAt": "2026-10-17T17:54:24-03:00",
+        "checkedAt": "2026-10-17",
         "url": "https://viladosanimais.com.br/familias",
         "kind": "visit",
         "startsAt": null,
@@ -586,17 +586,17 @@
     "cost": "paid",
     "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região.",
     "url": "https://www.cascaneia.com.br/perguntas",
-    "checkedAt": "2026-10-10",
+    "checkedAt": "2026-10-17",
     "crowdNote": "Não há previsão de lotação verificada. A área infantil não significa ausência de movimento nem dispensa supervisão constante junto à água.",
-    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. Temporada: o operador anunciou reabertura para 10/10/2026 em publicação oficial de 9/10/2026: https://www.instagram.com/cascaneia/p/DeRYOKXjCHk/. A data do anúncio esclarece o ano que faltava na página de programação. Isso não confirma abertura em todos os dias seguintes nem ingressos disponíveis; confira a data desejada na loja oficial. O encerramento da temporada não foi informado nas fontes consultadas.",
-    "updatedAt": "2026-10-10T17:50:43-03:00",
+    "logisticsNote": "Confira o calendário da temporada e a data na loja oficial antes de viajar. Nos dias de abertura, a FAQ informa parque e piscinas das 9h às 18h e toboáguas das 10h às 17h30. Mamadeiras, papinhas infantis, pequenas quantidades de frutas e água são permitidas; outros alimentos têm restrições. Há estacionamento gratuito. Raios ou ventos fortes podem interromper atrações. Limites específicos de altura e idade devem ser conferidos por brinquedo; não foram consolidados nesta checagem. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. Temporada: o operador anunciou reabertura para 10/10/2026 em publicação oficial de 9/10/2026: https://www.instagram.com/cascaneia/p/DeRYOKXjCHk/. A data do anúncio esclarece o ano que faltava na página de programação. Isso não confirma abertura em todos os dias seguintes nem ingressos disponíveis; confira a data desejada na loja oficial. O encerramento da temporada não foi informado nas fontes consultadas. Planejamento de roupas e áreas infantis, conforme FAQ e página de atrações conferidas em 17/10/2026: camisetas de qualquer tecido, inclusive próprias para banho, não são permitidas nos toboáguas; nas piscinas, camiseta e short sobre o traje de banho são permitidos. O Jardim das Águas anuncia piscina de 40 cm e sombra; essa profundidade não comprova adequação a bebês nem dispensa supervisão contínua. O Acqua Kids tem baldão de 1.500 litros: considerar a intensidade da água ao escolher a área para crianças pequenas. Limites individuais de idade/altura continuam sem confirmação. Há divergência sobre espreguiçadeiras: a página de atrações anuncia gratuidade no Jardim das Águas, enquanto a FAQ as exclui do ingresso; confirme antes de contar com esse item. Fonte complementar: https://www.cascaneia.com.br/atracoes.",
+    "updatedAt": "2026-10-17T17:54:24-03:00",
     "activities": [
       {
         "id": "parque-aquatico-cascaneia--visit",
         "title": "Visita ao local",
-        "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. Temporada: o operador anunciou reabertura para 10/10/2026 em publicação oficial de 9/10/2026: https://www.instagram.com/cascaneia/p/DeRYOKXjCHk/. A data do anúncio esclarece o ano que faltava na página de programação. Isso não confirma abertura em todos os dias seguintes nem ingressos disponíveis; confira a data desejada na loja oficial. O encerramento da temporada não foi informado nas fontes consultadas.",
-        "updatedAt": "2026-10-10T17:50:43-03:00",
-        "checkedAt": "2026-10-10",
+        "description": "Parque aquático em Santa Catarina com áreas infantis, incluindo Acqua Kids, piscinas e toboáguas. É uma opção de viagem mais longa desde Curitiba, que pode combinar com pernoite na região. A FAQ oficial informa entrada gratuita até 3 anos, tarifa especial dos 4 aos 11 anos e ingresso integral a partir dos 12, com documento de idade obrigatório. Isso é regra de ingresso, não autorização para todos os brinquedos. Temporada: o operador anunciou reabertura para 10/10/2026 em publicação oficial de 9/10/2026: https://www.instagram.com/cascaneia/p/DeRYOKXjCHk/. A data do anúncio esclarece o ano que faltava na página de programação. Isso não confirma abertura em todos os dias seguintes nem ingressos disponíveis; confira a data desejada na loja oficial. O encerramento da temporada não foi informado nas fontes consultadas. Planejamento de roupas e áreas infantis, conforme FAQ e página de atrações conferidas em 17/10/2026: camisetas de qualquer tecido, inclusive próprias para banho, não são permitidas nos toboáguas; nas piscinas, camiseta e short sobre o traje de banho são permitidos. O Jardim das Águas anuncia piscina de 40 cm e sombra; essa profundidade não comprova adequação a bebês nem dispensa supervisão contínua. O Acqua Kids tem baldão de 1.500 litros: considerar a intensidade da água ao escolher a área para crianças pequenas. Limites individuais de idade/altura continuam sem confirmação. Há divergência sobre espreguiçadeiras: a página de atrações anuncia gratuidade no Jardim das Águas, enquanto a FAQ as exclui do ingresso; confirme antes de contar com esse item. Fonte complementar: https://www.cascaneia.com.br/atracoes.",
+        "updatedAt": "2026-10-17T17:54:24-03:00",
+        "checkedAt": "2026-10-17",
         "url": "https://www.cascaneia.com.br/perguntas",
         "kind": "visit",
         "startsAt": null,
@@ -1241,6 +1241,34 @@
         "kind": "event",
         "startsAt": "2026-10-31",
         "endsAt": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "id": "teatro-livraria-vila-patio-batel",
+    "name": "Teatro da Livraria da Vila — Pátio Batel",
+    "category": "show",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "paid",
+    "description": "Teatro no Pátio Batel com contação interativa de histórias e caça aos doces no Halloween Literário. Este cadastro contempla o evento anunciado, não visitação livre ou programação permanente.",
+    "url": "https://patiobatel.com.br/halloween/",
+    "checkedAt": "2026-10-17",
+    "crowdNote": "Não há previsão de lotação verificada. Sessões com ingresso por horário não garantem ambiente tranquilo; a sessão de sábado às 13h30 é destinada a crianças neurodivergentes, não uma opção geral de menor movimento.",
+    "logisticsNote": "Teatro da Livraria da Vila, piso L3 do Pátio Batel, Av. do Batel, 1868, Curitiba/PR. Halloween Literário de 21 a 25/10/2026. De quarta a sexta, sessões às 18h, 19h e 20h; sábado às 13h30 (sessão para crianças neurodivergentes), 14h30, 15h30, 16h30, 17h30, 18h30 e 19h30; domingo às 13h30, 14h30, 15h30, 16h30, 17h30 e 18h30. Escolha o horário na compra pelo link da página oficial; vagas não consultadas. Ingresso infantil básico R$ 45, com contação, livro, caldeirão e caça aos doces; opções com 30 minutos ou 1 hora na UniDanitê BrincaLab custam R$ 85 ou R$ 115. Adulto: R$ 90 inteira ou R$ 45 para clientes Singular e categorias de meia-entrada indicadas pelo organizador. Cada adulto pagante acompanha até quatro crianças. Até 23 meses, entrada gratuita no colo de adulto pagante, que recebe livro e caldeirão; o ingresso adulto comum não inclui esses itens nem recreação. Restrições etárias específicas da recreação adicional, ingredientes/alergênicos dos doces e acesso com carrinho ao teatro não foram esclarecidos.",
+    "updatedAt": "2026-10-17T17:54:24-03:00",
+    "activities": [
+      {
+        "id": "teatro-livraria-vila-patio-batel--halloween-literario-2026-10-21",
+        "title": "Halloween Literário — A Bruxa Zelda e os 80 Docinhos (2026)",
+        "description": "Contação interativa inspirada no livro de Eva Furnari, seguida de encontro com personagens e caça aos doces nas lojas do shopping. Teatro da Livraria da Vila, piso L3 do Pátio Batel, Av. do Batel, 1868, Curitiba/PR. Halloween Literário de 21 a 25/10/2026. De quarta a sexta, sessões às 18h, 19h e 20h; sábado às 13h30 (sessão para crianças neurodivergentes), 14h30, 15h30, 16h30, 17h30, 18h30 e 19h30; domingo às 13h30, 14h30, 15h30, 16h30, 17h30 e 18h30. Escolha o horário na compra pelo link da página oficial; vagas não consultadas. Ingresso infantil básico R$ 45, com contação, livro, caldeirão e caça aos doces; opções com 30 minutos ou 1 hora na UniDanitê BrincaLab custam R$ 85 ou R$ 115. Adulto: R$ 90 inteira ou R$ 45 para clientes Singular e categorias de meia-entrada indicadas pelo organizador. Cada adulto pagante acompanha até quatro crianças. Até 23 meses, entrada gratuita no colo de adulto pagante, que recebe livro e caldeirão; o ingresso adulto comum não inclui esses itens nem recreação. Restrições etárias específicas da recreação adicional, ingredientes/alergênicos dos doces e acesso com carrinho ao teatro não foram esclarecidos. A reportagem do Curitiba Cult de 17/10/2026 confirma a edição de 2026 e informa contação de 30 minutos; o percurso posterior tem duração não confirmada. Fonte complementar: https://curitibacult.com.br/shopping-apresenta-halloween-literario-com-contacao-de-historias-inspirada-em-classico-de-eva-furnari/.",
+        "updatedAt": "2026-10-17T17:54:24-03:00",
+        "checkedAt": "2026-10-17",
+        "url": "https://patiobatel.com.br/halloween/",
+        "kind": "event",
+        "startsAt": "2026-10-21",
+        "endsAt": "2026-10-25"
       }
     ]
   }
