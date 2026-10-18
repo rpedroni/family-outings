@@ -45,15 +45,15 @@
     "url": "https://www.museuoscarniemeyer.org.br/visite",
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
-    "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê.",
-    "updatedAt": "2026-10-14T17:51:42-03:00",
+    "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento.",
+    "updatedAt": "2026-10-18T17:51:30-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
         "title": "Visita ao local",
-        "description": "Galerias de arte e arquitetura para uma visita no seu ritmo. Escolha uma pequena parte do acervo, em vez de tentar ver tudo.",
-        "updatedAt": "2026-09-29T10:10:07-03:00",
-        "checkedAt": "2026-09-29",
+        "description": "Galerias de arte e arquitetura para uma visita no seu ritmo. Escolha uma pequena parte do acervo, em vez de tentar ver tudo. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento.",
+        "updatedAt": "2026-10-18T17:51:30-03:00",
+        "checkedAt": "2026-10-18",
         "url": "https://www.museuoscarniemeyer.org.br/visite",
         "kind": "visit",
         "startsAt": null,
@@ -1058,12 +1058,12 @@
     "area": "curitiba",
     "setting": "mixed",
     "cost": "unknown",
-    "description": "Espaço cultural em Curitiba/PR com música, contação de histórias, circo e teatro na Semana da Criança 2026. As atividades acontecem em ambientes diferentes da unidade, indicados em cada sessão; o cadastro não representa visitação livre permanente.",
+    "description": "Espaço cultural em Curitiba/PR com música, contação de histórias, circo e teatro. Além do histórico da Semana da Criança 2026, a programação oficial inclui a Hora do Conto regular na biblioteca. As atividades acontecem em ambientes diferentes e seguem regras próprias; não confundir o horário de uma sessão com visitação livre a toda a unidade.",
     "url": "https://www.sescpr.com.br/projeto/semana-crianca-esquina/",
     "checkedAt": "2026-10-13",
-    "updatedAt": "2026-10-16T17:51:13-03:00",
+    "updatedAt": "2026-10-18T17:51:30-03:00",
     "crowdNote": "Não há previsão de lotação verificada. Gratuidade ou ingresso solidário não garantem tranquilidade nem vagas; a disponibilidade de ingressos e de lugares não foi consultada.",
-    "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas.",
+    "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas. A programação regular Hora do Conto é gratuita e ocorre na biblioteca, de segunda a sexta, das 15h às 15h30, conforme página oficial consultada em 18/10/2026. Não há data de término divulgada; confirme exceções de feriados e a realização no dia pretendido. A fonte não esclarece inscrição, capacidade ou idade mínima.",
     "activities": [
       {
         "id": "sesc-da-esquina--planeta-oca-2026-10-10",
@@ -1174,6 +1174,17 @@
         "kind": "event",
         "startsAt": "2026-10-17",
         "endsAt": "2026-10-17"
+      },
+      {
+        "id": "sesc-da-esquina--visit",
+        "title": "Hora do Conto — programação regular",
+        "description": "Narração de histórias e leitura de uma obra literária para crianças e adultos na biblioteca do Sesc da Esquina, em Curitiba/PR. A programação oficial anuncia encontros gratuitos de segunda a sexta, das 15h às 15h30, sem data de término informada. Endereço: Rua Visconde do Rio Branco, 969. É uma atividade regular de contação, não uma sessão especial da Semana da Criança nem visita livre a todos os ambientes da unidade. Confirme a realização no dia desejado e eventuais exceções de feriados. A página não esclarece necessidade de inscrição, capacidade, idade mínima ou condições para bebês acompanhantes; fraldário e acesso com carrinho não verificados. Não há previsão de lotação; gratuidade não garante tranquilidade.",
+        "updatedAt": "2026-10-18T17:51:30-03:00",
+        "checkedAt": "2026-10-18",
+        "url": "https://www.sescpr.com.br/atividade/hora-do-conto-1500-2/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
       }
     ]
   },
