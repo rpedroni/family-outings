@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento.",
-    "updatedAt": "2026-10-18T17:51:30-03:00",
+    "updatedAt": "2026-10-20T17:51:36-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -113,6 +113,17 @@
         "kind": "event",
         "startsAt": "2026-10-16",
         "endsAt": "2026-10-16"
+      },
+      {
+        "id": "museu-oscar-niemeyer--moire-bereguede-2026",
+        "title": "Moiré Bereguedê — Mano Penalva (2026)",
+        "description": "Exposição na Sala 2 do MON, em Curitiba/PR, de 26/06 a 25/10/2026, com 71 obras entre esculturas, pinturas, colagens e vídeos que transformam objetos do cotidiano. É uma visita expositiva, não uma oficina nem autorização para tocar nas obras. A página oficial sinaliza restrição de movimento, local com ruído, som inesperado, luz oscilante e luz intensa: considere esses estímulos antes de levar crianças pequenas ou bebês. Não há recomendação etária específica divulgada. Ingresso informado: R$ 36 inteira e R$ 18 meia, conforme elegibilidade; entrada gratuita às quartas-feiras e no último domingo do mês. Em 25/10, funcionamento excepcional das 12h às 18h, com acesso às salas até 17h30, conforme notícia oficial de 19/10/2026. A gratuidade não garante tranquilidade; não há previsão de lotação verificada. Rua Marechal Hermes, 999.",
+        "url": "https://www.museuoscarniemeyer.org.br/exposicoes/manopenalva",
+        "kind": "event",
+        "startsAt": "2026-06-26",
+        "endsAt": "2026-10-25",
+        "updatedAt": "2026-10-20T17:51:36-03:00",
+        "checkedAt": "2026-10-20"
       }
     ]
   },
@@ -1280,6 +1291,45 @@
         "kind": "event",
         "startsAt": "2026-10-21",
         "endsAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "id": "sesc-paco-da-liberdade",
+    "name": "Sesc Paço da Liberdade",
+    "category": "show",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Espaço cultural no Centro de Curitiba/PR com sessões de cinema e narração de histórias. As atividades cadastradas são gratuitas e têm regras próprias; a Hora do Conto exige agendamento.",
+    "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
+    "checkedAt": "2026-10-20",
+    "updatedAt": "2026-10-20T17:51:36-03:00",
+    "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
+    "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados.",
+    "activities": [
+      {
+        "id": "sesc-paco-da-liberdade--visit",
+        "title": "Hora do Conto — programação regular",
+        "description": "Narração de histórias e leitura de uma obra literária na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR. A programação oficial informa terça a sexta, das 10h às 10h30, gratuitamente, mediante agendamento na Central de Atendimento da unidade. São 10 vagas anunciadas; isso não confirma disponibilidade nem garante ambiente silencioso. Não há data de término divulgada: confirme a realização no dia pretendido e exceções de feriados. A proposta menciona adultos e crianças, mas não informa idade mínima, participação de bebês ou condições para carrinhos. Praça Generoso Marques, 189.",
+        "url": "https://www.sescpr.com.br/atividade/hora-do-conto-1000/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null,
+        "updatedAt": "2026-10-20T17:51:36-03:00",
+        "checkedAt": "2026-10-20"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--trapalhoes-terra-monstros-2026-10-22",
+        "title": "Os Trapalhões na Terra dos Monstros — 22 de outubro de 2026",
+        "description": "Sessão gratuita de cinema no CinePensamento do Sesc Paço da Liberdade, em Curitiba/PR, em 22/10/2026, com janela divulgada das 19h às 21h. O filme brasileiro de 1989 tem 91 minutos, em português, e acompanha uma aventura com criaturas fantásticas e monstros; considere o tema e o horário noturno para crianças pequenas. A página não esclarece retirada de ingresso, capacidade, vagas disponíveis ou regras para bebês. Fraldário e acesso com carrinho não verificados. Praça Generoso Marques, 189. Não há previsão de lotação; gratuidade não garante lugar nem pouco movimento.",
+        "url": "https://www.sescpr.com.br/atividade/os-trapalhoes-na-terra-dos-monstros-22-10-2026-1900/",
+        "kind": "event",
+        "startsAt": "2026-10-22",
+        "endsAt": "2026-10-22",
+        "updatedAt": "2026-10-20T17:51:36-03:00",
+        "checkedAt": "2026-10-20"
       }
     ]
   }
