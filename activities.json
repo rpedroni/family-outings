@@ -1327,7 +1327,7 @@
     "description": "Espaço cultural no Centro de Curitiba/PR com sessões de cinema e narração de histórias. As atividades cadastradas são gratuitas e têm regras próprias; a Hora do Conto exige agendamento. Também oferece visita mediada gratuita ao patrimônio, por agendamento e confirmação da equipe, com participação de famílias.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-10-22T17:51:24-03:00",
+    "updatedAt": "2026-10-24T17:49:49-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
     "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
     "activities": [
@@ -1363,6 +1363,28 @@
         "endsAt": null,
         "updatedAt": "2026-10-22T17:51:24-03:00",
         "checkedAt": "2026-10-22"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--arte-patrimonio-entorno-2026-10-28",
+        "title": "Arte e Patrimônio: pelas ruas do entorno — 28 de outubro de 2026",
+        "description": "Passeio guiado gratuito pelo entorno do Sesc Paço da Liberdade, em Curitiba/PR, em 28/10/2026, das 14h às 17h. O percurso convida a observar prédios, detalhes arquitetônicos e intervenções artísticas, com orientação de Maria Luiza Gomes. Referência: Praça Generoso Marques, 189. A página oferece pré-inscrição e anuncia capacidade total de 25 pessoas; isso não significa 25 vagas ainda disponíveis. Em caso de chuva, a atividade será cancelada. Não é um passeio especificamente infantil: considere a janela de três horas e o trajeto pelas ruas para crianças pequenas. Idade mínima, participação de bebês, distância, pausas e condições para carrinhos não informadas. A capacidade limitada não garante silêncio nem baixo movimento no entorno.",
+        "url": "https://www.sescpr.com.br/atividade/arte-e-patrimonio-pelas-ruas-do-entorno-do-paco-da-liberdade-28-10-2026-1400/",
+        "kind": "event",
+        "startsAt": "2026-10-28",
+        "endsAt": "2026-10-28",
+        "updatedAt": "2026-10-24T17:49:49-03:00",
+        "checkedAt": "2026-10-24"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--arte-botanica-2026-11-12",
+        "title": "Oficina Arte Botânica: cores, folhas e flores — 12 de novembro de 2026",
+        "description": "Oficina gratuita no Centro de Informação Digital do Sesc Paço da Liberdade, em Curitiba/PR, em 12/11/2026, das 14h às 17h. Propõe criar imagens e objetos com folhas, sementes, flores, galhos e outros elementos naturais, explorando colagem, sobreposição, texturas, adereços e móbiles. A página disponibiliza formulário de pré-inscrição; vagas e confirmação de participação não verificadas. Não há idade mínima textual nem indicação específica para crianças pequenas: confirme a participação infantil antes de organizar a ida e considere a duração de três horas. Regras para bebês acompanhantes, fraldário, circulação com carrinho e materiais a levar não esclarecidos. Praça Generoso Marques, 189. Não há previsão de lotação; gratuidade não garante tranquilidade.",
+        "url": "https://www.sescpr.com.br/atividade/oficina-arte-botanica-cores-folhas-e-flores-12-11-2026-1400/",
+        "kind": "event",
+        "startsAt": "2026-11-12",
+        "endsAt": "2026-11-12",
+        "updatedAt": "2026-10-24T17:49:49-03:00",
+        "checkedAt": "2026-10-24"
       }
     ]
   }
