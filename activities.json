@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento.",
-    "updatedAt": "2026-10-25T17:51:04-03:00",
+    "updatedAt": "2026-10-26T17:51:12-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -168,6 +168,17 @@
         "endsAt": "2027-01-24",
         "updatedAt": "2026-10-25T17:51:04-03:00",
         "checkedAt": "2026-10-25"
+      },
+      {
+        "id": "museu-oscar-niemeyer--mini-art-hunter",
+        "title": "Mini Art Hunter — exploração com kit emprestado",
+        "description": "A partir de 29/10/2026, programa regular de exploração da área interna do MON, em Curitiba/PR, para crianças com mais de cinco anos acompanhadas de adulto responsável. A redação oficial não inclui crianças de cinco anos ou menos; não presumir participação de bebês. Empréstimo de bolsa com capacete, prancheta, lápis, adesivos, lupa e mapa ilustrado, com sugestões de desenho no túnel, Espaço Niemeyer e jardim de inverno. Retirada e devolução no subsolo, próximo ao Espaço de Oficinas; empréstimos das 10h às 17h, durante a visitação de terça a domingo. São 20 kits, entregues por ordem de chegada, sem custo adicional ao ingresso do museu. Isso não torna a entrada gratuita nem garante kit disponível ou pouco movimento. Sem data de encerramento anunciada. Endereço: Rua Marechal Hermes, 999. Não foram informadas condições específicas para bebês acompanhantes nesta atividade.",
+        "updatedAt": "2026-10-26T17:51:12-03:00",
+        "checkedAt": "2026-10-26",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-10-26-26",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
       }
     ]
   },
@@ -1349,7 +1360,7 @@
     "description": "Espaço cultural no Centro de Curitiba/PR com sessões de cinema e narração de histórias. As atividades cadastradas são gratuitas e têm regras próprias; a Hora do Conto exige agendamento. Também oferece visita mediada gratuita ao patrimônio, por agendamento e confirmação da equipe, com participação de famílias.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-10-24T17:49:49-03:00",
+    "updatedAt": "2026-10-26T17:51:12-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
     "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
     "activities": [
@@ -1407,6 +1418,17 @@
         "endsAt": "2026-11-12",
         "updatedAt": "2026-10-24T17:49:49-03:00",
         "checkedAt": "2026-10-24"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--hora-do-conto",
+        "title": "Hora do Conto — programação regular",
+        "description": "Narração de histórias e leitura de obra literária na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR. Programação regular gratuita de terça a sexta, das 10h às 10h30, mediante agendamento na Central de Atendimento da unidade. A fonte anuncia 10 vagas; não confundir esse limite com disponibilidade atual ou garantia de silêncio. Endereço: Praça Generoso Marques, 189. A proposta menciona adultos e crianças, mas não estabelece idade mínima nem regras específicas para bebês acompanhantes. Fraldário e acesso com carrinho não foram verificados para a atividade. Sem data de término informada; confirme a sessão pretendida e exceções de feriados ao agendar. Nenhum agendamento foi realizado.",
+        "updatedAt": "2026-10-26T17:51:12-03:00",
+        "checkedAt": "2026-10-26",
+        "url": "https://www.sescpr.com.br/atividade/hora-do-conto-1000/?from-unidade=sesc-paco-da-liberdade",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
       }
     ]
   }
