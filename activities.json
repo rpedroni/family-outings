@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento.",
-    "updatedAt": "2026-10-26T17:51:12-03:00",
+    "updatedAt": "2026-10-28T17:51:24-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -179,6 +179,28 @@
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
+      },
+      {
+        "id": "museu-oscar-niemeyer--colagens-2026-11-04",
+        "title": "Laboratório de experiências: colagens — 4 de novembro de 2026",
+        "description": "Oficina gratuita no MON, em Curitiba/PR, em 04/11/2026, às 10h30 e às 14h30 (sessão com Libras). Para adultos e crianças a partir de 3 anos, experimentando colagens com diferentes papéis, materiais e objetos. Local: Espaço de Oficinas, no subsolo, Rua Marechal Hermes, 999. A entrada no museu também é gratuita nesta quarta-feira. A notícia não informa duração, necessidade de inscrição nem vagas disponíveis. Bebês não estão incluídos na faixa de participação; permanência como acompanhantes não esclarecida. Não há previsão de lotação.",
+        "updatedAt": "2026-10-28T17:51:24-03:00",
+        "checkedAt": "2026-10-28",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-10-28-26",
+        "kind": "event",
+        "startsAt": "2026-11-04",
+        "endsAt": "2026-11-04"
+      },
+      {
+        "id": "museu-oscar-niemeyer--zines-2026-11-18",
+        "title": "Laboratório de experiências: zines — 18 de novembro de 2026",
+        "description": "Oficina gratuita no MON, em Curitiba/PR, em 18/11/2026, às 10h30 e às 14h30 (sessão com Libras). Para adultos e crianças a partir de 5 anos: produção de publicações autorais com dobras de papel, transformando uma folha em livro. Local: Espaço de Oficinas, no subsolo, Rua Marechal Hermes, 999. A entrada no museu também é gratuita nesta quarta-feira. A faixa divulgada não inclui menores de 5 anos. Duração, inscrição, disponibilidade de vagas e permanência de bebês acompanhantes não informadas. Não há previsão de lotação.",
+        "updatedAt": "2026-10-28T17:51:24-03:00",
+        "checkedAt": "2026-10-28",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-10-28-26",
+        "kind": "event",
+        "startsAt": "2026-11-18",
+        "endsAt": "2026-11-18"
       }
     ]
   },
@@ -996,7 +1018,7 @@
     "checkedAt": "2026-10-08",
     "crowdNote": "Não há previsão de lotação verificada. Os ingressos gratuitos são distribuídos 30 minutos antes; isso não garante disponibilidade nem um ambiente tranquilo.",
     "logisticsNote": "A ficha oficial da FCC informa Av. Mateus Leme, 4700, São Lourenço, no Centro de Criatividade de Curitiba; funcionamento conforme a programação. Brio Breu tem sessão em 9/10/2026 às 20h e em 10 e 11/10 às 15h e 17h. Entrada gratuita, classificação livre e distribuição de ingressos 30 minutos antes. Duração, capacidade, fraldário, acesso com carrinho e regras específicas para bebês não foram informados no anúncio. A história trabalha medo do escuro, luzes e sombras: considerar a sensibilidade de cada criança. A programação oficial também anuncia Era Uma Vez Palmares: o Tambor Que Contava Zumbi, da Companhia Transitória, em 17, 18, 24 e 25/10/2026, às 15h: gratuito, classificação livre e ingressos distribuídos 30 minutos antes.",
-    "updatedAt": "2026-10-08T17:50:39-03:00",
+    "updatedAt": "2026-10-28T17:51:24-03:00",
     "activities": [
       {
         "id": "teatro-cleon-jacques--brio-breu-2026-10-09",
@@ -1074,6 +1096,17 @@
         "kind": "event",
         "startsAt": "2026-10-25",
         "endsAt": "2026-10-25"
+      },
+      {
+        "id": "teatro-cleon-jacques--tardes-musicais-2026-10-30",
+        "title": "Tardes Musicais — 30 de outubro de 2026",
+        "description": "Programação de música de concerto no Teatro Cleon Jacques, em Curitiba/PR, em 30/10/2026, das 15h às 19h. Alunos da EMBAP/UNESPAR apresentam diferentes formações, com proposta de recitais didáticos e comentados para aproximar o público dos instrumentos e repertórios. Gratuito, classificação livre e acesso por chegada, conforme anúncio oficial de 28/10. A janela divulgada não informa a duração de cada recital. O anúncio conjunto menciona 70 lugares sem separar a capacidade de cada sessão; disponibilidade não verificada. Não é espetáculo exclusivamente infantil; regras para bebês, carrinhos e intensidade sonora não informadas. Não há previsão de lotação. Esta sessão ocorre no teatro, não na área externa do Memorial.",
+        "updatedAt": "2026-10-28T17:51:24-03:00",
+        "checkedAt": "2026-10-28",
+        "url": "https://www.instagram.com/memorialparanista/p/DfC64i2I-k7/",
+        "kind": "event",
+        "startsAt": "2026-10-30",
+        "endsAt": "2026-10-30"
       }
     ]
   },
@@ -1090,7 +1123,7 @@
     "checkedAt": "2026-10-11",
     "crowdNote": "Não há previsão de movimento verificada. Gratuidade e inscrição não garantem ambiente tranquilo. Oficinas abertas podem depender de materiais disponíveis na chegada.",
     "logisticsNote": "A ficha oficial da FCC informa Rua Mateus Leme, 4700, São Lourenço. A oficina Criando Um Parque São Lourenço acontece em 11/10/2026, das 10h às 14h, gratuitamente e sem inscrição. O ponto exato da atividade dentro do Memorial não foi especificado. Fraldário, acesso com carrinho e regras específicas para bebês não foram verificados. A visitação regular e as visitas mediadas têm regras próprias; não transferir a dispensa de inscrição da oficina para outros programas. Visitas mediadas gratuitas aos sábados, às 11h, anunciadas pelo próprio Memorial em 29/9/2026 e reiteradas na programação de outubro publicada em 8/10. A programação mais recente orienta inscrição via ZET pelo link da bio; vagas não verificadas. Não confundir com visitas acompanhadas de oficina para grupos de 10 a 40 pessoas, agendadas de quarta a sexta.",
-    "updatedAt": "2026-10-11T17:51:10-03:00",
+    "updatedAt": "2026-10-28T17:51:24-03:00",
     "activities": [
       {
         "id": "memorial-paranista--criando-um-parque-sao-lourenco-2026-10-11",
@@ -1113,6 +1146,28 @@
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
+      },
+      {
+        "id": "memorial-paranista--aderecos-halloween-2026-10-31",
+        "title": "Ateliê de Adereços de Halloween para Crianças — 31 de outubro de 2026",
+        "description": "Ateliê infantil gratuito no Memorial Paranista, em Curitiba/PR, em 31/10/2026, às 10h30, para criar adornos e acessórios com diferentes materiais. Endereço: Rua Mateus Leme, 4700, São Lourenço. Anúncio oficial de 27/10 informa classificação livre, 15 vagas e inscrição pelo Guia Curitiba. A página de inscrição não pôde ser consultada; vagas disponíveis não confirmadas. Idade mínima, duração, participação de bebês e acesso com carrinho não especificados. Classificação livre não significa proposta adequada a bebês. Limite de vagas não é garantia de ambiente tranquilo.",
+        "updatedAt": "2026-10-28T17:51:24-03:00",
+        "checkedAt": "2026-10-28",
+        "url": "https://www.instagram.com/memorialparanista/p/DfAxjgQo4da/",
+        "kind": "event",
+        "startsAt": "2026-10-31",
+        "endsAt": "2026-10-31"
+      },
+      {
+        "id": "memorial-paranista--tardes-musicais-2026-10-31",
+        "title": "Tardes Musicais ao ar livre — 31 de outubro de 2026",
+        "description": "Programação de música de concerto na área externa do Memorial Paranista, em Curitiba/PR, em 31/10/2026, das 15h às 19h. Alunos da EMBAP/UNESPAR apresentam diferentes formações, com proposta de recitais didáticos e comentados sobre instrumentos, obras e compositores. Gratuito, classificação livre e acesso por chegada, segundo anúncio oficial de 28/10. A janela divulgada não informa a duração de cada recital. O anúncio conjunto menciona 70 lugares sem discriminar a capacidade desta sessão. Não há disponibilidade ou previsão de lotação verificadas. Não é espetáculo exclusivamente infantil; estrutura para bebês, carrinhos e alternativa em caso de chuva não informadas. Rua Mateus Leme, 4700, São Lourenço. Não confundir com a sessão de 30/10 dentro do Teatro Cleon Jacques.",
+        "updatedAt": "2026-10-28T17:51:24-03:00",
+        "checkedAt": "2026-10-28",
+        "url": "https://www.instagram.com/memorialparanista/p/DfC64i2I-k7/",
+        "kind": "event",
+        "startsAt": "2026-10-31",
+        "endsAt": "2026-10-31"
       }
     ]
   },
