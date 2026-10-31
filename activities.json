@@ -1068,12 +1068,12 @@
     "area": "curitiba",
     "setting": "indoor",
     "cost": "free",
-    "description": "Teatro no São Lourenço, em Curitiba/PR, com apresentações de Brio Breu e Era Uma Vez Palmares: o Tambor Que Contava Zumbi na programação de outubro de 2026. O cadastro reúne sessões anunciadas, não visitação livre ao edifício.",
+    "description": "Teatro no São Lourenço, em Curitiba/PR, com apresentações de circo, música, dança e teatro. O cadastro reúne sessões anunciadas, incluindo o histórico de outubro de 2026 e novos programas de novembro; não representa visitação livre ao edifício.",
     "url": "https://www.fundacaoculturaldecuritiba.com.br/espacos-culturais/teatro-cleon-jacques/",
     "checkedAt": "2026-10-08",
-    "crowdNote": "Não há previsão de lotação verificada. Os ingressos gratuitos são distribuídos 30 minutos antes; isso não garante disponibilidade nem um ambiente tranquilo.",
-    "logisticsNote": "A ficha oficial da FCC informa Av. Mateus Leme, 4700, São Lourenço, no Centro de Criatividade de Curitiba; funcionamento conforme a programação. Brio Breu tem sessão em 9/10/2026 às 20h e em 10 e 11/10 às 15h e 17h. Entrada gratuita, classificação livre e distribuição de ingressos 30 minutos antes. Duração, capacidade, fraldário, acesso com carrinho e regras específicas para bebês não foram informados no anúncio. A história trabalha medo do escuro, luzes e sombras: considerar a sensibilidade de cada criança. A programação oficial também anuncia Era Uma Vez Palmares: o Tambor Que Contava Zumbi, da Companhia Transitória, em 17, 18, 24 e 25/10/2026, às 15h: gratuito, classificação livre e ingressos distribuídos 30 minutos antes.",
-    "updatedAt": "2026-10-28T17:51:24-03:00",
+    "crowdNote": "Não há previsão de lotação verificada. A distribuição de ingressos 30 minutos antes foi anunciada para as sessões de outubro indicadas no histórico; para Circo dos Clowns e Cantoria Azul, em novembro de 2026, o anúncio informa entrada gratuita por chegada e 70 lugares por apresentação. Isso não garante disponibilidade nem ambiente tranquilo.",
+    "logisticsNote": "A ficha oficial da FCC informa Av. Mateus Leme, 4700, São Lourenço, no Centro de Criatividade de Curitiba; funcionamento conforme a programação. Brio Breu tem sessão em 9/10/2026 às 20h e em 10 e 11/10 às 15h e 17h. Entrada gratuita, classificação livre e distribuição de ingressos 30 minutos antes. Duração, capacidade, fraldário, acesso com carrinho e regras específicas para bebês não foram informados no anúncio. A história trabalha medo do escuro, luzes e sombras: considerar a sensibilidade de cada criança. A programação oficial também anuncia Era Uma Vez Palmares: o Tambor Que Contava Zumbi, da Companhia Transitória, em 17, 18, 24 e 25/10/2026, às 15h: gratuito, classificação livre e ingressos distribuídos 30 minutos antes. Novembro de 2026: Circo dos Clowns em 4/11 às 19h e Ailén Maria: Cantoria Azul em 7/11 às 19h, ambos gratuitos, classificação livre, 70 lugares e entrada por chegada, conforme publicação oficial de 31/10. O show Cantoria Azul tem 50 minutos mais bate-papo; a duração do circo não foi informada. A regra de retirada 30 minutos antes das sessões anteriores não foi repetida para estes novos programas. Fonte: https://www.instagram.com/memorialparanista/p/DfK25yFkecp/",
+    "updatedAt": "2026-10-31T17:49:25-03:00",
     "activities": [
       {
         "id": "teatro-cleon-jacques--brio-breu-2026-10-09",
@@ -1162,6 +1162,28 @@
         "kind": "event",
         "startsAt": "2026-10-30",
         "endsAt": "2026-10-30"
+      },
+      {
+        "id": "teatro-cleon-jacques--circo-dos-clowns-2026-11-04",
+        "title": "Circo dos Clowns — 4 de novembro de 2026",
+        "description": "Em 4/11/2026, às 19h, a Fundação Solidariedade apresenta Circo dos Clowns, com proposta de humor e reencontro com a infância. Duração não informada. No Teatro Cleon Jacques, no Memorial Paranista, Rua Mateus Leme, 4700, Curitiba/PR. Entrada gratuita por chegada, classificação livre e capacidade anunciada de 70 lugares por apresentação. Não há disponibilidade nem previsão de lotação verificadas; sala pequena não garante tranquilidade. O anúncio não informa intensidade sonora, fraldário, acesso com carrinho ou regras específicas para bebês. Classificação livre não equivale a recomendação para bebês.",
+        "updatedAt": "2026-10-31T17:49:25-03:00",
+        "checkedAt": "2026-10-31",
+        "url": "https://www.instagram.com/memorialparanista/p/DfK25yFkecp/",
+        "kind": "event",
+        "startsAt": "2026-11-04",
+        "endsAt": "2026-11-04"
+      },
+      {
+        "id": "teatro-cleon-jacques--ailen-maria-cantoria-azul-2026-11-07",
+        "title": "Ailén Maria: Cantoria Azul — 7 de novembro de 2026",
+        "description": "Em 7/11/2026, sábado, às 19h, Ailén Maria apresenta o show de lançamento do EP Cantoria Azul: 50 minutos de música, seguidos de bate-papo de duração não informada. Não é anunciado como espetáculo exclusivamente infantil. No Teatro Cleon Jacques, no Memorial Paranista, Rua Mateus Leme, 4700, Curitiba/PR. Entrada gratuita por chegada, classificação livre e capacidade anunciada de 70 lugares por apresentação. Não há disponibilidade nem previsão de lotação verificadas; sala pequena não garante tranquilidade. O anúncio não informa intensidade sonora, fraldário, acesso com carrinho ou regras específicas para bebês. Classificação livre não equivale a recomendação para bebês.",
+        "updatedAt": "2026-10-31T17:49:25-03:00",
+        "checkedAt": "2026-10-31",
+        "url": "https://www.instagram.com/memorialparanista/p/DfK25yFkecp/",
+        "kind": "event",
+        "startsAt": "2026-11-07",
+        "endsAt": "2026-11-07"
       }
     ]
   },
