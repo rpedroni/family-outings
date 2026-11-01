@@ -1199,8 +1199,8 @@
     "url": "https://www.fundacaoculturaldecuritiba.com.br/espacos-culturais/memorial-paranista/",
     "checkedAt": "2026-10-11",
     "crowdNote": "Não há previsão de movimento verificada. Gratuidade e inscrição não garantem ambiente tranquilo. Oficinas abertas podem depender de materiais disponíveis na chegada.",
-    "logisticsNote": "A ficha oficial da FCC informa Rua Mateus Leme, 4700, São Lourenço. A oficina Criando Um Parque São Lourenço acontece em 11/10/2026, das 10h às 14h, gratuitamente e sem inscrição. O ponto exato da atividade dentro do Memorial não foi especificado. Fraldário, acesso com carrinho e regras específicas para bebês não foram verificados. A visitação regular e as visitas mediadas têm regras próprias; não transferir a dispensa de inscrição da oficina para outros programas. Visitas mediadas gratuitas aos sábados, às 11h, anunciadas pelo próprio Memorial em 29/9/2026 e reiteradas na programação de outubro publicada em 8/10. A programação mais recente orienta inscrição via ZET pelo link da bio; vagas não verificadas. Não confundir com visitas acompanhadas de oficina para grupos de 10 a 40 pessoas, agendadas de quarta a sexta.",
-    "updatedAt": "2026-10-28T17:51:24-03:00",
+    "logisticsNote": "A ficha oficial da FCC informa Rua Mateus Leme, 4700, São Lourenço. A oficina Criando Um Parque São Lourenço acontece em 11/10/2026, das 10h às 14h, gratuitamente e sem inscrição. O ponto exato da atividade dentro do Memorial não foi especificado. Fraldário, acesso com carrinho e regras específicas para bebês não foram verificados. A visitação regular e as visitas mediadas têm regras próprias; não transferir a dispensa de inscrição da oficina para outros programas. Visitas mediadas gratuitas aos sábados, às 11h, anunciadas pelo próprio Memorial em 29/9/2026 e reiteradas na programação de outubro publicada em 8/10. A programação mais recente orienta inscrição via ZET pelo link da bio; vagas não verificadas. Não confundir com visitas acompanhadas de oficina para grupos de 10 a 40 pessoas, agendadas de quarta a sexta. Atualização para novembro de 2026: o anúncio oficial de 29/10 confirma visitas mediadas gratuitas, de classificação livre, todos os sábados do mês às 11h, com inscrição no Guia Curitiba. Essa orientação mais recente substitui a indicação de inscrição via ZET para estas sessões. O Guia Curitiba não pôde ser acessado na consulta de 1/11; vagas não confirmadas. As oficinas de modelagem em argila das 10h30 têm inscrição própria e não estão automaticamente incluídas na visita. Fonte: https://www.instagram.com/memorialparanista/p/DfGIzGWI0jH/",
+    "updatedAt": "2026-11-01T17:48:57-03:00",
     "activities": [
       {
         "id": "memorial-paranista--criando-um-parque-sao-lourenco-2026-10-11",
@@ -1216,9 +1216,9 @@
       {
         "id": "memorial-paranista--visit",
         "title": "Visita mediada ao Memorial Paranista",
-        "description": "Visita mediada gratuita aos sábados, às 11h, no Memorial Paranista, em Curitiba/PR, para conhecer a história do espaço, João Turin, esculturas em bronze e processos de criação e restauração. O anúncio de 29/9/2026 informa classificação livre; a programação oficial de outubro, publicada em 8/10/2026, orienta inscrição via ZET pelo link da bio do Memorial. Disponibilidade de vagas não verificada. A visita de sábado não inclui automaticamente oficina de argila: as visitas com oficina são outra modalidade, para grupos de 10 a 40 pessoas, de quarta a sexta, mediante agendamento. Duração, idade mínima de participação ativa, estrutura para bebês e acesso com carrinhos não foram confirmados. Classificação livre não equivale a atividade concebida para bebês; não há previsão de lotação.",
-        "updatedAt": "2026-10-11T17:51:10-03:00",
-        "checkedAt": "2026-10-11",
+        "description": "Visita mediada gratuita aos sábados, às 11h, no Memorial Paranista, em Curitiba/PR, para conhecer a história do espaço, João Turin, esculturas em bronze e processos de criação e restauração. O anúncio de 29/9/2026 informa classificação livre; a programação oficial de outubro, publicada em 8/10/2026, orienta inscrição via ZET pelo link da bio do Memorial. Disponibilidade de vagas não verificada. A visita de sábado não inclui automaticamente oficina de argila: as visitas com oficina são outra modalidade, para grupos de 10 a 40 pessoas, de quarta a sexta, mediante agendamento. Duração, idade mínima de participação ativa, estrutura para bebês e acesso com carrinhos não foram confirmados. Classificação livre não equivale a atividade concebida para bebês; não há previsão de lotação. Atualização para novembro de 2026: o anúncio oficial de 29/10 confirma visitas mediadas gratuitas, de classificação livre, todos os sábados do mês às 11h, com inscrição no Guia Curitiba. Essa orientação mais recente substitui a indicação de inscrição via ZET para estas sessões. O Guia Curitiba não pôde ser acessado na consulta de 1/11; vagas não confirmadas. As oficinas de modelagem em argila das 10h30 têm inscrição própria e não estão automaticamente incluídas na visita. Fonte: https://www.instagram.com/memorialparanista/p/DfGIzGWI0jH/",
+        "updatedAt": "2026-11-01T17:48:57-03:00",
+        "checkedAt": "2026-11-01",
         "url": "https://www.instagram.com/memorialparanista/p/Dd30RBFEfEu/",
         "kind": "visit",
         "startsAt": null,
@@ -1245,6 +1245,50 @@
         "kind": "event",
         "startsAt": "2026-10-31",
         "endsAt": "2026-10-31"
+      },
+      {
+        "id": "memorial-paranista--modelagem-argila-2026-11-07",
+        "title": "Oficina de Escultura: Modelagem em Argila — 7 de novembro de 2026",
+        "description": "Oficina gratuita de escultura e modelagem em argila no Memorial Paranista, em Curitiba/PR, em 7/11/2026, às 10h30. A programação oficial de novembro, publicada em 29/10/2026 pelo Memorial e pela Fundação Cultural de Curitiba, anuncia classificação livre e 40 vagas por sessão. Inscrição pelo Guia Curitiba, com abertura uma semana antes de cada sessão. O portal de inscrição não pôde ser acessado nesta consulta; disponibilidade de vagas não confirmada. Endereço: Rua Mateus Leme, 4700, São Lourenço. A fonte não informa duração, sala específica, idade mínima para participação prática, materiais a levar, regras para bebês acompanhantes, fraldário ou acesso com carrinho. Classificação livre não confirma adequação da modelagem para bebês. A oficina é uma atividade própria, distinta da visita mediada das 11h; não presumir inscrição conjunta. Limite de vagas e gratuidade não garantem ambiente tranquilo.",
+        "updatedAt": "2026-11-01T17:48:57-03:00",
+        "checkedAt": "2026-11-01",
+        "url": "https://www.instagram.com/memorialparanista/p/DfGIzGWI0jH/",
+        "kind": "event",
+        "startsAt": "2026-11-07",
+        "endsAt": "2026-11-07"
+      },
+      {
+        "id": "memorial-paranista--modelagem-argila-2026-11-14",
+        "title": "Oficina de Escultura: Modelagem em Argila — 14 de novembro de 2026",
+        "description": "Oficina gratuita de escultura e modelagem em argila no Memorial Paranista, em Curitiba/PR, em 14/11/2026, às 10h30. A programação oficial de novembro, publicada em 29/10/2026 pelo Memorial e pela Fundação Cultural de Curitiba, anuncia classificação livre e 40 vagas por sessão. Inscrição pelo Guia Curitiba, com abertura uma semana antes de cada sessão. O portal de inscrição não pôde ser acessado nesta consulta; disponibilidade de vagas não confirmada. Endereço: Rua Mateus Leme, 4700, São Lourenço. A fonte não informa duração, sala específica, idade mínima para participação prática, materiais a levar, regras para bebês acompanhantes, fraldário ou acesso com carrinho. Classificação livre não confirma adequação da modelagem para bebês. A oficina é uma atividade própria, distinta da visita mediada das 11h; não presumir inscrição conjunta. Limite de vagas e gratuidade não garantem ambiente tranquilo.",
+        "updatedAt": "2026-11-01T17:48:57-03:00",
+        "checkedAt": "2026-11-01",
+        "url": "https://www.instagram.com/memorialparanista/p/DfGIzGWI0jH/",
+        "kind": "event",
+        "startsAt": "2026-11-14",
+        "endsAt": "2026-11-14"
+      },
+      {
+        "id": "memorial-paranista--modelagem-argila-2026-11-21",
+        "title": "Oficina de Escultura: Modelagem em Argila — 21 de novembro de 2026",
+        "description": "Oficina gratuita de escultura e modelagem em argila no Memorial Paranista, em Curitiba/PR, em 21/11/2026, às 10h30. A programação oficial de novembro, publicada em 29/10/2026 pelo Memorial e pela Fundação Cultural de Curitiba, anuncia classificação livre e 40 vagas por sessão. Inscrição pelo Guia Curitiba, com abertura uma semana antes de cada sessão. O portal de inscrição não pôde ser acessado nesta consulta; disponibilidade de vagas não confirmada. Endereço: Rua Mateus Leme, 4700, São Lourenço. A fonte não informa duração, sala específica, idade mínima para participação prática, materiais a levar, regras para bebês acompanhantes, fraldário ou acesso com carrinho. Classificação livre não confirma adequação da modelagem para bebês. A oficina é uma atividade própria, distinta da visita mediada das 11h; não presumir inscrição conjunta. Limite de vagas e gratuidade não garantem ambiente tranquilo.",
+        "updatedAt": "2026-11-01T17:48:57-03:00",
+        "checkedAt": "2026-11-01",
+        "url": "https://www.instagram.com/memorialparanista/p/DfGIzGWI0jH/",
+        "kind": "event",
+        "startsAt": "2026-11-21",
+        "endsAt": "2026-11-21"
+      },
+      {
+        "id": "memorial-paranista--modelagem-argila-2026-11-28",
+        "title": "Oficina de Escultura: Modelagem em Argila — 28 de novembro de 2026",
+        "description": "Oficina gratuita de escultura e modelagem em argila no Memorial Paranista, em Curitiba/PR, em 28/11/2026, às 10h30. A programação oficial de novembro, publicada em 29/10/2026 pelo Memorial e pela Fundação Cultural de Curitiba, anuncia classificação livre e 40 vagas por sessão. Inscrição pelo Guia Curitiba, com abertura uma semana antes de cada sessão. O portal de inscrição não pôde ser acessado nesta consulta; disponibilidade de vagas não confirmada. Endereço: Rua Mateus Leme, 4700, São Lourenço. A fonte não informa duração, sala específica, idade mínima para participação prática, materiais a levar, regras para bebês acompanhantes, fraldário ou acesso com carrinho. Classificação livre não confirma adequação da modelagem para bebês. A oficina é uma atividade própria, distinta da visita mediada das 11h; não presumir inscrição conjunta. Limite de vagas e gratuidade não garantem ambiente tranquilo.",
+        "updatedAt": "2026-11-01T17:48:57-03:00",
+        "checkedAt": "2026-11-01",
+        "url": "https://www.instagram.com/memorialparanista/p/DfGIzGWI0jH/",
+        "kind": "event",
+        "startsAt": "2026-11-28",
+        "endsAt": "2026-11-28"
       }
     ]
   },
