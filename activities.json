@@ -1536,7 +1536,7 @@
     "description": "Espaço cultural no Centro de Curitiba/PR com sessões de cinema e narração de histórias. As atividades cadastradas são gratuitas e têm regras próprias; a Hora do Conto exige agendamento. Também oferece visita mediada gratuita ao patrimônio, por agendamento e confirmação da equipe, com participação de famílias.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-10-26T17:51:12-03:00",
+    "updatedAt": "2026-11-02T17:50:26-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
     "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
     "activities": [
@@ -1605,6 +1605,17 @@
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
+      },
+      {
+        "id": "sesc-paco-da-liberdade--faixas-testemunho-estencil-2026-11-07",
+        "title": "Faixas-Testemunho: Memórias em Estêncil — 7 de novembro de 2026",
+        "description": "Oficina prática gratuita no Sesc Paço da Liberdade, em Curitiba/PR, em 07/11/2026, das 11h às 12h, com Maria Luiza Gomes. Propõe conhecer as pinturas decorativas do edifício e experimentar etapas do estêncil, da simplificação do desenho ao corte da matriz e à aplicação em superfícies. Inclui percurso pelos andares do Paço. A página oferece formulário de pré-inscrição; vagas disponíveis e confirmação de participação não verificadas. Não é anunciada especificamente como oficina infantil e não informa idade mínima textual: confirme a participação de crianças pequenas, especialmente nas etapas com corte. Regras para bebês acompanhantes, fraldário e circulação com carrinho não esclarecidas. Praça Generoso Marques, 189. Não há previsão de lotação; gratuidade não garante tranquilidade.",
+        "updatedAt": "2026-11-02T17:50:26-03:00",
+        "checkedAt": "2026-11-02",
+        "url": "https://www.sescpr.com.br/atividade/oficina-faixas-testemunho-memorias-em-estencil-07-11-2026-1100/",
+        "kind": "event",
+        "startsAt": "2026-11-07",
+        "endsAt": "2026-11-07"
       }
     ]
   },
