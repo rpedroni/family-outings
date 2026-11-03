@@ -1536,7 +1536,7 @@
     "description": "Espaço cultural no Centro de Curitiba/PR com sessões de cinema e narração de histórias. As atividades cadastradas são gratuitas e têm regras próprias; a Hora do Conto exige agendamento. Também oferece visita mediada gratuita ao patrimônio, por agendamento e confirmação da equipe, com participação de famílias.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-11-02T17:50:26-03:00",
+    "updatedAt": "2026-11-03T17:50:30-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
     "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
     "activities": [
@@ -1616,6 +1616,17 @@
         "kind": "event",
         "startsAt": "2026-11-07",
         "endsAt": "2026-11-07"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--visita-restauro-2026-11-07",
+        "title": "Visita mediada: patrimônio e restauro — 7 de novembro de 2026",
+        "description": "Visita gratuita ao Sesc Paço da Liberdade, em Curitiba/PR, em 7/11/2026, das 10h às 11h, conduzida pela especialista em patrimônio histórico e restauro Maria Luiza Gomes. O percurso explora detalhes arquitetônicos e a memória da cidade nos espaços disponíveis durante o restauro, com o edifício em uso; não implica acesso a todas as áreas. A página oferece formulário de pré-inscrição; vagas e confirmação de participação não foram consultadas. Endereço: Praça Generoso Marques, 189. A fonte não explicita idade mínima numérica, adequação da mediação a crianças pequenas, condições para bebês, fraldário ou circulação com carrinho durante as intervenções. Não há previsão de lotação; gratuidade não garante tranquilidade.",
+        "updatedAt": "2026-11-03T17:50:30-03:00",
+        "checkedAt": "2026-11-03",
+        "url": "https://www.sescpr.com.br/atividade/visita-mediada-ao-sesc-paco-da-liberdade-07-11-2026-1000/",
+        "kind": "event",
+        "startsAt": "2026-11-07",
+        "endsAt": "2026-11-07"
       }
     ]
   },
@@ -1641,6 +1652,34 @@
         "updatedAt": "2026-10-30T17:50:13-03:00",
         "checkedAt": "2026-10-30",
         "url": "https://turismo.curitiba.pr.gov.br/conteudo/jardim-botanico/1674",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      }
+    ]
+  },
+  {
+    "id": "estancia-hidromineral-ouro-fino",
+    "name": "Estância Hidromineral Ouro Fino",
+    "category": "park",
+    "city": "Campo Largo/PR",
+    "area": "nearby",
+    "setting": "outdoor",
+    "cost": "unknown",
+    "description": "Passeio regional em Bateias, Campo Largo/PR, para explorar jardins, bosques e a paisagem da fonte de água mineral. O operador também apresenta trilhas, cascata e parque infantil; confirme quais espaços estarão disponíveis na data escolhida.",
+    "url": "https://aguasourofino.com.br/estancia/",
+    "checkedAt": "2026-11-03",
+    "updatedAt": "2026-11-03T17:50:30-03:00",
+    "crowdNote": "Não há dados de lotação verificados. A possibilidade de reserva e a descrição de um passeio com calma não comprovam pouco movimento.",
+    "logisticsNote": "Estrada de Ouro Fino, s/n, Bateias, Campo Largo/PR. O site institucional anuncia terça a domingo, das 7h30 às 18h, mas o calendário de reservas consultado em 3/11/2026 libera somente 7, 8, 14, 15, 20, 21, 22, 28 e 29/11 entre as datas futuras desse mês. Essa diferença impede presumir acesso em todos os dias úteis: confira a data no sistema oficial. O calendário não confirma estoque final de ingressos ou churrasqueiras. Preços e faixas de cobrança infantil não foram verificados; não presumir gratuidade para bebês. O operador apresenta piscina de água mineral, trilhas, bosques, cascata e parque infantil, mas alerta que a disponibilidade dos atrativos pode variar e que o mapa reúne referências de diferentes períodos. Não foi confirmada abertura da piscina, temporada de banho, profundidade, regras de idade/altura ou participação de bebês; não planeje o passeio como parque aquático em operação garantida. Fraldário e acessibilidade com carrinho não foram informados. Há lagoa e cascata: supervisão contínua das crianças é indispensável. Para trilhas, o operador orienta calçado adequado, hidratação e respeito à sinalização. Churrasqueiras são selecionadas no sistema de reservas, conforme disponibilidade; valores e condições não verificados. Fonte complementar: https://reservas.aguasourofino.com.br/reservar.",
+    "activities": [
+      {
+        "id": "estancia-hidromineral-ouro-fino--visit",
+        "title": "Visita à Estância Ouro Fino",
+        "description": "Passeio regional em Bateias, Campo Largo/PR, para explorar jardins, bosques e a paisagem da fonte de água mineral. O operador também apresenta trilhas, cascata e parque infantil; confirme quais espaços estarão disponíveis na data escolhida. Estrada de Ouro Fino, s/n, Bateias, Campo Largo/PR. O site institucional anuncia terça a domingo, das 7h30 às 18h, mas o calendário de reservas consultado em 3/11/2026 libera somente 7, 8, 14, 15, 20, 21, 22, 28 e 29/11 entre as datas futuras desse mês. Essa diferença impede presumir acesso em todos os dias úteis: confira a data no sistema oficial. O calendário não confirma estoque final de ingressos ou churrasqueiras. Preços e faixas de cobrança infantil não foram verificados; não presumir gratuidade para bebês. O operador apresenta piscina de água mineral, trilhas, bosques, cascata e parque infantil, mas alerta que a disponibilidade dos atrativos pode variar e que o mapa reúne referências de diferentes períodos. Não foi confirmada abertura da piscina, temporada de banho, profundidade, regras de idade/altura ou participação de bebês; não planeje o passeio como parque aquático em operação garantida. Fraldário e acessibilidade com carrinho não foram informados. Há lagoa e cascata: supervisão contínua das crianças é indispensável. Para trilhas, o operador orienta calçado adequado, hidratação e respeito à sinalização. Churrasqueiras são selecionadas no sistema de reservas, conforme disponibilidade; valores e condições não verificados. Fonte complementar: https://reservas.aguasourofino.com.br/reservar.",
+        "updatedAt": "2026-11-03T17:50:30-03:00",
+        "checkedAt": "2026-11-03",
+        "url": "https://aguasourofino.com.br/estancia/",
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
