@@ -1685,5 +1685,44 @@
         "endsAt": null
       }
     ]
+  },
+  {
+    "id": "teatro-do-paiol",
+    "name": "Teatro do Paiol",
+    "category": "show",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "paid",
+    "description": "Teatro em Curitiba/PR com programação musical e espetáculos. Este cadastro reúne sessões públicas anunciadas, não visitação livre ao edifício.",
+    "url": "https://www.instagram.com/fcccuritiba/p/DfUkO5YoCTj/",
+    "checkedAt": "2026-11-04",
+    "updatedAt": "2026-11-04T17:49:17-03:00",
+    "crowdNote": "Não há previsão de lotação verificada. Ingresso pago não garante tranquilidade nem disponibilidade.",
+    "logisticsNote": "Rua Coronel Zacarias, 51, Prado Velho. Confira o serviço de cada espetáculo. Regras para ingresso de bebê no colo, carrinhos e fraldário não foram confirmadas.",
+    "activities": [
+      {
+        "id": "teatro-do-paiol--cantiga-tupi-bia-bedran-2026-11-14",
+        "title": "Cantiga — Tupi Pererê e Bia Bedran — 14 de novembro de 2026",
+        "description": "Espetáculo musical infantil Cantiga, com Tupi Pererê e participação especial de Bia Bedran, no Teatro do Paiol, em Curitiba/PR, em 14/11/2026, às 16h30. A proposta reúne música, poesia, histórias e imaginação, com temas de quintais, jardins e brincadeiras. Classificação livre e convite a crianças de todas as idades; isso não confirma adequação sensorial para bebês. Ingressos pelo CompreNoZet, indicado pela Fundação Cultural de Curitiba. Preços, taxas e disponibilidade de assentos não foram confirmados; a meia-entrada depende dos critérios legais e de comprovação. Duração, regras para crianças de colo, carrinhos e fraldário não informadas. Não há previsão de lotação. Rua Coronel Zacarias, 51, Prado Velho. A agenda oficial da FCC publicada em 04/11/2026 e a página de ingressos confirmam as sessões de 14 e 15/11 às 16h30; este item corresponde apenas à sessão de 14/11.",
+        "updatedAt": "2026-11-04T17:49:17-03:00",
+        "checkedAt": "2026-11-04",
+        "url": "https://comprenozet.com.br/eventos/tupi-perere-convida-bia-bedran/",
+        "kind": "event",
+        "startsAt": "2026-11-14",
+        "endsAt": "2026-11-14"
+      },
+      {
+        "id": "teatro-do-paiol--cantiga-tupi-bia-bedran-2026-11-15",
+        "title": "Cantiga — Tupi Pererê e Bia Bedran — 15 de novembro de 2026",
+        "description": "Espetáculo musical infantil Cantiga, com Tupi Pererê e participação especial de Bia Bedran, no Teatro do Paiol, em Curitiba/PR, em 15/11/2026, às 16h30. A proposta reúne música, poesia, histórias e imaginação, com temas de quintais, jardins e brincadeiras. Classificação livre e convite a crianças de todas as idades; isso não confirma adequação sensorial para bebês. Ingressos pelo CompreNoZet, indicado pela Fundação Cultural de Curitiba. Preços, taxas e disponibilidade de assentos não foram confirmados; a meia-entrada depende dos critérios legais e de comprovação. Duração, regras para crianças de colo, carrinhos e fraldário não informadas. Não há previsão de lotação. Rua Coronel Zacarias, 51, Prado Velho. A agenda oficial da FCC publicada em 04/11/2026 e a página de ingressos confirmam as sessões de 14 e 15/11 às 16h30; este item corresponde apenas à sessão de 15/11.",
+        "updatedAt": "2026-11-04T17:49:17-03:00",
+        "checkedAt": "2026-11-04",
+        "url": "https://comprenozet.com.br/eventos/tupi-perere-convida-bia-bedran/",
+        "kind": "event",
+        "startsAt": "2026-11-15",
+        "endsAt": "2026-11-15"
+      }
+    ]
   }
 ]
