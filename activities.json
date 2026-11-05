@@ -1724,5 +1724,61 @@
         "endsAt": "2026-11-15"
       }
     ]
+  },
+  {
+    "id": "sesc-sao-jose-dos-pinhais",
+    "name": "Sesc São José dos Pinhais",
+    "category": "show",
+    "city": "São José dos Pinhais/PR",
+    "area": "nearby",
+    "setting": "mixed",
+    "cost": "free",
+    "description": "Unidade do Sesc na região metropolitana, com programação de teatro, circo e música. A sessão cadastrada tem data e horário próprios; não representa visita livre permanente.",
+    "url": "https://www.sescpr.com.br/atividade/espetaculo-teatral-numeros-com-cia-os-palhacos-de-rua-pr-1400/",
+    "checkedAt": "2026-11-05",
+    "updatedAt": "2026-11-05T17:49:51-03:00",
+    "crowdNote": "Não há previsão de lotação verificada. Gratuidade não garante tranquilidade nem disponibilidade de lugares.",
+    "logisticsNote": "Av. Rocha Pombo, 2864, São José dos Pinhais/PR. A unidade reúne salas e quadra de areia; o ambiente específico do espetáculo não foi informado. Confira as condições de cada atividade. Estrutura para bebês e carrinhos não verificada.",
+    "activities": [
+      {
+        "id": "sesc-sao-jose-dos-pinhais--numeros-2026-11-06",
+        "title": "Números — Cia. Os Palhaços de Rua — 6 de novembro de 2026",
+        "description": "Espetáculo gratuito de circo e teatro em 6/11/2026, das 14h às 15h, no Sesc São José dos Pinhais, em São José dos Pinhais/PR. Os palhaços Batata Doce e Turino apresentam comédia física, música, dança e mágica, com poucas palavras. A sinopse também menciona labaredas; considere a sensibilidade das crianças a esses efeitos. Endereço: Av. Rocha Pombo, 2864. A página não esclarece o ambiente exato da sessão, inscrição, retirada de ingressos, capacidade ou disponibilidade de lugares. Idade mínima, regras para bebês acompanhantes, fraldário e acesso com carrinho não foram confirmados. Não há previsão de lotação verificada.",
+        "updatedAt": "2026-11-05T17:49:51-03:00",
+        "checkedAt": "2026-11-05",
+        "url": "https://www.sescpr.com.br/atividade/espetaculo-teatral-numeros-com-cia-os-palhacos-de-rua-pr-1400/",
+        "kind": "event",
+        "startsAt": "2026-11-06",
+        "endsAt": "2026-11-06"
+      }
+    ]
+  },
+  {
+    "id": "sesc-estacao-saudade",
+    "name": "Sesc Estação Saudade",
+    "category": "show",
+    "city": "Ponta Grossa/PR",
+    "area": "nearby",
+    "setting": "indoor",
+    "cost": "free",
+    "description": "Espaço cultural em Ponta Grossa/PR, com salas de música e dança e programação de eventos. Destino regional mais distante de Curitiba; as atividades cadastradas não equivalem a visitação permanente irrestrita.",
+    "url": "https://www.sescpr.com.br/projeto/sesc-geek-literacon/",
+    "checkedAt": "2026-11-05",
+    "updatedAt": "2026-11-05T17:49:51-03:00",
+    "crowdNote": "Não há previsão de lotação verificada. Gratuidade não garante tranquilidade nem disponibilidade de lugares.",
+    "logisticsNote": "Rua Fernandes Pinheiro, 77, Centro, Ponta Grossa/PR. A programação especial de 7/11/2026 anuncia encerramento às 20h, diferente do horário regular de sábado indicado na página da unidade, até 18h. Considere o horário específico do evento e confirme eventuais alterações. Distribuição das atividades pelos ambientes, estrutura para bebês e acesso com carrinho não verificados.",
+    "activities": [
+      {
+        "id": "sesc-estacao-saudade--geek-literacon-2026-11-07",
+        "title": "Sesc Geek Literacon — 7 de novembro de 2026",
+        "description": "Programação de cultura geek no Sesc Estação Saudade, em Ponta Grossa/PR, em 7/11/2026, das 10h às 20h. Viagem regional mais longa a partir de Curitiba; planeje o retorno, especialmente se ficar até o encerramento. A abertura às 10h tem a Banda Lyra dos Campos com repertório de games e filmes. O programa anuncia oficinas de criação de universos ficcionais, maquiagem artística, flâmula geek e pergaminhos, além de jogos digitais, exposição de games, feira de trocas e cabine de fotos. As idades e os horários individuais das oficinas não foram informados; não presumir participação de bebês ou adequação de todos os jogos a crianças pequenas. O concurso de cosplay ocorre das 18h às 20h: categoria Infantil até 12 anos; Livre Performática a partir de 13. Para competir, a página específica exige inscrição até 5/11/2026 às 23h59 e doação de brinquedo novo ou usado em boas condições, entregue na validação em 7/11, das 14h às 17h. Consulte o regulamento; disponibilidade de inscrições não verificada. A programação geral é anunciada como gratuita, mas isso não elimina a exigência para competidores. Endereço: Rua Fernandes Pinheiro, 77, Centro. Condições para bebês, fraldário, carrinhos e lotação não verificadas. Fonte complementar com data completa e regras do concurso: https://www.sescpr.com.br/atividade/concurso-de-cosplay-no-sesc-geek-literacon-sesc-estacao-saudade-07-11-2026-1800/ .",
+        "updatedAt": "2026-11-05T17:49:51-03:00",
+        "checkedAt": "2026-11-05",
+        "url": "https://www.sescpr.com.br/projeto/sesc-geek-literacon/",
+        "kind": "event",
+        "startsAt": "2026-11-07",
+        "endsAt": "2026-11-07"
+      }
+    ]
   }
 ]
