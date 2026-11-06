@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento. Novembro de 2026: o MON confirmou abertura excepcional na segunda-feira, 2/11, e funcionamento nos feriados de 15 e 20/11, das 10h às 18h, com entrada até as 17h30. Ingressos na bilheteria ou online; o comunicado não anuncia gratuidade geral nesses feriados. Confira a data escolhida e não presuma menor movimento. Fonte oficial publicada em 29/10/2026: https://www.museuoscarniemeyer.org.br/noticias/noticia-10-29-26.",
-    "updatedAt": "2026-10-30T17:50:13-03:00",
+    "updatedAt": "2026-11-06T17:49:43-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -194,10 +194,10 @@
       {
         "id": "museu-oscar-niemeyer--zines-2026-11-18",
         "title": "Laboratório de experiências: zines — 18 de novembro de 2026",
-        "description": "Oficina gratuita no MON, em Curitiba/PR, em 18/11/2026, às 10h30 e às 14h30 (sessão com Libras). Para adultos e crianças a partir de 5 anos: produção de publicações autorais com dobras de papel, transformando uma folha em livro. Local: Espaço de Oficinas, no subsolo, Rua Marechal Hermes, 999. A entrada no museu também é gratuita nesta quarta-feira. A faixa divulgada não inclui menores de 5 anos. Duração, inscrição, disponibilidade de vagas e permanência de bebês acompanhantes não informadas. Não há previsão de lotação.",
-        "updatedAt": "2026-10-28T17:51:24-03:00",
-        "checkedAt": "2026-10-28",
-        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-10-28-26",
+        "description": "Oficina gratuita de publicações autorais com dobras de papel no MON, em Curitiba/PR, em 18/11/2026, às 10h30 e às 14h30 (sessão com Libras), no Espaço de Oficinas, subsolo. Duração de 1h30, com saída livre após concluir as experimentações. Inscrições no local 15 minutos antes, por ordem de chegada e sujeitas à lotação; menores de 14 anos devem estar acompanhados de adulto. Há divergência etária entre fontes oficiais: a página específica recomenda a oficina para adultos e crianças a partir de 3 anos, enquanto a notícia de 28/10 informa a partir de 5 anos. Confirme a participação de crianças de 3–4 anos antes de contar com ela. A entrada no museu é gratuita nesta quarta-feira. Bebês não estão incluídos nas faixas anunciadas; permanência como acompanhantes não esclarecida. Não há previsão de lotação nem vagas garantidas. Rua Marechal Hermes, 999. Notícia com a faixa divergente: https://www.museuoscarniemeyer.org.br/noticias/noticia-10-28-26.",
+        "updatedAt": "2026-11-06T17:49:43-03:00",
+        "checkedAt": "2026-11-06",
+        "url": "https://www.museuoscarniemeyer.org.br/educativo/atividades/quartas-gratuitas-nov26-zine",
         "kind": "event",
         "startsAt": "2026-11-18",
         "endsAt": "2026-11-18"
@@ -256,6 +256,17 @@
         "kind": "event",
         "startsAt": "2026-11-27",
         "endsAt": "2026-11-27"
+      },
+      {
+        "id": "museu-oscar-niemeyer--meu-pequeno-maxixe-2026-11-12",
+        "title": "MON Primeiros Passos: Meu pequeno maxixe — 12 de novembro de 2026",
+        "description": "Oficina sensorial no MON, em Curitiba/PR, em 12/11/2026, das 10h30 às 11h30, para crianças de 2 a 3 anos acompanhadas obrigatoriamente de adulto. Esta sessão não abrange bebês menores de 2 anos nem crianças acima de 3 anos; não confundir com a faixa geral do programa, de 12 a 36 meses. Inspirada na obra Maxixe, de Delson Uchôa, começa no Espaço de Oficinas, no subsolo, e percorre diferentes espaços do museu, com ritmos, cores e materiais sensoriais: plástico-bolha, fitas de cetim, celofane e tapetes com tinta e água. Restrições ou alergias aos materiais devem ser comunicadas ao Educativo com até três dias de antecedência. É necessário adquirir ingresso antecipado pelo canal indicado na notícia; preço e disponibilidade não confirmados. Não há previsão de lotação nem informação específica sobre carrinhos. Rua Marechal Hermes, 999, Centro Cívico.",
+        "updatedAt": "2026-11-06T17:49:43-03:00",
+        "checkedAt": "2026-11-06",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-11-06-26",
+        "kind": "event",
+        "startsAt": "2026-11-12",
+        "endsAt": "2026-11-12"
       }
     ]
   },
