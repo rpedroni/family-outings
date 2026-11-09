@@ -1819,5 +1819,44 @@
         "endsAt": null
       }
     ]
+  },
+  {
+    "id": "parque-estadual-vila-velha",
+    "name": "Parque Estadual de Vila Velha",
+    "category": "park",
+    "city": "Ponta Grossa/PR",
+    "area": "nearby",
+    "setting": "outdoor",
+    "cost": "paid",
+    "description": "Parque natural em Ponta Grossa/PR com arenitos, Furnas, Lagoa Dourada e obras de arte ao ar livre do projeto MON sem Paredes. É um passeio regional mais longo desde Curitiba, para planejar com tempo, não uma atração de bairro.",
+    "url": "https://www.parquevilavelha.com.br/",
+    "checkedAt": "2026-11-09",
+    "crowdNote": "Não há previsão de lotação verificada. Ingresso pago e ambiente natural não garantem tranquilidade; a exposição também não tem estimativa de público confirmada.",
+    "logisticsNote": "O site oficial informa visitação das 9h às 17h, mas contém uma divergência: o destaque diz todos os dias e o quadro semanal marca terça-feira fechada. Confirme a data na bilheteria oficial antes de viajar; não há calendário anual nem disponibilidade de ingressos confirmados nesta checagem. Compra online em https://tickets.parquevilavelha.com.br/ ou na bilheteria; tarifas de entrada, gratuidade infantil e extras não foram confirmados. A estrutura oficial lista banheiros, restaurante, café e transporte interno de ônibus. O estacionamento para carro ou moto é anunciado a R$ 30 por dia. As regras admitem exceção à proibição de alimentos e bebidas para famílias com bebês e pessoas com dietas restritivas; comer nas trilhas continua proibido. Fraldário e acesso integral com carrinho não foram confirmados. As Furnas têm abismos de até 100 metros: manter crianças junto ao responsável e respeitar cercas e mirantes. Não é permitido sair das trilhas, escalar os arenitos ou alimentar animais. Tirolesa, arvorismo e balão são atrações distintas; limites de altura/idade e participação de bebês não foram verificados, portanto não presumir acesso. Fontes oficiais: https://www.parquevilavelha.com.br/regras-do-parque/ , https://www.parquevilavelha.com.br/estrutura/ e https://www.parquevilavelha.com.br/atracoes/furnas/ .",
+    "updatedAt": "2026-11-09T17:50:19-03:00",
+    "activities": [
+      {
+        "id": "parque-estadual-vila-velha--visit",
+        "title": "Visita ao local",
+        "description": "Parque natural em Ponta Grossa/PR com arenitos, Furnas, Lagoa Dourada e obras de arte ao ar livre do projeto MON sem Paredes. É um passeio regional mais longo desde Curitiba, para planejar com tempo, não uma atração de bairro. O site oficial informa visitação das 9h às 17h, mas contém uma divergência: o destaque diz todos os dias e o quadro semanal marca terça-feira fechada. Confirme a data na bilheteria oficial antes de viajar; não há calendário anual nem disponibilidade de ingressos confirmados nesta checagem. Compra online em https://tickets.parquevilavelha.com.br/ ou na bilheteria; tarifas de entrada, gratuidade infantil e extras não foram confirmados. A estrutura oficial lista banheiros, restaurante, café e transporte interno de ônibus. O estacionamento para carro ou moto é anunciado a R$ 30 por dia. As regras admitem exceção à proibição de alimentos e bebidas para famílias com bebês e pessoas com dietas restritivas; comer nas trilhas continua proibido. Fraldário e acesso integral com carrinho não foram confirmados. As Furnas têm abismos de até 100 metros: manter crianças junto ao responsável e respeitar cercas e mirantes. Não é permitido sair das trilhas, escalar os arenitos ou alimentar animais. Tirolesa, arvorismo e balão são atrações distintas; limites de altura/idade e participação de bebês não foram verificados, portanto não presumir acesso. Fontes oficiais: https://www.parquevilavelha.com.br/regras-do-parque/ , https://www.parquevilavelha.com.br/estrutura/ e https://www.parquevilavelha.com.br/atracoes/furnas/ .",
+        "updatedAt": "2026-11-09T17:50:19-03:00",
+        "checkedAt": "2026-11-09",
+        "url": "https://www.parquevilavelha.com.br/",
+        "kind": "visit",
+        "startsAt": null,
+        "endsAt": null
+      },
+      {
+        "id": "parque-estadual-vila-velha--impressoes-da-terra-2026-11-12",
+        "title": "Impressões da Terra — Hugo França (2026–2027)",
+        "description": "Exposição temporária de Hugo França no Parque Estadual de Vila Velha, em Ponta Grossa/PR, próxima às Furnas, com abertura anunciada pelo MON para 12/11/2026. São oito esculturas de grandes dimensões feitas com raízes de árvores, em diálogo com a paisagem natural. A notícia oficial de 9/11/2026 informa permanência até março de 2027, mas não fornece o dia de encerramento; a data final fica sem definição. Esta mostra é diferente das seis obras da edição itinerante anterior do MON sem Paredes. É uma viagem regional mais longa desde Curitiba. Consulte o ingresso e o funcionamento do parque; o anúncio não confirma gratuidade, cobrança específica da exposição ou vagas. Não há idade mínima indicada para a mostra, nem confirmação de acesso integral com carrinho ou estrutura específica para bebês. Observar esculturas não significa autorização para tocar ou subir nelas. Não há previsão de lotação verificada.",
+        "updatedAt": "2026-11-09T17:50:19-03:00",
+        "checkedAt": "2026-11-09",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticias-11-09-26",
+        "kind": "event",
+        "startsAt": "2026-11-12",
+        "endsAt": null
+      }
+    ]
   }
 ]
