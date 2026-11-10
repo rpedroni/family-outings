@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento. Novembro de 2026: o MON confirmou abertura excepcional na segunda-feira, 2/11, e funcionamento nos feriados de 15 e 20/11, das 10h às 18h, com entrada até as 17h30. Ingressos na bilheteria ou online; o comunicado não anuncia gratuidade geral nesses feriados. Confira a data escolhida e não presuma menor movimento. Fonte oficial publicada em 29/10/2026: https://www.museuoscarniemeyer.org.br/noticias/noticia-10-29-26.",
-    "updatedAt": "2026-11-06T17:49:43-03:00",
+    "updatedAt": "2026-11-10T17:49:09-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -267,6 +267,17 @@
         "kind": "event",
         "startsAt": "2026-11-12",
         "endsAt": "2026-11-12"
+      },
+      {
+        "id": "museu-oscar-niemeyer--bienal-limiares-2026",
+        "title": "16ª Bienal Internacional de Curitiba: Limiares — 2026",
+        "description": "Última semana da Bienal no MON, em Curitiba/PR: período público de 14/06 a 15/11/2026, distinto da abertura na véspera. Ocupa salas 1, 3, 7, 8 e 9, Torre e Olho, com instalações, esculturas, vídeo e reflexões sobre arte e tecnologia. É visita expositiva, não oficina infantil nem autorização geral para tocar nas obras. Atenção aos avisos oficiais: restrição de movimento, ruído, som inesperado, luz oscilante, reduzida e intensa, além de obra interativa. Considere esses estímulos antes de levar crianças pequenas e bebês; idade mínima e condições específicas para carrinhos nesta mostra não informadas. Horário habitual: terça a domingo, 10h–18h, acesso até 17h30. Ingressos anunciados: R$ 36 inteira e R$ 18 meia, conforme elegibilidade; entrada gratuita às quartas-feiras e no último domingo do mês. Não há previsão de lotação nem garantia de tranquilidade no encerramento. Rua Marechal Hermes, 999. A notícia oficial de 10/11/2026 reafirma o término em 15/11: https://www.museuoscarniemeyer.org.br/noticias/noticia-11-10-26.",
+        "url": "https://www.museuoscarniemeyer.org.br/exposicoes/bienal2026",
+        "kind": "event",
+        "startsAt": "2026-06-14",
+        "endsAt": "2026-11-15",
+        "updatedAt": "2026-11-10T17:49:09-03:00",
+        "checkedAt": "2026-11-10"
       }
     ]
   },
@@ -1314,7 +1325,7 @@
     "description": "Espaço cultural em Curitiba/PR com música, contação de histórias, circo e teatro. Além do histórico da Semana da Criança 2026, a programação oficial inclui a Hora do Conto regular na biblioteca. As atividades acontecem em ambientes diferentes e seguem regras próprias; não confundir o horário de uma sessão com visitação livre a toda a unidade.",
     "url": "https://www.sescpr.com.br/projeto/semana-crianca-esquina/",
     "checkedAt": "2026-10-13",
-    "updatedAt": "2026-10-18T17:51:30-03:00",
+    "updatedAt": "2026-11-10T17:49:09-03:00",
     "crowdNote": "Não há previsão de lotação verificada. Gratuidade ou ingresso solidário não garantem tranquilidade nem vagas; a disponibilidade de ingressos e de lugares não foi consultada.",
     "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas. A programação regular Hora do Conto é gratuita e ocorre na biblioteca, de segunda a sexta, das 15h às 15h30, conforme página oficial consultada em 18/10/2026. Não há data de término divulgada; confirme exceções de feriados e a realização no dia pretendido. A fonte não esclarece inscrição, capacidade ou idade mínima.",
     "activities": [
@@ -1438,6 +1449,17 @@
         "kind": "visit",
         "startsAt": null,
         "endsAt": null
+      },
+      {
+        "id": "sesc-da-esquina--emperors-new-hair-2026-11-17",
+        "title": "Musical em inglês: The Emperor’s New Hair — 17 de novembro de 2026",
+        "description": "Apresentação gratuita da Cia Paulista de Teatro Bilíngue no Teatro do Sesc da Esquina, em Curitiba/PR, em 17/11/2026, das 19h às 20h. O musical é encenado integralmente em inglês, como ação pedagógica para estudantes dos cursos de inglês do Sesc Paraná e demais interessados. A página oferece pré-inscrição e informa 40 vagas totais; isso não confirma vagas restantes nem garante entrada. Idade mínima, recomendação para crianças pequenas e regras para bebês acompanhantes não foram esclarecidas; considere o idioma e o horário antes de escolher. Não há informação específica sobre carrinhos ou estimativa de lotação. Endereço: Rua Visconde do Rio Branco, 969. Nenhuma inscrição foi realizada.",
+        "url": "https://www.sescpr.com.br/atividade/apresentacao-especial-the-emperors-new-hair-17-11-2026-1900/",
+        "kind": "event",
+        "startsAt": "2026-11-17",
+        "endsAt": "2026-11-17",
+        "updatedAt": "2026-11-10T17:49:09-03:00",
+        "checkedAt": "2026-11-10"
       }
     ]
   },
