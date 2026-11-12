@@ -1580,7 +1580,7 @@
     "description": "Espaço cultural no Centro de Curitiba/PR com sessões de cinema e narração de histórias. As atividades cadastradas são gratuitas e têm regras próprias; a Hora do Conto exige agendamento. Também oferece visita mediada gratuita ao patrimônio, por agendamento e confirmação da equipe, com participação de famílias.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-11-03T17:50:30-03:00",
+    "updatedAt": "2026-11-12T17:49:22-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
     "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
     "activities": [
@@ -1671,6 +1671,28 @@
         "kind": "event",
         "startsAt": "2026-11-07",
         "endsAt": "2026-11-07"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--modo-leitura-poesia-praca-2026-11-14",
+        "title": "Modo Leitura: Poesia na Praça — 14 de novembro de 2026",
+        "description": "Intervenções poéticas e leituras compartilhadas ao ar livre na Praça Generoso Marques, em frente à entrada do Sesc Paço da Liberdade, em Curitiba/PR, em 14/11/2026. Duas sessões gratuitas: das 10h às 10h30 e das 15h às 15h30. A programação local é Poesia na Praça; a contação para Educação Infantil mencionada na mesma notícia ocorre em Foz do Iguaçu, não em Curitiba. A fonte não informa idade mínima, necessidade de inscrição, capacidade, condições em caso de chuva ou estrutura para bebês e carrinhos. Não há previsão de movimento; gratuidade não garante tranquilidade. Referência: Praça Generoso Marques, 189.",
+        "url": "https://www.sescpr.com.br/atividade/modo-leitura/",
+        "kind": "event",
+        "startsAt": "2026-11-14",
+        "endsAt": "2026-11-14",
+        "updatedAt": "2026-11-12T17:49:22-03:00",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--arte-patrimonio-entorno-2026-11-19",
+        "title": "Arte e Patrimônio: pelas ruas do entorno — 19 de novembro de 2026",
+        "description": "Passeio guiado gratuito pelo entorno do Sesc Paço da Liberdade, em Curitiba/PR, em 19/11/2026, das 14h às 17h. Com Maria Luiza Gomes, propõe observar prédios e detalhes arquitetônicos, acompanhando intervenções e reflexões artísticas sobre a memória urbana. Referência: Praça Generoso Marques, 189. A página oferece formulário de pré-inscrição; vagas disponíveis e confirmação de participação não verificadas. Não é anunciado como passeio especificamente infantil: considere a janela de três horas e a caminhada pelas ruas para crianças pequenas. Idade mínima, distância, pausas, condições para bebês e carrinhos e regras em caso de chuva não informadas nesta edição. Não há previsão de lotação nem garantia de pouco movimento no entorno.",
+        "url": "https://www.sescpr.com.br/atividade/arte-e-patrimonio-pelas-ruas-do-entorno-do-paco-da-liberdade-19-11-2026-1400/",
+        "kind": "event",
+        "startsAt": "2026-11-19",
+        "endsAt": "2026-11-19",
+        "updatedAt": "2026-11-12T17:49:22-03:00",
+        "checkedAt": "2026-11-12"
       }
     ]
   },
