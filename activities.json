@@ -1336,7 +1336,7 @@
     "description": "Espaço cultural em Curitiba/PR com música, contação de histórias, circo e teatro. Além do histórico da Semana da Criança 2026, a programação oficial inclui a Hora do Conto regular na biblioteca. As atividades acontecem em ambientes diferentes e seguem regras próprias; não confundir o horário de uma sessão com visitação livre a toda a unidade.",
     "url": "https://www.sescpr.com.br/projeto/semana-crianca-esquina/",
     "checkedAt": "2026-10-13",
-    "updatedAt": "2026-11-10T17:49:09-03:00",
+    "updatedAt": "2026-11-13T17:48:09-03:00",
     "crowdNote": "Não há previsão de lotação verificada. Gratuidade ou ingresso solidário não garantem tranquilidade nem vagas; a disponibilidade de ingressos e de lugares não foi consultada.",
     "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas. A programação regular Hora do Conto é gratuita e ocorre na biblioteca, de segunda a sexta, das 15h às 15h30, conforme página oficial consultada em 18/10/2026. Não há data de término divulgada; confirme exceções de feriados e a realização no dia pretendido. A fonte não esclarece inscrição, capacidade ou idade mínima.",
     "activities": [
@@ -1471,6 +1471,28 @@
         "endsAt": "2026-11-17",
         "updatedAt": "2026-11-10T17:49:09-03:00",
         "checkedAt": "2026-11-10"
+      },
+      {
+        "id": "sesc-da-esquina--natal-encantado-estrela-guia-2026-12-13",
+        "title": "Um Natal Encantado – A Estrela Guia — 13 de dezembro de 2026",
+        "description": "Espetáculo da Encantada Produções no Sesc da Esquina, em Curitiba/PR, em 13/12/2026, às 15h, com duração aproximada de 50 minutos. A história se passa no Polo Norte, com Papai Noel, seus ajudantes e outros personagens, combinando teatro, música, dança e interação com o público. Integra a programação natalina da unidade, mas esta sessão tem data própria; não há apresentações diárias confirmadas. A notícia não especifica preço, retirada de ingressos, inscrição, vagas ou ambiente exato desta montagem dentro da unidade. Idade mínima, regras para bebês acompanhantes, fraldário e circulação com carrinho não esclarecidos. Não há previsão de lotação; confirme as condições de acesso antes de organizar a ida.",
+        "updatedAt": "2026-11-13T17:48:09-03:00",
+        "checkedAt": "2026-11-13",
+        "url": "https://www.sescpr.com.br/2026/11/sesc-pr-promove-espetaculos-de-natal-projecoes-mapeadas-e-apresentacoes-culturais/",
+        "kind": "event",
+        "startsAt": "2026-12-13",
+        "endsAt": "2026-12-13"
+      },
+      {
+        "id": "sesc-da-esquina--natal-encantado-estrela-guia-2026-12-16",
+        "title": "Um Natal Encantado – A Estrela Guia — 16 de dezembro de 2026",
+        "description": "Espetáculo da Encantada Produções no Sesc da Esquina, em Curitiba/PR, em 16/12/2026, às 19h, com duração aproximada de 50 minutos. A história se passa no Polo Norte, com Papai Noel, seus ajudantes e outros personagens, combinando teatro, música, dança e interação com o público. Integra a programação natalina da unidade, mas esta sessão tem data própria; não há apresentações diárias confirmadas. A notícia não especifica preço, retirada de ingressos, inscrição, vagas ou ambiente exato desta montagem dentro da unidade. Idade mínima, regras para bebês acompanhantes, fraldário e circulação com carrinho não esclarecidos. Não há previsão de lotação; confirme as condições de acesso antes de organizar a ida.",
+        "updatedAt": "2026-11-13T17:48:09-03:00",
+        "checkedAt": "2026-11-13",
+        "url": "https://www.sescpr.com.br/2026/11/sesc-pr-promove-espetaculos-de-natal-projecoes-mapeadas-e-apresentacoes-culturais/",
+        "kind": "event",
+        "startsAt": "2026-12-16",
+        "endsAt": "2026-12-16"
       }
     ]
   },
@@ -1575,12 +1597,12 @@
     "category": "show",
     "city": "Curitiba/PR",
     "area": "curitiba",
-    "setting": "indoor",
-    "cost": "free",
-    "description": "Espaço cultural no Centro de Curitiba/PR com sessões de cinema e narração de histórias. As atividades cadastradas são gratuitas e têm regras próprias; a Hora do Conto exige agendamento. Também oferece visita mediada gratuita ao patrimônio, por agendamento e confirmação da equipe, com participação de famílias.",
+    "setting": "mixed",
+    "cost": "unknown",
+    "description": "Espaço cultural no Centro de Curitiba/PR com cinema, narração de histórias e visitas mediadas ao patrimônio. As atividades regulares cadastradas são gratuitas e têm regras próprias de agendamento; a visita patrimonial depende de confirmação. A programação também inclui espetáculo natalino ao ar livre, na fachada, com condições de acesso ainda não detalhadas na notícia oficial.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-11-12T17:49:22-03:00",
+    "updatedAt": "2026-11-13T17:48:09-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
     "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
     "activities": [
@@ -1693,6 +1715,17 @@
         "endsAt": "2026-11-19",
         "updatedAt": "2026-11-12T17:49:22-03:00",
         "checkedAt": "2026-11-12"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--guardioes-acreditar-natal-2026",
+        "title": "Os Guardiões do Acreditar — Natal no Paço 2026",
+        "description": "Espetáculo natalino na fachada do Sesc Paço da Liberdade, na Praça Generoso Marques, Centro de Curitiba/PR, de 1º a 7/12/2026, diariamente às 20h, precedido por apresentações musicais às 19h30. A montagem da Labirinto Produções reúne projeções, iluminação, música e artistas nas janelas e em frente ao prédio, contando uma jornada para recuperar o brilho da Estrela de Natal. Após cada sessão, o anúncio prevê fotografias com os personagens. O Paço participa mesmo durante a restauração; isso não confirma acesso irrestrito ao interior. A notícia não informa preço, retirada de ingresso, duração, regras para chuva, idade mínima ou estrutura para bebês e carrinhos. Considere o horário noturno e os estímulos de luz e som com crianças pequenas. Não há previsão de lotação nem garantia de tranquilidade.",
+        "updatedAt": "2026-11-13T17:48:09-03:00",
+        "checkedAt": "2026-11-13",
+        "url": "https://www.sescpr.com.br/2026/11/sesc-pr-promove-espetaculos-de-natal-projecoes-mapeadas-e-apresentacoes-culturais/",
+        "kind": "event",
+        "startsAt": "2026-12-01",
+        "endsAt": "2026-12-07"
       }
     ]
   },
