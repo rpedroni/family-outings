@@ -1602,7 +1602,7 @@
     "description": "Espaço cultural no Centro de Curitiba/PR com cinema, narração de histórias e visitas mediadas ao patrimônio. As atividades regulares cadastradas são gratuitas e têm regras próprias de agendamento; a visita patrimonial depende de confirmação. A programação também inclui espetáculo natalino ao ar livre, na fachada, com condições de acesso ainda não detalhadas na notícia oficial.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-11-13T17:48:09-03:00",
+    "updatedAt": "2026-11-15T17:50:44-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
     "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
     "activities": [
@@ -1726,6 +1726,50 @@
         "kind": "event",
         "startsAt": "2026-12-01",
         "endsAt": "2026-12-07"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--jericoa-duo-2026-11-17",
+        "title": "Show no Paço: Jericoá Duo — 17 de novembro de 2026",
+        "description": "Apresentação gratuita de música instrumental na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR, em 17/11/2026, das 18h às 19h. Renato Vieira (baixo) e Pedro Ribeiro (guitarra) apresentam releituras de música brasileira e jazz, com improvisação e repertório que inclui Dominguinhos, Milton Nascimento e Baden Powell. Não é anunciado como espetáculo especificamente infantil; considere o horário e a duração de uma hora para crianças pequenas. A página não informa idade mínima, volume sonoro, necessidade de inscrição, retirada de ingresso ou disponibilidade de lugares. Regras para bebês acompanhantes, fraldário e acesso com carrinho não esclarecidos. Praça Generoso Marques, 189. Não há previsão de lotação; gratuidade e formato em duo não garantem tranquilidade.",
+        "updatedAt": "2026-11-15T17:50:44-03:00",
+        "checkedAt": "2026-11-15",
+        "url": "https://www.sescpr.com.br/atividade/show-no-paco-jericoa-duo/",
+        "kind": "event",
+        "startsAt": "2026-11-17",
+        "endsAt": "2026-11-17"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--jericoa-duo-2026-11-18",
+        "title": "Show no Paço: Jericoá Duo — 18 de novembro de 2026",
+        "description": "Apresentação gratuita de música instrumental na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR, em 18/11/2026, das 18h às 19h. Renato Vieira (baixo) e Pedro Ribeiro (guitarra) apresentam releituras de música brasileira e jazz, com improvisação e repertório que inclui Dominguinhos, Milton Nascimento e Baden Powell. Não é anunciado como espetáculo especificamente infantil; considere o horário e a duração de uma hora para crianças pequenas. A página não informa idade mínima, volume sonoro, necessidade de inscrição, retirada de ingresso ou disponibilidade de lugares. Regras para bebês acompanhantes, fraldário e acesso com carrinho não esclarecidos. Praça Generoso Marques, 189. Não há previsão de lotação; gratuidade e formato em duo não garantem tranquilidade.",
+        "updatedAt": "2026-11-15T17:50:44-03:00",
+        "checkedAt": "2026-11-15",
+        "url": "https://www.sescpr.com.br/atividade/show-no-paco-jericoa-duo/",
+        "kind": "event",
+        "startsAt": "2026-11-18",
+        "endsAt": "2026-11-18"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--jericoa-duo-2026-11-19",
+        "title": "Show no Paço: Jericoá Duo — 19 de novembro de 2026",
+        "description": "Apresentação gratuita de música instrumental na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR, em 19/11/2026, das 19h às 20h. Renato Vieira (baixo) e Pedro Ribeiro (guitarra) apresentam releituras de música brasileira e jazz, com improvisação e repertório que inclui Dominguinhos, Milton Nascimento e Baden Powell. Não é anunciado como espetáculo especificamente infantil; considere o horário e a duração de uma hora para crianças pequenas. A página não informa idade mínima, volume sonoro, necessidade de inscrição, retirada de ingresso ou disponibilidade de lugares. Regras para bebês acompanhantes, fraldário e acesso com carrinho não esclarecidos. Praça Generoso Marques, 189. Não há previsão de lotação; gratuidade e formato em duo não garantem tranquilidade.",
+        "updatedAt": "2026-11-15T17:50:44-03:00",
+        "checkedAt": "2026-11-15",
+        "url": "https://www.sescpr.com.br/atividade/show-no-paco-jericoa-duo/",
+        "kind": "event",
+        "startsAt": "2026-11-19",
+        "endsAt": "2026-11-19"
+      },
+      {
+        "id": "sesc-paco-da-liberdade--arte-patrimonio-entorno-2026-11-27",
+        "title": "Arte e Patrimônio: pelas ruas do entorno — 27 de novembro de 2026",
+        "description": "Passeio guiado gratuito pelo entorno do Sesc Paço da Liberdade, em Curitiba/PR, em 27/11/2026, das 14h às 16h. Conduzido por Maria Luiza Gomes, convida a observar prédios, detalhes arquitetônicos e intervenções artísticas ligadas à memória urbana. Referência: Praça Generoso Marques, 189. A página oferece formulário de pré-inscrição; vagas e confirmação de participação não verificadas. É uma sessão distinta da edição de 19/11, com horário próprio. Não é anunciado como passeio especificamente infantil: considere a janela de duas horas e a caminhada pelas ruas para crianças pequenas. Idade mínima, distância, pausas, condições para carrinhos e bebês e regras para chuva não foram informadas. Não há previsão de lotação nem garantia de pouco movimento no entorno.",
+        "updatedAt": "2026-11-15T17:50:44-03:00",
+        "checkedAt": "2026-11-15",
+        "url": "https://www.sescpr.com.br/atividade/arte-e-patrimonio-pelas-ruas-do-entorno-do-paco-da-liberdade-27-11-2026-1400/",
+        "kind": "event",
+        "startsAt": "2026-11-27",
+        "endsAt": "2026-11-27"
       }
     ]
   },
