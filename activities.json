@@ -2034,5 +2034,61 @@
         "endsAt": null
       }
     ]
+  },
+  {
+    "id": "praca-santos-andrade",
+    "name": "Praça Santos Andrade — apresentações",
+    "category": "show",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "outdoor",
+    "cost": "free",
+    "description": "Espaço de apresentações ao ar livre no Centro de Curitiba/PR. Este cadastro reúne espetáculos com datas confirmadas, não uma programação permanente.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
+    "checkedAt": "2026-11-18",
+    "crowdNote": "Não há previsão de lotação verificada. Espetáculos natalinos podem concentrar público; entrada gratuita não significa pouco movimento.",
+    "logisticsNote": "Praça Santos Andrade, Centro, na escadaria da Universidade Federal do Paraná. O serviço oficial confirma apresentações gratuitas às 20h. Não informa duração, necessidade de retirada de ingresso, classificação etária, política para chuva, fraldário ou condições de acesso com carrinho.",
+    "updatedAt": "2026-11-18T17:51:07-03:00",
+    "activities": [
+      {
+        "id": "praca-santos-andrade--abrace-o-mundo-primeiro-fim-de-semana-2026-11-27",
+        "title": "Abrace o Mundo — primeiro fim de semana de 2026",
+        "description": "Espetáculo natalino gratuito com atores e bailarinos na escadaria da UFPR, Praça Santos Andrade, em Curitiba/PR. Um garoto procura entender como Papai Noel entrega todos os presentes em uma noite. Este item reúne as sessões de 27, 28 e 29/11/2026, às 20h, primeiro fim de semana da temporada. A FCC anunciou temporada de 27/11 a 23/12, exceto quartas-feiras; outras sessões não estão incluídas neste item. O cenário tem árvores decoradas de 20 e 18 metros. A notícia oficial de 18/11/2026 confirma datas, local, horário e gratuidade, mas não informa duração, classificação etária, regras de retirada de ingresso ou infraestrutura para bebês. Não há previsão de lotação; não tratar como opção de pouco movimento. Confira eventuais alterações por chuva antes de sair.",
+        "updatedAt": "2026-11-18T17:51:07-03:00",
+        "checkedAt": "2026-11-18",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
+        "kind": "event",
+        "startsAt": "2026-11-27",
+        "endsAt": "2026-11-29"
+      }
+    ]
+  },
+  {
+    "id": "parque-tingui",
+    "name": "Parque Tingui",
+    "category": "park",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "outdoor",
+    "cost": "free",
+    "description": "Parque de Curitiba/PR com apresentação natalina ao ar livre que combina teatro, dança, música, projeções e águas dançantes. Este cadastro registra sessões anunciadas, sem confirmar visitação a todas as estruturas do parque.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
+    "checkedAt": "2026-11-18",
+    "crowdNote": "Não há previsão de lotação verificada. Espetáculos natalinos podem concentrar público; entrada gratuita não significa pouco movimento.",
+    "logisticsNote": "Endereço do espetáculo: Avenida Fredolin Wolf, 1870, São João, Curitiba/PR. Apresentações gratuitas às 20h. A fonte não informa duração, classificação etária, retirada de ingressos, política para chuva, acessibilidade do ponto de apresentação ou estrutura para bebês. Há luzes, projeções e música; a adequação sensorial para bebês não foi confirmada.",
+    "updatedAt": "2026-11-18T17:51:07-03:00",
+    "activities": [
+      {
+        "id": "parque-tingui--natal-da-natureza-primeiro-fim-de-semana-2026-12-04",
+        "title": "Natal da Natureza — primeiro fim de semana de 2026",
+        "description": "Show de Águas — O Natal da Natureza, gratuito no Parque Tingui, em Curitiba/PR, com 40 atores e bailarinos, luz, música, balé, teatro, projeções e águas dançantes. Este item reúne as sessões de 4, 5 e 6/12/2026, às 20h, primeiro fim de semana da temporada. A FCC anunciou apresentações de 2 a 30/12/2026, exceto terças-feiras; outras sessões não estão incluídas neste item. Endereço: Avenida Fredolin Wolf, 1870, São João. A notícia oficial de 18/11/2026 confirma datas, local, horário e gratuidade. Duração, classificação etária, regras de retirada de ingressos, política para chuva, fraldário e acesso com carrinho não informados. As luzes, projeções e música merecem atenção ao planejar com crianças pequenas; não foi confirmada adequação sensorial para bebês. Não há previsão de lotação e a gratuidade não indica tranquilidade.",
+        "updatedAt": "2026-11-18T17:51:07-03:00",
+        "checkedAt": "2026-11-18",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
+        "kind": "event",
+        "startsAt": "2026-12-04",
+        "endsAt": "2026-12-06"
+      }
+    ]
   }
 ]
