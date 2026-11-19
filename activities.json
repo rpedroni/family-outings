@@ -1336,9 +1336,9 @@
     "description": "Espaço cultural em Curitiba/PR com música, contação de histórias, circo e teatro. Além do histórico da Semana da Criança 2026, a programação oficial inclui a Hora do Conto regular na biblioteca. As atividades acontecem em ambientes diferentes e seguem regras próprias; não confundir o horário de uma sessão com visitação livre a toda a unidade.",
     "url": "https://www.sescpr.com.br/projeto/semana-crianca-esquina/",
     "checkedAt": "2026-10-13",
-    "updatedAt": "2026-11-17T17:50:03-03:00",
+    "updatedAt": "2026-11-19T17:48:59-03:00",
     "crowdNote": "Não há previsão de lotação verificada. Gratuidade ou ingresso solidário não garantem tranquilidade nem vagas; a disponibilidade de ingressos e de lugares não foi consultada.",
-    "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas. A programação regular Hora do Conto é gratuita e ocorre na biblioteca, de segunda a sexta, das 15h às 15h30, conforme página oficial consultada em 18/10/2026. Não há data de término divulgada; confirme exceções de feriados e a realização no dia pretendido. A fonte não esclarece inscrição, capacidade ou idade mínima.",
+    "logisticsNote": "Rua Visconde do Rio Branco, 969, Curitiba/PR. Planeta Oca acontece no teatro; musicalização infantil, no hall de entrada. Cada atividade tem regra própria de acesso. Atenção: a unidade estará fechada em 12/10/2026, conforme aviso oficial do Sesc publicado em 8/10, com retomada em 13/10. Fraldário, acesso com carrinho e permanência de bebês acompanhantes não foram informados nas páginas consultadas. A programação regular Hora do Conto é gratuita e ocorre na biblioteca, de segunda a sexta, das 15h às 15h30, conforme página oficial consultada em 18/10/2026. Não há data de término divulgada; confirme exceções de feriados e a realização no dia pretendido. A fonte não esclarece inscrição, capacidade ou idade mínima. Atenção ao feriado de 20/11/2026: a unidade estará fechada, conforme comunicado oficial do Sesc PR publicado em 19/11/2026. O fechamento excepcional prevalece sobre os horários regulares e impede as atividades presenciais nessa data; não é um novo evento. Fonte: https://www.sescpr.com.br/2026/11/aviso-de-funcionamento-das-unidades-no-feriado-de-20-de-novembro/.",
     "activities": [
       {
         "id": "sesc-da-esquina--planeta-oca-2026-10-10",
@@ -1453,8 +1453,8 @@
       {
         "id": "sesc-da-esquina--visit",
         "title": "Hora do Conto — programação regular",
-        "description": "Narração de histórias e leitura de uma obra literária para crianças e adultos na biblioteca do Sesc da Esquina, em Curitiba/PR. A programação oficial anuncia encontros gratuitos de segunda a sexta, das 15h às 15h30, sem data de término informada. Endereço: Rua Visconde do Rio Branco, 969. É uma atividade regular de contação, não uma sessão especial da Semana da Criança nem visita livre a todos os ambientes da unidade. Confirme a realização no dia desejado e eventuais exceções de feriados. A página não esclarece necessidade de inscrição, capacidade, idade mínima ou condições para bebês acompanhantes; fraldário e acesso com carrinho não verificados. Não há previsão de lotação; gratuidade não garante tranquilidade.",
-        "updatedAt": "2026-10-18T17:51:30-03:00",
+        "description": "Narração de histórias e leitura de uma obra literária para crianças e adultos na biblioteca do Sesc da Esquina, em Curitiba/PR. A programação oficial anuncia encontros gratuitos de segunda a sexta, das 15h às 15h30, sem data de término informada. Endereço: Rua Visconde do Rio Branco, 969. É uma atividade regular de contação, não uma sessão especial da Semana da Criança nem visita livre a todos os ambientes da unidade. Confirme a realização no dia desejado e eventuais exceções de feriados. A página não esclarece necessidade de inscrição, capacidade, idade mínima ou condições para bebês acompanhantes; fraldário e acesso com carrinho não verificados. Não há previsão de lotação; gratuidade não garante tranquilidade. Atenção ao feriado de 20/11/2026: a unidade estará fechada, conforme comunicado oficial do Sesc PR publicado em 19/11/2026. O fechamento excepcional prevalece sobre os horários regulares e impede as atividades presenciais nessa data; não é um novo evento. Fonte: https://www.sescpr.com.br/2026/11/aviso-de-funcionamento-das-unidades-no-feriado-de-20-de-novembro/.",
+        "updatedAt": "2026-11-19T17:48:59-03:00",
         "checkedAt": "2026-10-18",
         "url": "https://www.sescpr.com.br/atividade/hora-do-conto-1500-2/",
         "kind": "visit",
@@ -1504,6 +1504,17 @@
         "endsAt": "2026-12-10",
         "updatedAt": "2026-11-17T17:50:03-03:00",
         "checkedAt": "2026-11-17"
+      },
+      {
+        "id": "sesc-da-esquina--brincando-nas-ferias-2027-01",
+        "title": "Sesc Brincando nas Férias — janeiro de 2027",
+        "description": "Colônia de férias no Sesc da Esquina, em Curitiba/PR, anunciada para 18 a 29/01/2027, das 13h às 17h30, com oficinas artísticas, brincadeiras e atividades esportivas e culturais. Para crianças de 4 a 12 anos; bebês e menores de 4 anos não estão incluídos. Não é passeio familiar de entrada avulsa: a cobrança é por pacote semanal, sem diária, com lanche incluso. Valores divulgados por semana: R$ 100 para dependentes de trabalhadores do comércio, R$ 140 para empresários do comércio e conveniados e R$ 160 para público geral. De 23/11 a 12/12/2026, inscrições exclusivas para dependentes de trabalhadores do comércio; a página não informa a abertura das demais categorias. Vagas limitadas, sem disponibilidade confirmada. O intervalo divulgado é o período do programa, não confirmação de atividades em todos os dias, inclusive fins de semana; confirme os dias de cada módulo antes de contratar. Endereço: Rua Visconde do Rio Branco, 969. Permanência de familiares e bebês acompanhantes, fraldário e condições para carrinhos não esclarecidas. Não há previsão de lotação.",
+        "updatedAt": "2026-11-19T17:48:59-03:00",
+        "checkedAt": "2026-11-19",
+        "url": "https://www.sescpr.com.br/atividade/sesc-brincando-nas-ferias-1300-32/",
+        "kind": "event",
+        "startsAt": "2027-01-18",
+        "endsAt": "2027-01-29"
       }
     ]
   },
@@ -1613,19 +1624,19 @@
     "description": "Espaço cultural no Centro de Curitiba/PR com cinema, narração de histórias e visitas mediadas ao patrimônio. As atividades regulares cadastradas são gratuitas e têm regras próprias de agendamento; a visita patrimonial depende de confirmação. A programação também inclui espetáculo natalino ao ar livre, na fachada, com condições de acesso ainda não detalhadas na notícia oficial.",
     "url": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
     "checkedAt": "2026-10-20",
-    "updatedAt": "2026-11-16T17:49:27-03:00",
+    "updatedAt": "2026-11-19T17:48:59-03:00",
     "crowdNote": "Não há previsão de movimento verificada. A Hora do Conto anuncia 10 vagas, sem confirmação de disponibilidade; não extrapolar essa capacidade para o cinema ou para toda a unidade.",
-    "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento.",
+    "logisticsNote": "Praça Generoso Marques, 189, Curitiba/PR. A unidade informa terça a sexta das 10h às 21h, sábados das 10h às 17h45 e domingos e feriados das 11h às 17h. Esses são horários da unidade, não sessões contínuas das atividades. Hora do Conto na biblioteca, mediante agendamento; cinema no CinePensamento. Fraldário, circulação com carrinho e regras para bebês não verificados. A visita patrimonial exige confirmação prévia e tem mínimo de três e máximo de 25 participantes por horário. A página apresenta divergência entre os horários do serviço e do formulário; confira os detalhes na atividade e aguarde a confirmação antes de organizar o deslocamento. Atenção ao feriado de 20/11/2026: a unidade estará fechada, conforme comunicado oficial do Sesc PR publicado em 19/11/2026. O fechamento excepcional prevalece sobre os horários regulares e impede as atividades presenciais nessa data; não é um novo evento. Fonte: https://www.sescpr.com.br/2026/11/aviso-de-funcionamento-das-unidades-no-feriado-de-20-de-novembro/.",
     "activities": [
       {
         "id": "sesc-paco-da-liberdade--visit",
         "title": "Hora do Conto — programação regular",
-        "description": "Narração de histórias e leitura de uma obra literária na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR. A programação oficial informa terça a sexta, das 10h às 10h30, gratuitamente, mediante agendamento na Central de Atendimento da unidade. São 10 vagas anunciadas; isso não confirma disponibilidade nem garante ambiente silencioso. Não há data de término divulgada: confirme a realização no dia pretendido e exceções de feriados. A proposta menciona adultos e crianças, mas não informa idade mínima, participação de bebês ou condições para carrinhos. Praça Generoso Marques, 189.",
+        "description": "Narração de histórias e leitura de uma obra literária na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR. A programação oficial informa terça a sexta, das 10h às 10h30, gratuitamente, mediante agendamento na Central de Atendimento da unidade. São 10 vagas anunciadas; isso não confirma disponibilidade nem garante ambiente silencioso. Não há data de término divulgada: confirme a realização no dia pretendido e exceções de feriados. A proposta menciona adultos e crianças, mas não informa idade mínima, participação de bebês ou condições para carrinhos. Praça Generoso Marques, 189. Atenção ao feriado de 20/11/2026: a unidade estará fechada, conforme comunicado oficial do Sesc PR publicado em 19/11/2026. O fechamento excepcional prevalece sobre os horários regulares e impede as atividades presenciais nessa data; não é um novo evento. Fonte: https://www.sescpr.com.br/2026/11/aviso-de-funcionamento-das-unidades-no-feriado-de-20-de-novembro/.",
         "url": "https://www.sescpr.com.br/atividade/hora-do-conto-1000/",
         "kind": "visit",
         "startsAt": null,
         "endsAt": null,
-        "updatedAt": "2026-10-20T17:51:36-03:00",
+        "updatedAt": "2026-11-19T17:48:59-03:00",
         "checkedAt": "2026-10-20"
       },
       {
@@ -1642,12 +1653,12 @@
       {
         "id": "sesc-paco-da-liberdade--visita-mediada-patrimonio",
         "title": "Visita mediada ao patrimônio — programação regular",
-        "description": "Percurso gratuito pela arquitetura e pelas histórias do edifício centenário do Sesc Paço da Liberdade, em Curitiba/PR, na Praça Generoso Marques, 189. O formulário oficial contempla famílias e visitantes individuais, não apenas grupos escolares. Visitas de terça a sexta, com mínimo de três e máximo de 25 participantes por horário, mediante solicitação prévia e confirmação por e-mail da equipe. Atenção: o serviço anuncia 10h–11h, 14h–15h e 16h–17h, mas o formulário oferece 10h–11h, 11h–12h, 13h30–14h30, 14h30–15h30 e 15h30–16h30; há divergência e o horário só deve ser considerado definido após confirmação. Não há data de término divulgada. A página não informa idade mínima, adequação do percurso para bebês, fraldário ou circulação com carrinho. Não é oficina infantil nem acesso espontâneo garantido. Vagas não consultadas; limite de grupo não comprova ambiente silencioso.",
+        "description": "Percurso gratuito pela arquitetura e pelas histórias do edifício centenário do Sesc Paço da Liberdade, em Curitiba/PR, na Praça Generoso Marques, 189. O formulário oficial contempla famílias e visitantes individuais, não apenas grupos escolares. Visitas de terça a sexta, com mínimo de três e máximo de 25 participantes por horário, mediante solicitação prévia e confirmação por e-mail da equipe. Atenção: o serviço anuncia 10h–11h, 14h–15h e 16h–17h, mas o formulário oferece 10h–11h, 11h–12h, 13h30–14h30, 14h30–15h30 e 15h30–16h30; há divergência e o horário só deve ser considerado definido após confirmação. Não há data de término divulgada. A página não informa idade mínima, adequação do percurso para bebês, fraldário ou circulação com carrinho. Não é oficina infantil nem acesso espontâneo garantido. Vagas não consultadas; limite de grupo não comprova ambiente silencioso. Atenção ao feriado de 20/11/2026: a unidade estará fechada, conforme comunicado oficial do Sesc PR publicado em 19/11/2026. O fechamento excepcional prevalece sobre os horários regulares e impede as atividades presenciais nessa data; não é um novo evento. Fonte: https://www.sescpr.com.br/2026/11/aviso-de-funcionamento-das-unidades-no-feriado-de-20-de-novembro/.",
         "url": "https://www.sescpr.com.br/atividade/visita-mediada-ao-sesc-paco-da-liberdade-1000-1400-1600/",
         "kind": "visit",
         "startsAt": null,
         "endsAt": null,
-        "updatedAt": "2026-10-22T17:51:24-03:00",
+        "updatedAt": "2026-11-19T17:48:59-03:00",
         "checkedAt": "2026-10-22"
       },
       {
@@ -1675,8 +1686,8 @@
       {
         "id": "sesc-paco-da-liberdade--hora-do-conto",
         "title": "Hora do Conto — programação regular",
-        "description": "Narração de histórias e leitura de obra literária na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR. Programação regular gratuita de terça a sexta, das 10h às 10h30, mediante agendamento na Central de Atendimento da unidade. A fonte anuncia 10 vagas; não confundir esse limite com disponibilidade atual ou garantia de silêncio. Endereço: Praça Generoso Marques, 189. A proposta menciona adultos e crianças, mas não estabelece idade mínima nem regras específicas para bebês acompanhantes. Fraldário e acesso com carrinho não foram verificados para a atividade. Sem data de término informada; confirme a sessão pretendida e exceções de feriados ao agendar. Nenhum agendamento foi realizado.",
-        "updatedAt": "2026-10-26T17:51:12-03:00",
+        "description": "Narração de histórias e leitura de obra literária na biblioteca do Sesc Paço da Liberdade, em Curitiba/PR. Programação regular gratuita de terça a sexta, das 10h às 10h30, mediante agendamento na Central de Atendimento da unidade. A fonte anuncia 10 vagas; não confundir esse limite com disponibilidade atual ou garantia de silêncio. Endereço: Praça Generoso Marques, 189. A proposta menciona adultos e crianças, mas não estabelece idade mínima nem regras específicas para bebês acompanhantes. Fraldário e acesso com carrinho não foram verificados para a atividade. Sem data de término informada; confirme a sessão pretendida e exceções de feriados ao agendar. Nenhum agendamento foi realizado. Atenção ao feriado de 20/11/2026: a unidade estará fechada, conforme comunicado oficial do Sesc PR publicado em 19/11/2026. O fechamento excepcional prevalece sobre os horários regulares e impede as atividades presenciais nessa data; não é um novo evento. Fonte: https://www.sescpr.com.br/2026/11/aviso-de-funcionamento-das-unidades-no-feriado-de-20-de-novembro/.",
+        "updatedAt": "2026-11-19T17:48:59-03:00",
         "checkedAt": "2026-10-26",
         "url": "https://www.sescpr.com.br/atividade/hora-do-conto-1000/?from-unidade=sesc-paco-da-liberdade",
         "kind": "visit",
