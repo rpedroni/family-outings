@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento. Novembro de 2026: o MON confirmou abertura excepcional na segunda-feira, 2/11, e funcionamento nos feriados de 15 e 20/11, das 10h às 18h, com entrada até as 17h30. Ingressos na bilheteria ou online; o comunicado não anuncia gratuidade geral nesses feriados. Confira a data escolhida e não presuma menor movimento. Fonte oficial publicada em 29/10/2026: https://www.museuoscarniemeyer.org.br/noticias/noticia-10-29-26.",
-    "updatedAt": "2026-11-11T17:49:20-03:00",
+    "updatedAt": "2026-11-20T17:50:16-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -289,6 +289,28 @@
         "endsAt": "2026-11-25",
         "checkedAt": "2026-11-11",
         "updatedAt": "2026-11-11T17:49:20-03:00"
+      },
+      {
+        "id": "museu-oscar-niemeyer--concerto-garoto-cidadao-2026-11-22",
+        "title": "Concerto Garoto Cidadão — 22 de novembro de 2026",
+        "description": "Concerto gratuito no MON, em Curitiba/PR, no domingo, 22/11/2026, às 15h, no Auditório Poty Lazzarotto, no Vão Livre. O projeto Garoto Cidadão, de Araucária/PR, apresenta seu 9º Concerto Itinerante de 2026, em homenagem a compositores e ritmos brasileiros. Público livre, sem inscrição prévia: o museu orienta chegar ao local no horário da apresentação. A gratuidade refere-se ao concerto, não à visita às galerias. Duração, capacidade, intensidade sonora e condições específicas para bebês e carrinhos não informadas; classificação livre não garante conforto para todas as idades. Não há previsão de lotação nem garantia de lugar. Rua Marechal Hermes, 999, Centro Cívico.",
+        "url": "https://www.museuoscarniemeyer.org.br/educativo/atividades/orquestra-garoto-cidadao",
+        "kind": "event",
+        "startsAt": "2026-11-22",
+        "endsAt": "2026-11-22",
+        "updatedAt": "2026-11-20T17:50:16-03:00",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "museu-oscar-niemeyer--mon-sem-paredes-3edicao-2025-11-29",
+        "title": "MON sem Paredes — Arte ao Ar Livre, 3ª edição",
+        "description": "Percurso de arte ao ar livre no Parcão do MON, em Curitiba/PR, com esculturas e instalações, incluindo Aurum, Bancas Galerias, a escultura do coletivo Avaf e o Robô Interativo. A página oficial registra visitação desde 29/11/2025 e término em 10/01/2028 no serviço, embora o cabeçalho indique longa duração; não confundir com a inauguração na véspera. O museu sinaliza liberdade de movimento, obra interativa e luz natural. Siga as orientações de cada obra: isso não autoriza tocar ou subir em todas as esculturas. O Curitiba Cult, em reportagem de 20/11/2026, informa passeio gratuito pelos jardins e descreve escorregador e balanço na obra do Avaf; a página oficial não detalha limites de idade/altura nem condições de uso desses elementos por bebês. Horários específicos do percurso externo e circulação integral com carrinho não esclarecidos. A visita às galerias tem regras de ingresso próprias. Não há previsão de lotação; estar ao ar livre não garante tranquilidade. Rua Marechal Hermes, 999. Reportagem: https://curitibacult.com.br/museu-oscar-niemeyer-tem-obras-de-arte-espalhadas-pelos-jardins-conheca-o-mon-sem-paredes/.",
+        "url": "https://www.museuoscarniemeyer.org.br/exposicoes/monsemparedes-3edicao",
+        "kind": "event",
+        "startsAt": "2025-11-29",
+        "endsAt": "2028-01-10",
+        "updatedAt": "2026-11-20T17:50:16-03:00",
+        "checkedAt": "2026-11-20"
       }
     ]
   },
