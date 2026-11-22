@@ -2123,5 +2123,61 @@
         "endsAt": "2026-12-06"
       }
     ]
+  },
+  {
+    "id": "rua-iluminada-familia-moletta",
+    "name": "Rua Iluminada Família Moletta",
+    "category": "show",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "outdoor",
+    "cost": "paid",
+    "description": "Circuito natalino no Umbará com jardins decorados, Casa do Papai Noel e apresentações de luzes no castelo. Visitação sazonal, não abertura permanente.",
+    "url": "https://comprenozet.com.br/eventos/rua-iluminada-familia-moletta-2026/",
+    "checkedAt": "2026-11-22",
+    "updatedAt": "2026-11-22T17:50:51-03:00",
+    "crowdNote": "Não há previsão de lotação verificada. Ingresso pago e sessão antecipada não garantem tranquilidade.",
+    "logisticsNote": "Rua Nicola Pellanda, 5962, Umbará, Curitiba/PR. Carrinhos de bebê permitidos; percurso com declives. Estacionamento oficial pago separadamente. Consulte a atividade para horários, gratuidades e exceções da temporada; vagas e fraldário não confirmados.",
+    "activities": [
+      {
+        "id": "rua-iluminada-familia-moletta--natal-2026",
+        "title": "Rua Iluminada Família Moletta — Natal 2026",
+        "description": "Passeio natalino com show de luzes no castelo, Casa do Papai Noel, presépio, jardins, bosque e passarelas na Rua Iluminada Família Moletta, em Curitiba/PR. Temporada de 14/11/2026 a 03/01/2027, exceto 31/12, quando estará fechada. Aos sábados e domingos há entrada extra às 18h desde 21/11, para visitar jardins e bosque; não confundir com início do show de luzes, cuja primeira sessão nesses dias é às 19h40. Aos sábados, shows também às 20h30, 21h15, 22h e 22h45; aos domingos, às 20h30, 21h15 e 22h15. Sexta e sábado fecham às 23h; domingo a quinta, às 22h30. Em 24/12, fechamento às 21h. O Papai Noel participa até 23/12. Ingresso inteiro R$ 40 mais taxa; meia R$ 20 mais taxa, mediante comprovação; solidário R$ 30 mais taxa, apenas online, com 1 kg de alimento não perecível, exceto sal. Crianças de 0 a 5 anos não pagam. Classificação livre, sem garantia de adequação sensorial para bebês: há iluminação e apresentações noturnas. Carrinhos são permitidos, mas o percurso tem trechos em declive; fraldário não confirmado. Estacionamento oficial vendido à parte. Endereço: Rua Nicola Pellanda, 5962, Umbará. Não foram consultadas vagas nem previsão de lotação; a sessão das 18h não é garantia de tranquilidade. O anúncio de horários gerais no Instagram começa às 19h30, enquanto a bilheteria online oferece horários exclusivos desde 19h15: siga o horário do ingresso escolhido.",
+        "url": "https://comprenozet.com.br/eventos/rua-iluminada-familia-moletta-2026/",
+        "kind": "event",
+        "startsAt": "2026-11-14",
+        "endsAt": "2027-01-03",
+        "checkedAt": "2026-11-22",
+        "updatedAt": "2026-11-22T17:50:51-03:00"
+      }
+    ]
+  },
+  {
+    "id": "teatro-jose-maria-santos",
+    "name": "Teatro José Maria Santos",
+    "category": "show",
+    "city": "Curitiba/PR",
+    "area": "curitiba",
+    "setting": "indoor",
+    "cost": "unknown",
+    "description": "Teatro no São Francisco, em Curitiba/PR, com programação de espetáculos. O cadastro confirma a temporada natalina indicada na atividade, não visitação permanente.",
+    "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
+    "checkedAt": "2026-11-22",
+    "updatedAt": "2026-11-22T17:50:51-03:00",
+    "crowdNote": "Não há previsão de lotação nem disponibilidade de lugares verificada.",
+    "logisticsNote": "Rua Treze de Maio, 655, São Francisco, Curitiba/PR. Consulte as condições de cada espetáculo; fraldário, circulação com carrinho e regras para bebês não verificados.",
+    "activities": [
+      {
+        "id": "teatro-jose-maria-santos--marcas-tempo-memorias-natal-2026",
+        "title": "Marcas do Tempo, Memórias do Natal — 2026",
+        "description": "Espetáculo teatral gratuito no Teatro José Maria Santos, em Curitiba/PR, de 7 a 13/12/2026, diariamente às 20h. Um grupo de amigos idosos se reúne na véspera de Natal para compartilhar memórias e histórias de vida; o elenco é formado por artistas com mais de 60 anos. A notícia oficial de 18/11/2026 confirma datas, horário, local e gratuidade. Não é anunciado como espetáculo especificamente infantil: duração, classificação etária, retirada de ingressos, disponibilidade de lugares e regras para bebês não foram informadas. Considere o horário noturno ao planejar com crianças pequenas. Fraldário e acesso com carrinho não verificados. Endereço: Rua Treze de Maio, 655, São Francisco. Não há previsão de lotação; gratuidade não garante lugar nem tranquilidade.",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
+        "kind": "event",
+        "startsAt": "2026-12-07",
+        "endsAt": "2026-12-13",
+        "checkedAt": "2026-11-22",
+        "updatedAt": "2026-11-22T17:50:51-03:00"
+      }
+    ]
   }
 ]
