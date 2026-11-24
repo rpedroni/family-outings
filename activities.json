@@ -1255,7 +1255,7 @@
     "checkedAt": "2026-10-11",
     "crowdNote": "Não há previsão de movimento verificada. Gratuidade e inscrição não garantem ambiente tranquilo. Oficinas abertas podem depender de materiais disponíveis na chegada.",
     "logisticsNote": "A ficha oficial da FCC informa Rua Mateus Leme, 4700, São Lourenço. A oficina Criando Um Parque São Lourenço acontece em 11/10/2026, das 10h às 14h, gratuitamente e sem inscrição. O ponto exato da atividade dentro do Memorial não foi especificado. Fraldário, acesso com carrinho e regras específicas para bebês não foram verificados. A visitação regular e as visitas mediadas têm regras próprias; não transferir a dispensa de inscrição da oficina para outros programas. Visitas mediadas gratuitas aos sábados, às 11h, anunciadas pelo próprio Memorial em 29/9/2026 e reiteradas na programação de outubro publicada em 8/10. A programação mais recente orienta inscrição via ZET pelo link da bio; vagas não verificadas. Não confundir com visitas acompanhadas de oficina para grupos de 10 a 40 pessoas, agendadas de quarta a sexta. Atualização para novembro de 2026: o anúncio oficial de 29/10 confirma visitas mediadas gratuitas, de classificação livre, todos os sábados do mês às 11h, com inscrição no Guia Curitiba. Essa orientação mais recente substitui a indicação de inscrição via ZET para estas sessões. O Guia Curitiba não pôde ser acessado na consulta de 1/11; vagas não confirmadas. As oficinas de modelagem em argila das 10h30 têm inscrição própria e não estão automaticamente incluídas na visita. Fonte: https://www.instagram.com/memorialparanista/p/DfGIzGWI0jH/",
-    "updatedAt": "2026-11-01T17:48:57-03:00",
+    "updatedAt": "2026-11-24T17:49:44-03:00",
     "activities": [
       {
         "id": "memorial-paranista--criando-um-parque-sao-lourenco-2026-10-11",
@@ -1344,6 +1344,50 @@
         "kind": "event",
         "startsAt": "2026-11-28",
         "endsAt": "2026-11-28"
+      },
+      {
+        "id": "memorial-paranista--enfeites-natalinos-2026-12-05",
+        "title": "Oficina de Enfeites Natalinos — 5 de dezembro de 2026",
+        "description": "Oficina gratuita no Memorial Paranista, em Curitiba/PR, em 5/12/2026, das 10h30 às 12h30, para modelar peças em cerâmica fria inspiradas na Capirena e no esquilo Maxx, depois pintar e finalizar as criações. Inscrições pelo Guia Curitiba a partir de 28/11/2026, às 12h. O anúncio oficial informa classificação livre, mas não define idade mínima para participação prática nem condições para bebês acompanhantes ou carrinhos. Não presumir adequação da atividade a bebês. O portal de inscrição retornou bloqueio de acesso nesta consulta; vagas não verificadas. Não há previsão de lotação; gratuidade e inscrição não garantem ambiente tranquilo. Esta ficha corresponde apenas à sessão indicada, não a uma atividade diária durante dezembro.",
+        "updatedAt": "2026-11-24T17:49:44-03:00",
+        "checkedAt": "2026-11-24",
+        "url": "https://www.instagram.com/memorialparanista/p/DgAt6lOEQw0/",
+        "kind": "event",
+        "startsAt": "2026-12-05",
+        "endsAt": "2026-12-05"
+      },
+      {
+        "id": "memorial-paranista--enfeites-natalinos-2026-12-19",
+        "title": "Oficina de Enfeites Natalinos — 19 de dezembro de 2026",
+        "description": "Oficina gratuita no Memorial Paranista, em Curitiba/PR, em 19/12/2026, das 16h às 18h, para modelar peças em cerâmica fria inspiradas na Capirena e no esquilo Maxx, depois pintar e finalizar as criações. Inscrições pelo Guia Curitiba a partir de 28/11/2026, às 12h. O anúncio oficial informa classificação livre, mas não define idade mínima para participação prática nem condições para bebês acompanhantes ou carrinhos. Não presumir adequação da atividade a bebês. O portal de inscrição retornou bloqueio de acesso nesta consulta; vagas não verificadas. Não há previsão de lotação; gratuidade e inscrição não garantem ambiente tranquilo. Esta ficha corresponde apenas à sessão indicada, não a uma atividade diária durante dezembro.",
+        "updatedAt": "2026-11-24T17:49:44-03:00",
+        "checkedAt": "2026-11-24",
+        "url": "https://www.instagram.com/memorialparanista/p/DgAt6lOEQw0/",
+        "kind": "event",
+        "startsAt": "2026-12-19",
+        "endsAt": "2026-12-19"
+      },
+      {
+        "id": "memorial-paranista--cartas-papai-noel-2026-12-16",
+        "title": "Escrevendo cartas para o Papai Noel — 16 de dezembro de 2026",
+        "description": "Oficina infantil gratuita no Memorial Paranista, em Curitiba/PR, em 16/12/2026, às 10h30. Crianças e adultos são convidados a criar cartas com textos e colagens para expressar desejos e compartilhar sonhos. Inscrições pelo Guia Curitiba a partir de 11/12/2026, às 12h. Duração não informada. O anúncio oficial informa classificação livre, mas não define idade mínima para participação prática nem condições para bebês acompanhantes ou carrinhos. Não presumir adequação da atividade a bebês. O portal de inscrição retornou bloqueio de acesso nesta consulta; vagas não verificadas. Não há previsão de lotação; gratuidade e inscrição não garantem ambiente tranquilo. Esta ficha corresponde apenas à sessão indicada, não a uma atividade diária durante dezembro.",
+        "updatedAt": "2026-11-24T17:49:44-03:00",
+        "checkedAt": "2026-11-24",
+        "url": "https://www.instagram.com/memorialparanista/p/DgAt6lOEQw0/",
+        "kind": "event",
+        "startsAt": "2026-12-16",
+        "endsAt": "2026-12-16"
+      },
+      {
+        "id": "memorial-paranista--cartas-papai-noel-2026-12-18",
+        "title": "Escrevendo cartas para o Papai Noel — 18 de dezembro de 2026",
+        "description": "Oficina infantil gratuita no Memorial Paranista, em Curitiba/PR, em 18/12/2026, às 10h30. Crianças e adultos são convidados a criar cartas com textos e colagens para expressar desejos e compartilhar sonhos. Inscrições pelo Guia Curitiba a partir de 11/12/2026, às 12h. Duração não informada. O anúncio oficial informa classificação livre, mas não define idade mínima para participação prática nem condições para bebês acompanhantes ou carrinhos. Não presumir adequação da atividade a bebês. O portal de inscrição retornou bloqueio de acesso nesta consulta; vagas não verificadas. Não há previsão de lotação; gratuidade e inscrição não garantem ambiente tranquilo. Esta ficha corresponde apenas à sessão indicada, não a uma atividade diária durante dezembro.",
+        "updatedAt": "2026-11-24T17:49:44-03:00",
+        "checkedAt": "2026-11-24",
+        "url": "https://www.instagram.com/memorialparanista/p/DgAt6lOEQw0/",
+        "kind": "event",
+        "startsAt": "2026-12-18",
+        "endsAt": "2026-12-18"
       }
     ]
   },
