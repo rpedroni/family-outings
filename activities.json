@@ -2146,8 +2146,8 @@
     "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
     "checkedAt": "2026-11-18",
     "crowdNote": "Não há previsão de lotação verificada. Espetáculos natalinos podem concentrar público; entrada gratuita não significa pouco movimento.",
-    "logisticsNote": "Praça Santos Andrade, Centro, na escadaria da Universidade Federal do Paraná. O serviço oficial confirma apresentações gratuitas às 20h. Não informa duração, necessidade de retirada de ingresso, classificação etária, política para chuva, fraldário ou condições de acesso com carrinho.",
-    "updatedAt": "2026-11-18T17:51:07-03:00",
+    "logisticsNote": "Praça Santos Andrade, Centro de Curitiba/PR, com dois palcos distintos: Abrace o Mundo diante das escadarias da UFPR, às 20h; A Inesquecível Fábrica de Emoções diante do Teatro Guaíra, às 21h. A gratuidade confirmada na notícia de 18/11 refere-se a Abrace o Mundo. O comunicado de 26/11 não explicita cobrança ou retirada de ingressos para Fábrica de Emoções. As folgas também diferem: Abrace o Mundo não acontece às quartas; Fábrica de Emoções não acontece às terças. Duração, classificação etária, política para chuva, fraldário e condições para carrinhos não informados. Fonte da distinção entre palcos e horários: https://www.fundacaoculturaldecuritiba.com.br/noticias/praca-santos-andrade-tem-dois-grandes-espetaculos-que-podem-ser-vistos-na-mesma-noite/",
+    "updatedAt": "2026-11-26T17:51:58-03:00",
     "activities": [
       {
         "id": "praca-santos-andrade--abrace-o-mundo-primeiro-fim-de-semana-2026-11-27",
@@ -2156,6 +2156,17 @@
         "updatedAt": "2026-11-18T17:51:07-03:00",
         "checkedAt": "2026-11-18",
         "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/ensaios-a-todo-vapor-natal-de-curitiba-tera-365-sessoes-de-apresentacoes-artisticas/",
+        "kind": "event",
+        "startsAt": "2026-11-27",
+        "endsAt": "2026-11-29"
+      },
+      {
+        "id": "praca-santos-andrade--fabrica-emocoes-fim-de-semana-2026-11-27",
+        "title": "A Inesquecível Fábrica de Emoções — 27 a 29 de novembro de 2026",
+        "description": "Espetáculo do Natal de Curitiba/PR na Praça Santos Andrade, no palco em frente ao Teatro Guaíra, às 21h. Este item reúne as sessões consecutivas de sexta a domingo, 27, 28 e 29/11/2026, conforme a programação diária vigente anunciada pela FCC em 26/11: todos os dias, exceto terças-feiras. Não confundir com Abrace o Mundo, apresentado às 20h no lado da UFPR e já cadastrado separadamente. O comunicado não estabelece a data final da temporada de Fábrica de Emoções, nem informa duração, classificação etária, cobrança, retirada de ingressos ou disponibilidade. A apresentação é noturna e ao ar livre; não há confirmação de estrutura para bebês, carrinhos ou política de chuva. Não há previsão de lotação e não é uma opção comprovadamente tranquila. A decoração e a Vila de Natal ficam entre os dois palcos, mas regras e horários próprios das atrações infantis não foram verificados.",
+        "updatedAt": "2026-11-26T17:51:58-03:00",
+        "checkedAt": "2026-11-26",
+        "url": "https://www.fundacaoculturaldecuritiba.com.br/noticias/praca-santos-andrade-tem-dois-grandes-espetaculos-que-podem-ser-vistos-na-mesma-noite/",
         "kind": "event",
         "startsAt": "2026-11-27",
         "endsAt": "2026-11-29"
