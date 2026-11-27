@@ -46,7 +46,7 @@
     "checkedAt": "2026-09-29",
     "crowdNote": "O próprio MON recomenda chegar por volta das 10h ou entre 12h e 13h para encontrar menos movimento. Também aponta as quartas-feiras e o último domingo do mês como dias mais cheios. São orientações do museu, não uma previsão em tempo real.",
     "logisticsNote": "De terça a domingo, das 10h às 18h, com entrada até as 17h30. Ingresso inteiro: R$ 36; meia-entrada: R$ 18, conforme os critérios de elegibilidade. A entrada é gratuita às quartas-feiras e no último domingo do mês. O museu informa a existência de rampas e elevadores. Confira as restrições a alimentos e líquidos antes de levar os itens do bebê. Atenção para 25/10/2026: o MON anunciou funcionamento excepcional das 12h às 18h nesse domingo; não chegar às 10h contando com a abertura habitual. Aviso oficial publicado em 16/10/2026: https://www.instagram.com/p/Dejmxv5kUis/ . A exceção de horário não é um novo evento e não implica previsão de menor movimento. Novembro de 2026: o MON confirmou abertura excepcional na segunda-feira, 2/11, e funcionamento nos feriados de 15 e 20/11, das 10h às 18h, com entrada até as 17h30. Ingressos na bilheteria ou online; o comunicado não anuncia gratuidade geral nesses feriados. Confira a data escolhida e não presuma menor movimento. Fonte oficial publicada em 29/10/2026: https://www.museuoscarniemeyer.org.br/noticias/noticia-10-29-26.",
-    "updatedAt": "2026-11-25T17:47:47-03:00",
+    "updatedAt": "2026-11-27T17:48:44-03:00",
     "activities": [
       {
         "id": "museu-oscar-niemeyer--visit",
@@ -333,6 +333,39 @@
         "kind": "event",
         "startsAt": "2026-12-16",
         "endsAt": "2026-12-16"
+      },
+      {
+        "id": "museu-oscar-niemeyer--visita-guiada-arquitetura-2026-12-04",
+        "title": "Visita guiada: arquitetura e acervo — 4 de dezembro de 2026",
+        "description": "Visita guiada no MON, em Curitiba/PR, em 4/12/2026, às 15h, com duração de 1h30. O percurso explora a arquitetura do museu e uma exposição de longa duração do acervo. Encontro em frente à bilheteria, no Vão Livre, Rua Marechal Hermes, 999. Para participar, escolha a data e a modalidade de ingresso da sua categoria (inteira, meia ou isento) acrescida de visita guiada, no canal oficial https://museuoscarniemeyer.comprenozet.com.br/. A isenção de entrada comum não significa inclusão automática da visita guiada. Após o percurso, é possível visitar as demais mostras. Valor total e vagas não confirmados. Não é oficina infantil: considere a duração para crianças pequenas. A notícia não informa idade mínima, condições específicas para bebês nem percurso com carrinho. Não há previsão de lotação ou garantia de tranquilidade. Fonte oficial publicada em 27/11/2026.",
+        "updatedAt": "2026-11-27T17:48:44-03:00",
+        "checkedAt": "2026-11-27",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-11-27-26",
+        "kind": "event",
+        "startsAt": "2026-12-04",
+        "endsAt": "2026-12-04"
+      },
+      {
+        "id": "museu-oscar-niemeyer--visita-guiada-arquitetura-2026-12-11",
+        "title": "Visita guiada: arquitetura e acervo — 11 de dezembro de 2026",
+        "description": "Visita guiada no MON, em Curitiba/PR, em 11/12/2026, às 15h, com duração de 1h30. O percurso explora a arquitetura do museu e uma exposição de longa duração do acervo. Encontro em frente à bilheteria, no Vão Livre, Rua Marechal Hermes, 999. Para participar, escolha a data e a modalidade de ingresso da sua categoria (inteira, meia ou isento) acrescida de visita guiada, no canal oficial https://museuoscarniemeyer.comprenozet.com.br/. A isenção de entrada comum não significa inclusão automática da visita guiada. Após o percurso, é possível visitar as demais mostras. Valor total e vagas não confirmados. Não é oficina infantil: considere a duração para crianças pequenas. A notícia não informa idade mínima, condições específicas para bebês nem percurso com carrinho. Não há previsão de lotação ou garantia de tranquilidade. Fonte oficial publicada em 27/11/2026.",
+        "updatedAt": "2026-11-27T17:48:44-03:00",
+        "checkedAt": "2026-11-27",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-11-27-26",
+        "kind": "event",
+        "startsAt": "2026-12-11",
+        "endsAt": "2026-12-11"
+      },
+      {
+        "id": "museu-oscar-niemeyer--visita-guiada-arquitetura-2026-12-18",
+        "title": "Visita guiada: arquitetura e acervo — 18 de dezembro de 2026",
+        "description": "Visita guiada no MON, em Curitiba/PR, em 18/12/2026, às 15h, com duração de 1h30. O percurso explora a arquitetura do museu e uma exposição de longa duração do acervo. Encontro em frente à bilheteria, no Vão Livre, Rua Marechal Hermes, 999. Para participar, escolha a data e a modalidade de ingresso da sua categoria (inteira, meia ou isento) acrescida de visita guiada, no canal oficial https://museuoscarniemeyer.comprenozet.com.br/. A isenção de entrada comum não significa inclusão automática da visita guiada. Após o percurso, é possível visitar as demais mostras. Valor total e vagas não confirmados. Não é oficina infantil: considere a duração para crianças pequenas. A notícia não informa idade mínima, condições específicas para bebês nem percurso com carrinho. Não há previsão de lotação ou garantia de tranquilidade. Fonte oficial publicada em 27/11/2026.",
+        "updatedAt": "2026-11-27T17:48:44-03:00",
+        "checkedAt": "2026-11-27",
+        "url": "https://www.museuoscarniemeyer.org.br/noticias/noticia-11-27-26",
+        "kind": "event",
+        "startsAt": "2026-12-18",
+        "endsAt": "2026-12-18"
       }
     ]
   },
